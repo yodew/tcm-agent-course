@@ -1,0 +1,18 @@
+flowchart TD
+    A["调用入口<br/>HTTP / OpenAPI / CLI · 用户显式授权与确认"]
+    B["FastAPI 边界<br/>Bearer 身份、类型解析 · 访问隔离与错误合同"]
+    C["应用服务<br/>幂等占位、总时限 · CAS 原子提交与降级"]
+    D["持久化仓库<br/>会话快照与原始回合 · 短事务；网络调用在事务外"]
+    E["Agent Runtime<br/>有界工具循环与参数校验 · 不执行任意代码或模型写入"]
+    F["模型网关<br/>Responses / Chat 双协议 · 隔离重放状态与调用预算"]
+    G["SQLite / PostgreSQL<br/>本地已验证 / 部署可选 · 迁移、版本计数与租约"]
+    H["知识检索<br/>BM25 + 可选真实 Embedding · 来源版本与精确引用"]
+    I["策略与输出渲染<br/>用户事实逐字溯源 · 确认事实摘要与模板输出"]
+    A --> B
+    B --> C
+    C --> D
+    C --> E
+    D --> G
+    E --> F
+    E --> H
+    E --> I

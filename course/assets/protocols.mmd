@@ -1,0 +1,13 @@
+flowchart TD
+    A["业务工具合同<br/>ToolCall / ToolResult · Runtime 不依赖供应商格式"]
+    B["Responses 请求<br/>input + 扁平 tools · store=false；原样回放 output"]
+    C["Responses 观察<br/>function_call_output · 用 call_id 关联工具结果"]
+    D["Chat 请求<br/>messages + tools.function · 独立的 token 参数"]
+    E["Chat 观察<br/>role=tool 的消息 · 用 tool_call_id 关联结果"]
+    F["协议合同测试<br/>真实 HTTP 序列化与解析 · 不声称已连接你的平台"]
+    A --> B
+    B --> C
+    A --> D
+    D --> E
+    C --> F
+    E --> F

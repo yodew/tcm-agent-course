@@ -1,0 +1,12 @@
+flowchart TD
+    A["验证身份并读快照<br/>owner + session_id · 取当前 version"]
+    B["占用 request_id<br/>唯一键 + 请求哈希 · 已完成则重放原结果"]
+    C["事务外运行模型<br/>总时限与工具预算 · 失败可以释放本次租约"]
+    F["响应客户端<br/>返回新 version 与结果 · 重试同键得到同一响应"]
+    E["同事务保存结果<br/>核对租约 fencing token · 提交快照与重放记录"]
+    D["CAS 更新会话<br/>WHERE version = expected · 竞争失败返回 409"]
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F

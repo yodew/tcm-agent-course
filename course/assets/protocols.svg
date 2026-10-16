@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040">
+<rect width="100%" height="100%" fill="#f4f6f3"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3z" fill="#7e8d84"/></marker></defs>
+<text x="60" y="52" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="18" fill="#557265">TCM AGENT / ENGINEERING COURSE / 04</text>
+<text x="60" y="117" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="39" fill="#183c30">Responses 与 Chat：统一业务，分别适配协议</text>
+<text x="60" y="157" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="20" fill="#52645b">兼容 OpenAI 不等于兼容所有端点；配置选择协议，不进行隐式回退。</text>
+<path d="M420,288 L520,288" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M880,288 L980,288" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M240,356 L240,470" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M420,538 L520,538" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M1160,356 L1160,470" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M880,538 L980,538" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="60" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="80" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">01 / 业务工具合同</text>
+<text x="80" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">ToolCall / ToolResult</text>
+<text x="80" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">Runtime 不依赖供应商格式</text>
+<rect x="520" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="540" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">02 / Responses 请求</text>
+<text x="540" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">input + 扁平 tools</text>
+<text x="540" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">store=false；原样回放 output</text>
+<rect x="980" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="1000" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">03 / Responses 观察</text>
+<text x="1000" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">function_call_output</text>
+<text x="1000" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">用 call_id 关联工具结果</text>
+<rect x="60" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="80" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">04 / Chat 请求</text>
+<text x="80" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">messages + tools.function</text>
+<text x="80" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">独立的 token 参数</text>
+<rect x="520" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="540" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">05 / Chat 观察</text>
+<text x="540" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">role=tool 的消息</text>
+<text x="540" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">用 tool_call_id 关联结果</text>
+<rect x="980" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="1000" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">06 / 协议合同测试</text>
+<text x="1000" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">真实 HTTP 序列化与解析</text>
+<text x="1000" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">不声称已连接你的平台</text>
+<text x="60" y="995" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="18" fill="#52645b">Responses 的 reasoning 等重放条目不能被简化成普通聊天文本。</text>
+</svg>

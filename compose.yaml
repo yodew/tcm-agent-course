@@ -1,0 +1,30 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: tcm
+      POSTGRES_PASSWORD: ${TCM_DB_PASSWORD:?Set TCM_DB_PASSWORD}
+      POSTGRES_DB: tcm
+    volumes: ["postgres_data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tcm -d tcm"]
+      interval: 5s
+      retries: 10
+  migrate:
+    build: .
+    env_file: .env
+    environment:
+      TCM_DATABASE_URL: postgresql+asyncpg://tcm:${TCM_DB_PASSWORD}@db:5432/tcm
+    command: ["uv", "run", "--no-sync", "tcm", "init-db"]
+    depends_on:
+      db: {condition: service_healthy}
+  api:
+    build: .
+    env_file: .env
+    environment:
+      TCM_DATABASE_URL: postgresql+asyncpg://tcm:${TCM_DB_PASSWORD}@db:5432/tcm
+    ports: ["127.0.0.1:8000:8000"]
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+volumes:
+  postgres_data:

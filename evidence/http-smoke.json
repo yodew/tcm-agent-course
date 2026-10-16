@@ -1,0 +1,19 @@
+{
+  "created": 201,
+  "turn": 200,
+  "replay_equal": true,
+  "confirm": 200,
+  "summary": "就诊准备摘要（用户确认资料）\n本次困扰：最近睡不好\n起始时间与变化：未提供\n既往情况：未提供\n现用药品：未提供\n过敏情况：未提供\n此摘要不包含诊断或处方；请由医师结合实际情况判断。",
+  "events": [
+    "event: accepted",
+    "event: progress",
+    "event: progress",
+    "event: progress",
+    "event: progress",
+    "event: progress",
+    "event: committed",
+    "event: done"
+  ],
+  "records": 2,
+  "delete": 204
+}

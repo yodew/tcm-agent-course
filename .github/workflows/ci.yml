@@ -1,0 +1,16 @@
+name: verify
+on: [push, pull_request]
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with: {version: '0.13.1'}
+      - run: uv sync --all-extras --frozen
+      - run: make check
+      - run: uv run tcm evaluate
+      - uses: actions/upload-artifact@v4
+        with:
+          name: evaluation
+          path: evidence/retrieval-eval.json

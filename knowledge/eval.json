@@ -1,0 +1,10 @@
+[
+ {"query":"四诊是哪几种方法", "relevant_ids":["tcm-four-examinations"]},
+ {"query":"就诊前主诉如何整理", "relevant_ids":["visit-complaint"]},
+ {"query":"没告诉你过敏能写没有吗", "relevant_ids":["visit-medication"]},
+ {"query":"证型就是疾病吗", "relevant_ids":["tcm-syndrome"]},
+ {"query":"舌象照片光线对结果的影响", "relevant_ids":["photo-limit"]},
+ {"query":"怎么删除自己的健康会话资料", "relevant_ids":["privacy-consent"]},
+ {"query":"就诊摘要应该包括哪些已确认资料", "relevant_ids":["summary-fidelity"]},
+ {"query":"内置知识库是否经过临床审核", "relevant_ids":["knowledge-limits"]}
+]

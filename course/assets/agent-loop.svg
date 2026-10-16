@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040">
+<rect width="100%" height="100%" fill="#f4f6f3"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3z" fill="#7e8d84"/></marker></defs>
+<text x="60" y="52" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="18" fill="#557265">TCM AGENT / ENGINEERING COURSE / 03</text>
+<text x="60" y="117" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="39" fill="#183c30">Agent 执行循环与终止条件</text>
+<text x="60" y="157" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="20" fill="#52645b">每步只接受一个工具调用；总步数、总时限和输出大小共同限制执行。</text>
+<path d="M420,288 L520,288" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M880,288 L980,288" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M1160,356 L1160,470" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M980,538 L880,288" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M980,288 L880,538" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M520,538 L420,538" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="60" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="80" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">01 / 组装上下文</text>
+<text x="80" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">当前输入 + 确认事实</text>
+<text x="80" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">有限历史；缺失不编造</text>
+<rect x="520" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="540" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">02 / 请求模型决策</text>
+<text x="540" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">工具 Schema 与固定规则</text>
+<text x="540" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">本次运行独立协议状态</text>
+<rect x="980" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="1000" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">03 / 校验工具调用</text>
+<text x="1000" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">白名单、参数、call_id</text>
+<text x="1000" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">多调用与重复标识即拒绝</text>
+<rect x="60" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="80" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">06 / 校验与返回</text>
+<text x="80" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">事实在当前原文中</text>
+<text x="80" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">引用在本轮检索证据中</text>
+<rect x="520" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="540" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">05 / 提交终态</text>
+<text x="540" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">submit_turn 参数合同</text>
+<text x="540" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">ask / knowledge / summary</text>
+<rect x="980" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="1000" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">04 / 执行只读工具</text>
+<text x="1000" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">检索知识 / 读取确认事实</text>
+<text x="1000" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">观察结果回传，再请求模型</text>
+<text x="60" y="995" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="18" fill="#52645b">未完成、越权、无工具调用、参数错误均不会当作成功。</text>
+</svg>

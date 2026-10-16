@@ -1,0 +1,97 @@
+{
+  "mode": "bm25",
+  "samples": 8,
+  "recall_at_4": 1.0,
+  "mrr_at_4": 1.0,
+  "cases": [
+    {
+      "query": "四诊是哪几种方法",
+      "found": [
+        "tcm-four-examinations",
+        "tcm-syndrome",
+        "privacy-consent",
+        "visit-complaint"
+      ],
+      "recall_at_4": 1.0,
+      "mrr_at_4": 1.0
+    },
+    {
+      "query": "就诊前主诉如何整理",
+      "found": [
+        "visit-complaint",
+        "tcm-four-examinations",
+        "photo-limit",
+        "visit-medication"
+      ],
+      "recall_at_4": 1.0,
+      "mrr_at_4": 1.0
+    },
+    {
+      "query": "没告诉你过敏能写没有吗",
+      "found": [
+        "visit-medication",
+        "visit-complaint",
+        "tcm-four-examinations",
+        "tcm-syndrome"
+      ],
+      "recall_at_4": 1.0,
+      "mrr_at_4": 1.0
+    },
+    {
+      "query": "证型就是疾病吗",
+      "found": [
+        "tcm-syndrome",
+        "summary-fidelity",
+        "photo-limit",
+        "tcm-four-examinations"
+      ],
+      "recall_at_4": 1.0,
+      "mrr_at_4": 1.0
+    },
+    {
+      "query": "舌象照片光线对结果的影响",
+      "found": [
+        "photo-limit",
+        "tcm-four-examinations",
+        "summary-fidelity",
+        "privacy-consent"
+      ],
+      "recall_at_4": 1.0,
+      "mrr_at_4": 1.0
+    },
+    {
+      "query": "怎么删除自己的健康会话资料",
+      "found": [
+        "privacy-consent",
+        "visit-complaint",
+        "tcm-syndrome",
+        "tcm-four-examinations"
+      ],
+      "recall_at_4": 1.0,
+      "mrr_at_4": 1.0
+    },
+    {
+      "query": "就诊摘要应该包括哪些已确认资料",
+      "found": [
+        "summary-fidelity",
+        "visit-medication",
+        "privacy-consent",
+        "visit-complaint"
+      ],
+      "recall_at_4": 1.0,
+      "mrr_at_4": 1.0
+    },
+    {
+      "query": "内置知识库是否经过临床审核",
+      "found": [
+        "knowledge-limits",
+        "tcm-syndrome",
+        "tcm-four-examinations",
+        "visit-medication"
+      ],
+      "recall_at_4": 1.0,
+      "mrr_at_4": 1.0
+    }
+  ],
+  "scope": "Original educational corpus only; no clinical validation"
+}
