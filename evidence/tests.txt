@@ -4,58 +4,28 @@ rootdir: <project-root>
 configfile: pyproject.toml
 testpaths: tests
 plugins: cov-7.1.0, langsmith-0.14.9, anyio-4.15.1
-collected 45 items
+collected 51 items
 
-tests/test_api.py .................                                      [ 37%]
-tests/test_cancellation.py .                                             [ 40%]
-tests/test_embeddings.py ..                                              [ 44%]
-tests/test_failure.py .                                                  [ 46%]
-tests/test_gateway.py ......                                             [ 60%]
-tests/test_ingestion.py .                                                [ 62%]
-tests/test_live.py s                                                     [ 64%]
-tests/test_operations.py ..                                              [ 68%]
-tests/test_optional.py ...                                               [ 75%]
-tests/test_postgres.py s                                                 [ 77%]
-tests/test_rate_limit.py .                                               [ 80%]
-tests/test_retrieval.py ....                                             [ 88%]
-tests/test_runtime.py .....                                              [100%]
+tests/test_api.py .................                                      [ 33%]
+tests/test_cancellation.py .                                             [ 35%]
+tests/test_embeddings.py ..                                              [ 39%]
+tests/test_failure.py .                                                  [ 41%]
+tests/test_gateway.py ......                                             [ 52%]
+tests/test_ingestion.py .                                                [ 54%]
+tests/test_live.py s                                                     [ 56%]
+tests/test_operations.py ..                                              [ 60%]
+tests/test_optional.py ...                                               [ 66%]
+tests/test_postgres.py s                                                 [ 68%]
+tests/test_rate_limit.py .                                               [ 70%]
+tests/test_retrieval.py ....                                             [ 78%]
+tests/test_runtime.py .....                                              [ 88%]
+tests/test_ui_client.py ......                                           [100%]
 
 ================================ tests coverage ================================
 ______________ coverage: platform darwin, python 3.12.13-final-0 _______________
 
-Name                             Stmts   Miss  Cover   Missing
---------------------------------------------------------------
-src/tcm_agent/__init__.py            0      0   100%
-src/tcm_agent/api.py                47      2    96%   34, 41
-src/tcm_agent/cli.py                50     50     0%   3-100
-src/tcm_agent/config.py             35      4    89%   41, 43, 45, 49
-src/tcm_agent/context.py            20      2    90%   30, 34
-src/tcm_agent/database.py           10      0   100%
-src/tcm_agent/domain.py            101      0   100%
-src/tcm_agent/embeddings.py         23      1    96%   38
-src/tcm_agent/errors.py             13      2    85%   25-26
-src/tcm_agent/evaluation.py         35     35     0%   3-57
-src/tcm_agent/events.py              8      0   100%
-src/tcm_agent/gateway.py            73     10    86%   40, 105-106, 113, 125-126, 128-130, 134
-src/tcm_agent/http_client.py        11      1    91%   14
-src/tcm_agent/ingestion.py          51     19    63%   26, 35, 47-78
-src/tcm_agent/models.py             20      0   100%
-src/tcm_agent/observability.py      27      1    96%   24
-src/tcm_agent/offline.py            27      1    96%   61
-src/tcm_agent/operations.py         58     14    76%   56-79, 98
-src/tcm_agent/policy.py             37      8    78%   49, 54, 80-85
-src/tcm_agent/repository.py         60     10    83%   43, 59-60, 66, 100, 118-121, 141
-src/tcm_agent/retrieval.py          76      9    88%   57, 62-63, 68, 88-93, 116-117
-src/tcm_agent/routes.py             67      2    97%   50, 54
-src/tcm_agent/runtime.py            65      2    97%   52, 116
-src/tcm_agent/service.py            68      5    93%   50-51, 65, 68-69
-src/tcm_agent/streaming.py          26      2    92%   28-29
-src/tcm_agent/tool_schema.py         5      0   100%
-src/tcm_agent/wire.py               60      2    97%   72, 108
---------------------------------------------------------------
-TOTAL                             1073    182    83%
 Coverage JSON written to file evidence/coverage.json
 =========================== short test summary info ============================
 SKIPPED [1] tests/test_live.py:15: Real provider explicitly opt-in
 SKIPPED [1] tests/test_postgres.py:15: PostgreSQL explicitly opt-in
-======================== 43 passed, 2 skipped in 2.34s =========================
+======================== 49 passed, 2 skipped in 2.47s =========================

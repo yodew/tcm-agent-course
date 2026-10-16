@@ -14,7 +14,7 @@
 <path d="M880,538 L980,788" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
 <rect x="60" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
 <text x="80" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">01 / 调用入口</text>
-<text x="80" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">HTTP / OpenAPI / CLI</text>
+<text x="80" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">Chainlit / OpenAPI / CLI</text>
 <text x="80" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">用户显式授权与确认</text>
 <rect x="520" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
 <text x="540" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">02 / FastAPI 边界</text>

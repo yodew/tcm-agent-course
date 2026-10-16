@@ -20,6 +20,8 @@ DIRECTORIES: Final = (
     "course",
     "evidence",
     ".github",
+    "ui",
+    "docs/images",
 )
 FILES: Final = (
     "README.md",
@@ -31,13 +33,15 @@ FILES: Final = (
     ".python-version",
     ".env.example",
     ".gitignore",
+    ".gitattributes",
+    ".chainlit/config.toml",
+    "chainlit.md",
     "Makefile",
     "alembic.ini",
     "compose.yaml",
     "Dockerfile",
     "docs/product-requirements.md",
     "docs/resource-feasibility.md",
-    "output/pdf/TCM-Agent-Course.pdf",
 )
 
 
@@ -53,7 +57,7 @@ def main() -> None:
             if path.is_file()
             and "__pycache__" not in path.parts
             and path.name != "SHA256SUMS.txt"
-            and path.suffix not in {".pyc", ".pyo"}
+            and path.suffix not in {".pyc", ".pyo", ".pdf"}
         )
     with ZipFile(destination, "w", ZIP_DEFLATED) as archive:
         for path in sorted(paths):

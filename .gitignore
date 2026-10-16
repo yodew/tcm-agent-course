@@ -26,3 +26,7 @@ tmp/
 *.db-wal
 *.db-shm
 *.log
+.files/
+.chainlit/*
+!.chainlit/config.toml
+*.pdf

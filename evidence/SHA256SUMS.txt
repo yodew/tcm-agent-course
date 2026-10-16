@@ -1,3 +1,2 @@
-ba8e981b04c64f0f06e5e562b8d5ade3838c88fc2de6b9d08af0f113dd98869f  course/COURSE.md
-f8804ea9fd49df1c609470acc56022214d5673996362d8fa17524915c02dd1fd  output/pdf/TCM-Agent-Course.pdf
-b428cbf983456118013585ffdf77f274d5b9b5a80b8b0642ea480b7a5abddaae  dist/tcm-agent-course-v1.zip
+3cec8bf68bd8eb5754ea5872940ca4c3eb0f1c60fcd75667937ba3f5cc61c391  course/COURSE.md
+31e4124d14e7e2824688acc54384460bfeb0696fa84af769976366d46a8c36a5  dist/tcm-agent-course-v1.zip

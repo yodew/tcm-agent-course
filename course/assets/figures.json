@@ -7,7 +7,7 @@
  {"id":"E","label":"第 30 节 · 项目答辩","body":["复盘设计取舍与失败案例","用证据回答面试追问"]},
  {"id":"D","label":"第 4 周 · 评测与交付","body":["MCP、LangGraph 对照","评测、监控、部署与回滚"]}],"edges":[["A","B"],["B","C"],["C","D"],["D","E"],["E","F"]],"footnote":"能力递进：能调用 → 能完成任务 → 能控制状态 → 能验证与运行"},
  {"number":2,"name":"architecture","title":"系统架构：模型负责选择，服务端掌握权限","subtitle":"生产主线是单进程模块化后端；LangGraph 和 MCP 是可运行的独立对照示例。","nodes":[
- {"id":"A","label":"调用入口","body":["HTTP / OpenAPI / CLI","用户显式授权与确认"]},
+ {"id":"A","label":"调用入口","body":["Chainlit / OpenAPI / CLI","用户显式授权与确认"]},
  {"id":"B","label":"FastAPI 边界","body":["Bearer 身份、类型解析","访问隔离与错误合同"]},
  {"id":"C","label":"应用服务","body":["幂等占位、总时限","CAS 原子提交与降级"]},
  {"id":"D","label":"持久化仓库","body":["会话快照与原始回合","短事务；网络调用在事务外"]},

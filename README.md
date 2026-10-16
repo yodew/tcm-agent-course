@@ -2,7 +2,7 @@
 
 为有经验的 Python 后端开发者准备的完整课程与配套项目。30 个递进学习节点，80 道面试题及答案/考点解析，10 组原创架构与原理图。一个仓库贯穿工具调用、RAG、事实确认、幂等、并发、SSE、评测和部署。
 
-**从这里开始：[完整课程 Markdown](course/COURSE.md) · [统一 A4 竖版 PDF](output/pdf/TCM-Agent-Course.pdf)。** 运行证据与未执行项见 [验证报告](evidence/validation.md)。
+**从这里开始：[完整课程 Markdown](course/COURSE.md)。** 运行证据与未执行项见 [验证报告](evidence/validation.md)。课程直接在 GitHub 阅读，不再生成或分发 PDF。
 
 仓库仅保存源码、课程、原创教学数据和去除个人路径的验证记录。配置密钥前请阅读 [配置与数据保护说明](SECURITY.md)。
 
@@ -15,7 +15,7 @@ GitHub CI 模板位于 [`.github/ci.yml.example`](.github/ci.yml.example)。当�
 - 真实模型入口：第三方 OpenAI 兼容 Responses / Chat，两套协议显式选择。
 - 本地可运行入口：offline 确定性工程夹具，明确不冒充语言模型。
 - 工程主线：FastAPI、Pydantic、SQLAlchemy、AnyIO，SQLite 起步，PostgreSQL 可选。
-- 交互：`/docs`、API、终端命令；SSE 输出实时工作流进度，最终结果在提交后发送。
+- 交互：Chainlit 浏览器界面、`/docs`、API、终端命令；SSE 输出实时工作流进度，最终结果在提交后发送。
 - 扩展：真实 stdio MCP 往返和 LangGraph 条件路由示例。
 
 ![架构](course/assets/architecture.png)
@@ -45,6 +45,32 @@ uv run tcm serve
 export TCM_CLIENT_TOKEN='local-course-token-change-before-sharing'
 uv run python examples/smoke_api.py
 ```
+
+## 启动 Chainlit 界面
+
+在同一个仓库根目录，先按上面的步骤启动后端，再开启另一个终端：
+
+```bash
+uv sync --extra ui --frozen
+export TCM_MODEL_MODE=offline
+export TCM_ACCESS_TOKENS='{"local-course-token-change-before-sharing":"learner"}'
+export TCM_SERVER_URL=http://127.0.0.1:8000
+uv run --extra ui chainlit create-secret
+# 将上一条命令生成的 CHAINLIT_AUTH_SECRET 配置行粘贴到本地 .env；不要提交。
+uv run --extra ui chainlit run ui/app.py --host 127.0.0.1 --port 8001
+```
+
+访问 [浏览器界面](http://127.0.0.1:8001)。登录输入框默认标为“电子邮箱”，实际填写应用身份 `learner`；密码填写对应的**应用访问令牌**，上例为公开教学值 `local-course-token-change-before-sharing`，不是模型平台密钥。UI 和后端必须使用相同的 `TCM_ACCESS_TOKENS` 映射。
+
+使用顺序：同意并开始 → 描述困扰 → 确认候选事实 → 查看摘要。可以撤回事实后重新描述；知识问题会显示引用。删除记录需要再次确认，成功后清除当前页面的对话消息。模型处理中展示真实工作流进度，不显示内部推理，也不伪造逐字输出。
+
+开始后会显示从 API 读取的实际后端模式；`offline` 明确标为固定策略工程夹具，不冒充真实语言模型。
+
+![Chainlit 交互界面，使用合成测试输入](docs/images/chainlit.png)
+
+连接失败或流中断时，可点击“重试同一请求”；按钮复用原请求编号，后端幂等合同仍然有效。UI 尚未配置历史持久化，刷新后不会恢复原会话，请在刷新前查看摘要或删除记录。页面连接短暂断开时，Chainlit 在内存中保留会话最多 300 秒。
+
+端口 8000 是 API，8001 是界面；默认只监听本机。如通过反向代理对外部署，需要 TLS，并在 `.chainlit/config.toml` 中设置准确的 `allow_origins`，同时落实后端身份与数据生命周期要求。[界面实现与课程讲解](course/COURSE.md#补充实战chainlit-交互验证界面)。
 
 ## 接入你的兼容 API 平台
 

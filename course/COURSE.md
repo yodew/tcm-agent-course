@@ -23,7 +23,7 @@
 
 项目名称为 **TCM Visit Preparation Agent，中医就诊准备助手**。它围绕问诊前的信息采集展开，不生成个体诊断、处方或剂量，不把舌象照片当作已验证的诊断输入。中医场景的价值在于：术语解释要有出处、病史不能编造、用户更正必须立即生效、记录涉及个人健康信息。这些约束正好迫使我们把 Agent 工程做完整。
 
-已有产品需求见 [原始需求](../docs/product-requirements.md)。课程沿用主场景，但当前交付以 API 后端、终端工具和交互式 OpenAPI 文档为入口，没有另造一个未经测试的前端应用。
+已有产品需求见 [原始需求](../docs/product-requirements.md)。课程沿用主场景，以 Chainlit 浏览器界面、API 后端、终端工具和交互式 OpenAPI 文档为入口。Chainlit 仅承担交互，通过 HTTP 调用同一套后端，事实和权限仍由后端掌握。
 
 | 能力 | 本项目实际实现 | 实际边界 |
 |---|---|---|
@@ -863,7 +863,7 @@ def create_app(settings: Settings | None = None, gateway: ModelGateway | None = 
 
     app = FastAPI(
         title="中医就诊准备 Agent",
-        version="1.0.0",
+        version="1.1.0",
         lifespan=lifespan,
         description="整理资料、核对事实与知识解释。offline 模式是确定性工程夹具。",
     )
@@ -1653,6 +1653,146 @@ async def main() -> None:
 **毕业标准。** 能从输入一路追踪到工具、证据、状态、事务和响应；能重现失败并定位；能说明指标分母和验证范围；能独立接通自己的兼容平台。完成课程不代表获得诊疗资质或证明临床有效。
 
 **面试关联。** Q08：新增能力要改哪些地方？Q63：如何设计系统扩容？Q64：你的项目最重要的取舍是什么？
+
+## 补充实战：Chainlit 交互验证界面
+
+这部分衔接第 3 周服务工程和第 4 周交付验收。目标是让学习者在浏览器完整使用既有业务链路，观察真实工作流，验证事实确认、版本冲突和失败恢复。
+
+### 功能与启动
+
+界面提供登录、数据使用确认、多轮对话、候选事实逐条确认、事实撤回、引用展示、确定性摘要、失败重试和二次确认删除。启动步骤见 [README](../README.md#启动-chainlit-界面)。源码分三层：[`ui/app.py`](../ui/app.py) 处理事件和 API 编排；[`ui/view.py`](../ui/view.py) 封装原生组件和每个浏览器会话的状态；[`ui_client.py`](../src/tcm_agent/ui_client.py) 负责类型化 HTTP/SSE 边界。
+
+![Chainlit 实际界面：知识解释、工作流与引用](../docs/images/chainlit.png)
+
+登录用户名是应用身份，密码是应用令牌。`CHAINLIT_AUTH_SECRET` 保护 Chainlit 登录会话，模型平台密钥留在服务端。UI 和 API 使用相同的令牌映射；认证后根据服务端身份取出 API 凭据，凭据不进入用户 metadata 或 Action payload。
+
+[完整源码：authenticate](../ui/app.py)
+
+```python
+@cl.password_auth_callback
+def authenticate(username: str, password: str) -> cl.User | None:
+    """Reuse application identity; never return tokens as user metadata."""
+    for token, identity in SETTINGS.access_tokens.items():
+        if secrets.compare_digest(password.encode(), token.encode()) and username == identity:
+            return cl.User(identifier=identity)
+    return None
+```
+
+**代码详解。** 遍历服务端配置，使用常量时间比较验证令牌，并核对对应身份。返回值只包含身份。当前为课程的受控令牌模式，公开部署的账户、撤销、限流和身份提供商仍需完善，不能把它描述为完整企业登录体系。
+
+### 从浏览器事件到后端原子提交
+
+```mermaid
+sequenceDiagram
+    participant U as 用户
+    participant C as Chainlit 服务端
+    participant A as FastAPI
+    U->>C: 登录并同意数据使用
+    C->>A: 带当前身份的 POST /sessions
+    U->>C: 描述困扰
+    C->>A: POST /events，request_id 与 expected_version
+    A-->>C: accepted / progress
+    A-->>C: committed / done
+    C-->>U: 最终回复、候选事实、引用
+    U->>C: 点击确认事实
+    C->>A: PATCH /facts，版本和原文来源
+    A-->>C: 新快照
+    C-->>U: 确认结果与摘要入口
+```
+
+这张顺序图使用 GitHub 可直接渲染的 Mermaid。UI 不调用模型、不直接写数据库，避免出现“页面跑一套 Agent、API 跑另一套 Agent”的分叉。原生 Step 只显示服务器已经发出的工作流事件；只有收到已提交结果和正常结束事件后，才显示最终回复。
+
+[完整源码：VisitClient.events](../src/tcm_agent/ui_client.py)
+
+```python
+async def events(self, session_id: UUID, body: TurnRequest) -> AsyncIterator[StreamEvent]:
+    """Consume named SSE frames; truncated streams never count as successful."""
+    event_name = ""
+    data: list[str] = []
+    committed = False
+    async with self.http.stream(
+        "POST",
+        f"{self.base_url}/sessions/{session_id}/events",
+        json=body.model_dump(mode="json"),
+        timeout=httpx2.Timeout(connect=5, read=120, write=10, pool=10),
+    ) as response:
+        check_status(response)
+        async for line in response.aiter_lines():
+            if line.startswith("event:"):
+                event_name = line[6:].strip()
+            elif line.startswith("data:"):
+                data.append(line[5:].lstrip(" "))
+            elif not line and event_name:
+                event = StreamEvent.model_validate(
+                    {"kind": event_name, "data": "\n".join(data)}
+                )
+                check_event(event)
+                committed = committed or event.kind == "committed"
+                if event.kind == "done" and not committed:
+                    raise UIError("stream_incomplete")
+                yield event
+                if event.kind == "done":
+                    return
+                event_name, data = "", []
+    raise UIError("stream_incomplete")
+```
+
+**代码详解。** SSE 以空行结束一个事件，`event` 指定种类，多条 `data` 合并。命名事件和数据在边界解析，错误体不直接呈现到浏览器。流正常结束必须包含 `committed` 和 `done`，网络中断或只收到 `accepted` 都不能冒充成功。120 秒是每次读取的上限；后端仍受自己的整回合总时限约束，读取停顿超时后允许同请求重试。
+
+### UI 状态不是事实来源
+
+浏览器会话保存最新 API 快照、未决请求、操作锁和显示消息。锁用于串行化同一界面的操作；跨页面和跨进程竞争仍由后端版本控制处理。Action 按钮携带候选字段、原文和来源回合，确认前重新读取快照，过期候选不能落入新的事实。用户纠正时先撤回旧事实，再描述并确认新事实。
+
+[完整源码：respond](../ui/app.py)
+
+```python
+@cl.on_message
+async def respond(incoming: cl.Message) -> None:
+    """Preserve the idempotency key across failures; never silently resubmit new work."""
+    screen().messages.append(incoming)
+    async with operation() as client:
+        state = screen()
+        if state.snapshot is None:
+            await message("请先点击“同意并开始”。")
+            return
+        if state.pending is not None:
+            await message(
+                "上一次请求结果尚不确定，请先重试。",
+                [button("重试同一请求", Selection(command="retry"))],
+            )
+            return
+        state.snapshot = await client.load(state.snapshot.session_id)
+        state.pending = TurnRequest(
+            request_id=uuid4(), expected_version=state.snapshot.version, text=incoming.content
+        )
+        await execute(client)
+```
+
+**代码详解。** 在发送网络请求之前构造并保存 `TurnRequest`。失败后保留原对象，重试保持同一个 `request_id`、正文和原版本。若不确定时新建请求编号，可能让后端把同一段输入当成新回合。存在未决请求时暂停提交新消息与修改事实，避免在恢复前推进版本。
+
+后端明确返回 `version_conflict` 时，本次输入没有提交；界面清除这条已拒绝的未决请求并刷新事实，提示用户核对后重新发送。它与“连接中断，不知道是否已经提交”不同：后者继续复用原请求，不能自动改版本或请求编号。这一区分避免无效的永久重试，也避免替用户在新上下文中悄悄重发。
+
+### 手工验收和局限
+
+1. 不点同意按钮直接发送消息：不能创建 API 会话或调用模型。
+2. 输入“最近睡不好”，确认前查看摘要：不能被写成已确认事实。
+3. 确认后查看摘要，再撤回：摘要相应更新。输入更正并确认后只保留用户确认的版本。
+4. 问“什么是四诊？”：回答与引用一致，能看到真实工作流进度。
+5. 停止或断开请求后重试：复用原请求编号，不产生两个已提交回合。
+6. 点击历史候选按钮：已失效内容不能被确认成新事实。
+7. 删除需再次确认，完成后 API 读取返回不存在，当前页面的健康信息消息被移除。
+
+自动测试覆盖 UI HTTP 边界的重试身份、错误脱敏、截断流拒绝；浏览器验收与已执行范围见 [验证报告](../evidence/validation.md)。没有配置 Chainlit 数据层，页面刷新不恢复原会话；后端记录仍按原 API 生命周期存在，需要用户主动删除或后续实现过期清理。文件上传、照片分析和界面历史恢复不属于本次实现。
+
+### 对应面试追问与答案
+
+**为什么不用 Chainlit 的聊天历史直接做 Agent 记忆？** 界面历史负责展示，缺少当前项目的用户确认、原文溯源和原子提交合同。Agent 上下文仍由后端构建。考点：事实来源、状态归属和信任边界。
+
+**页面显示回复以后，数据库一定提交了吗？** 取决于协议。本项目只有收到 `committed` 并正常结束后才显示最终结果，降低未保存结果被当成成功的风险。若提交后网络断开，重试原请求可取回同一结果。考点：提交与可见性的顺序、幂等和不确定结果恢复。
+
+**刷新会话和删除数据是一回事吗？** 不是。刷新丢失的是当前 UI 上下文，API 数据仍存在；删除调用明确的后端接口，且不自动代表模型供应商已经删除其留存。考点：数据生命周期、跨系统删除边界。以上三题为项目设计追问，不冒充公开面经原题。
+
+资料：[Chainlit 认证](https://docs.chainlit.io/authentication/password)、[Action 按钮](https://docs.chainlit.io/api-reference/action)、[Step 展示](https://docs.chainlit.io/concepts/step)。
 
 ## 独立模块：项目面试题与答案解析
 

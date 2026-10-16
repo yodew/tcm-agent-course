@@ -1,0 +1,32 @@
+[project]
+user_env = []
+persist_user_env = false
+cache = false
+allow_origins = ["http://localhost:8001", "http://127.0.0.1:8001"]
+session_timeout = 300
+
+[features]
+unsafe_allow_html = false
+user_message_markdown = false
+edit_message = false
+allow_thread_sharing = false
+
+[features.spontaneous_file_upload]
+enabled = false
+
+[features.audio]
+enabled = false
+
+[features.mcp]
+enabled = false
+
+[UI]
+name = "中医就诊准备助手"
+description = "整理困扰、核对事实、查看来源、生成就诊摘要"
+default_theme = "light"
+language = "zh-CN"
+cot = "full"
+confirm_new_chat = true
+
+[meta]
+generated_by = "2.12.0"
