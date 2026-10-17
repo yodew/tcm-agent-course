@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040">
+<rect width="100%" height="100%" fill="#f4f6f3"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3z" fill="#7e8d84"/></marker></defs>
+<text x="60" y="52" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="18" fill="#557265">TCM AGENT / ENGINEERING COURSE / 15</text>
+<text x="60" y="117" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="39" fill="#183c30">回答错误：沿数据链路逐层定位</text>
+<text x="60" y="157" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="20" fill="#52645b">不要把每个错误都归因于 Prompt；先检查模型到底看到了什么证据。</text>
+<path d="M420,288 L520,288" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M880,288 L980,288" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M1160,356 L1160,470" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M980,538 L880,538" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M520,538 L420,538" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="60" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="80" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">01 / 资料是否存在</text>
+<text x="80" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">正确、可用、已审核</text>
+<text x="80" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">来源版本与权限</text>
+<rect x="520" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="540" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">02 / 切块是否完整</text>
+<text x="540" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">主体、条件与单位</text>
+<text x="540" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">保留父级定位</text>
+<rect x="980" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="1000" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">03 / 候选是否召回</text>
+<text x="1000" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">词面、向量或混合</text>
+<text x="1000" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">检查相关文档遗漏</text>
+<rect x="60" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="80" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">06 / 任务是否真的完成</text>
+<text x="80" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">正确性、权限与预算</text>
+<text x="80" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">分层记录失败</text>
+<rect x="520" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="540" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">05 / 结论是否受支持</text>
+<text x="540" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">引用原文和范围</text>
+<text x="540" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">摘录也可能答非所问</text>
+<rect x="980" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="1000" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">04 / 证据是否排在前面</text>
+<text x="1000" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">融合与可选重排</text>
+<text x="1000" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">检查裁剪前后内容</text>
+<text x="60" y="995" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="18" fill="#52645b">无答案、危险回答和过度拒绝需单独标签；小样本不能代表真实分布。</text>
+</svg>

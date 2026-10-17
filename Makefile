@@ -1,11 +1,12 @@
-.PHONY: setup check test serve evaluate ui
+.PHONY: setup check test serve evaluate ui labs
 setup:
 	uv sync --all-extras --frozen
 check:
-	uv run ruff check src tests examples scripts ui
-	uv run ruff format --check src tests examples scripts ui
+	uv run ruff check src tests examples scripts ui labs
+	uv run ruff format --check src tests examples scripts ui labs
 	uv run basedpyright
 	uv run pytest
+	uv run python -m labs.run_all
 	uv run python scripts/check_course.py
 serve:
 	uv run tcm serve
@@ -16,3 +17,6 @@ evaluate:
 
 ui:
 	uv run --extra ui chainlit run ui/app.py --host 127.0.0.1 --port 8001
+
+labs:
+	uv run python -m labs.run_all

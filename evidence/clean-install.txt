@@ -3,8 +3,8 @@ Using CPython 3.12.13
 Creating virtual environment at: .venv
    Building tcm-agent-course @ file:///private<temporary-build-directory>
       Built tcm-agent-course @ file:///private<temporary-build-directory>
-Prepared 1 package in 162ms
-Installed 180 packages in 200ms
+Prepared 1 package in 179ms
+Installed 180 packages in 300ms
  + aiofiles==25.1.0
  + aiohappyeyeballs==2.7.1
  + aiohttp==3.14.5
@@ -164,7 +164,7 @@ Installed 180 packages in 200ms
  + sse-starlette==3.5.0
  + starlette==1.8.0
  + syncer==2.0.3
- + tcm-agent-course==1.1.0 (from file:///private<temporary-build-directory>)
+ + tcm-agent-course==1.2.0 (from file:///private<temporary-build-directory>)
  + tenacity==9.2.1
  + tinycss2==1.5.1
  + tomli==2.5.0
@@ -193,8 +193,8 @@ Schema upgraded to head.
 
 uv run tcm run --text 什么是四诊？
 {
-  "turn_id": "a00d92f8-60f7-4fbe-accd-776f5d7cb804",
-  "session_id": "b5f10d10-b0b1-4b5d-8050-3fbe5be0fa2b",
+  "turn_id": "bf437d32-543a-477a-bc49-84d553b3216f",
+  "session_id": "7785db9a-59a2-4a38-aee3-f7bdacf78ed4",
   "version": 1,
   "action": "knowledge",
   "answer": "四诊指望、闻、问、切，是中医收集信息的传统方法。本课程助手只能整理用户提供的资料，不能通过文字或照片替代医师的完整诊察。",
@@ -220,12 +220,47 @@ uv run tcm run --text 什么是四诊？
 
 
 uv run pytest -q
-............................s.....s................                      [100%]
+................................................s.....s................  [100%]
 =========================== short test summary info ============================
 SKIPPED [1] tests/test_live.py:15: Real provider explicitly opt-in
 SKIPPED [1] tests/test_postgres.py:15: PostgreSQL explicitly opt-in
-49 passed, 2 skipped in 1.91s
+69 passed, 2 skipped in 1.98s
+
+
+uv run python -m labs.run_all
+
+EXPERIMENT: model_mechanics
+ARITHMETIC ONLY: these logits do not come from a model
+0.2 (0.9933, 0.0067, 0.0)
+1.0 (0.7054, 0.2595, 0.0351)
+2.0 (0.5465, 0.3315, 0.122)
+characters 2 UTF-8 bytes 6 tokens: tokenizer required
+without history ('它包括什么？',)
+with history ('四诊是什么？', '它包括什么？')
+
+EXPERIMENT: tool_loop
+SCRIPTED DECISIONS ONLY: 查看工具返回的教学解释
+call-1 四诊是望、闻、问、切的传统信息采集方法。
+
+EXPERIMENT: context_memory
+candidate only; confirmed: None
+after explicit confirmation: FactState(version=1, confirmed='最近睡不好')
+CHARACTER BUDGET ONLY: ('规则', '当前问题', '最近历史')
+
+EXPERIMENT: retrieval
+MANUAL VECTORS, NOT EMBEDDINGS: 0.0
+RRF arithmetic: ('B', 'A', 'C')
+REAL BM25: [('tcm-four-examinations', 5.6726), ('visit-complaint', 0.5179), ('summary-fidelity', 0.5095)]
+
+EXPERIMENT: workflows
+FIXED PLAN EXECUTOR: ('retrieve', 'explain', 'review')
+DETERMINISTIC ROUTING: render_confirmed_summary
+
+EXPERIMENT: evaluation
+LABELED EXAMPLE: RetrievalScore(recall=1.0, precision=0.6666666666666666, reciprocal_rank=0.5)
+right answer but unauthorized: False
+right answer within budget: True
 
 
 uv run python scripts/check_course.py
-30 lessons, 80 interview questions, source excerpts, Python syntax and local links verified
+30 learning nodes, 80 complete interview answers, 16 figures, teaching structure, source excerpts, syntax and local anchors verified

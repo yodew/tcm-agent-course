@@ -72,6 +72,17 @@ def main() -> None:
     if "{{snippet:" in text:
         raise CourseBuildError("Unresolved source snippet")
     (ROOT / "course/COURSE.md").write_text(text, encoding="utf-8")
+    references = sorted((ROOT / "course/engineering").glob("*.md"))
+    reference = (
+        "# 工程源码参考\n\n"
+        "配套 [系统学习课程](COURSE.md)。先按主课程学习概念，再按模块查阅以下完整源码解读。"
+        "E01—E30 是工程模块编号，不是新版学习顺序。\n\n"
+        + "\n\n".join(path.read_text(encoding="utf-8").strip() for path in references)
+        + "\n\n"
+        + (ROOT / "course/authoring/07-sources.md").read_text(encoding="utf-8")
+    )
+    reference = re.sub(r"\{\{snippet:([^:}]+):([^}]+)\}\}", inject, reference)
+    (ROOT / "course/ENGINEERING_REFERENCE.md").write_text(reference, encoding="utf-8")
 
 
 if __name__ == "__main__":

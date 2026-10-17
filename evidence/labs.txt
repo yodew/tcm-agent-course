@@ -1,0 +1,32 @@
+
+EXPERIMENT: model_mechanics
+ARITHMETIC ONLY: these logits do not come from a model
+0.2 (0.9933, 0.0067, 0.0)
+1.0 (0.7054, 0.2595, 0.0351)
+2.0 (0.5465, 0.3315, 0.122)
+characters 2 UTF-8 bytes 6 tokens: tokenizer required
+without history ('它包括什么？',)
+with history ('四诊是什么？', '它包括什么？')
+
+EXPERIMENT: tool_loop
+SCRIPTED DECISIONS ONLY: 查看工具返回的教学解释
+call-1 四诊是望、闻、问、切的传统信息采集方法。
+
+EXPERIMENT: context_memory
+candidate only; confirmed: None
+after explicit confirmation: FactState(version=1, confirmed='最近睡不好')
+CHARACTER BUDGET ONLY: ('规则', '当前问题', '最近历史')
+
+EXPERIMENT: retrieval
+MANUAL VECTORS, NOT EMBEDDINGS: 0.0
+RRF arithmetic: ('B', 'A', 'C')
+REAL BM25: [('tcm-four-examinations', 5.6726), ('visit-complaint', 0.5179), ('summary-fidelity', 0.5095)]
+
+EXPERIMENT: workflows
+FIXED PLAN EXECUTOR: ('retrieve', 'explain', 'review')
+DETERMINISTIC ROUTING: render_confirmed_summary
+
+EXPERIMENT: evaluation
+LABELED EXAMPLE: RetrievalScore(recall=1.0, precision=0.6666666666666666, reciprocal_rank=0.5)
+right answer but unauthorized: False
+right answer within budget: True

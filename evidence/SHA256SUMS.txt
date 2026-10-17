@@ -1,2 +1,3 @@
-3cec8bf68bd8eb5754ea5872940ca4c3eb0f1c60fcd75667937ba3f5cc61c391  course/COURSE.md
-31e4124d14e7e2824688acc54384460bfeb0696fa84af769976366d46a8c36a5  dist/tcm-agent-course-v1.zip
+2f4d680382dce45dc762c01af2361abe2b65557bf9d2cbbe01efc88debfdc09e  course/COURSE.md
+b48c039b372f3431928d7f0085f2e9f955cef6f5eadd894b1a21ca062ba88d6a  course/ENGINEERING_REFERENCE.md
+a9f53392d5ff94303e1594b4cd0e5cc144b0999336d811dd53899235785e2e2d  dist/tcm-agent-course-v1.zip

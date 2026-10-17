@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040">
+<rect width="100%" height="100%" fill="#f4f6f3"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3z" fill="#7e8d84"/></marker></defs>
+<text x="60" y="52" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="18" fill="#557265">TCM AGENT / ENGINEERING COURSE / 12</text>
+<text x="60" y="117" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="39" fill="#183c30">Agent 边界：模型提议，环境执行</text>
+<text x="60" y="157" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="20" fill="#52645b">动态选择发生在受控能力之内；操作是否成立由实际观察与提交结果证明。</text>
+<path d="M420,288 L520,288" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M880,288 L980,288" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M1160,356 L1160,470" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M980,538 L880,538" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M520,538 L420,538" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="60" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="80" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">01 / 用户目标</text>
+<text x="80" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">任务与完成标准</text>
+<text x="80" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">必要时补充信息</text>
+<rect x="520" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="540" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">02 / 模型决策</text>
+<text x="540" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">当前上下文与观察</text>
+<text x="540" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">选择工具或终态</text>
+<rect x="980" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="1000" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">03 / 执行器校验</text>
+<text x="1000" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">注册表、参数、预算</text>
+<text x="1000" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">身份不由模型提供</text>
+<rect x="60" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="80" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">06 / 完成或人工介入</text>
+<text x="80" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">校验合法终态</text>
+<text x="80" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">需要确认时暂停</text>
+<rect x="520" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="540" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">05 / 观察与新状态</text>
+<text x="540" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">保留调用关联</text>
+<text x="540" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">证据与来源定位</text>
+<rect x="980" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="1000" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">04 / 工具与环境</text>
+<text x="1000" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">真正查询或受控操作</text>
+<text x="1000" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">成功、失败或空结果</text>
+<text x="60" y="995" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="18" fill="#52645b">循环继续还是结束需要明确合同；固定决策夹具只验证执行机制。</text>
+</svg>

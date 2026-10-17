@@ -1,0 +1,2 @@
+REAL LANGGRAPH, IN-MEMORY ONLY: True
+Stale approval rejected; no external operation was performed

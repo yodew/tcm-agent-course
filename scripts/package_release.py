@@ -22,6 +22,7 @@ DIRECTORIES: Final = (
     ".github",
     "ui",
     "docs/images",
+    "labs",
 )
 FILES: Final = (
     "README.md",

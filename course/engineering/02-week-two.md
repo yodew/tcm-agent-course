@@ -1,6 +1,6 @@
 ## 第二周：知识、检索与事实记忆
 
-### 第 08 节：建立可追溯的知识来源清单
+### 工程参考 E08｜建立可追溯的知识来源清单
 
 **本节功能。** 知识不是随便下载的 PDF。系统需要知道文本来自哪里、什么版本、是否允许使用、谁批准进入当前语料。你要先有来源清单，再有向量索引。
 
@@ -24,9 +24,8 @@ uv run tcm ingest data/manifest.json --destination data/knowledge.json
 
 **验收。** 产物带来源和版本；未批准文件不进入产物。不要把内置评测切换到自建语料后仍沿用旧标准答案，必须重新标注。
 
-**面试关联。** Q22：RAG 数据质量如何保证？Q23：如何处理敏感资料？
 
-### 第 09 节：切块、重叠与文档级上下文
+### 工程参考 E09｜切块、重叠与文档级上下文
 
 **本节功能。** 将较长文档变成适合召回的单元，保持顺序与来源。RAG 原始论文提出将检索到的外部信息与生成结合；本项目把知识选择和引用控制落实为可观察的工具链路。[RAG 论文](https://arxiv.org/abs/2005.11401)
 
@@ -42,9 +41,8 @@ uv run tcm ingest data/manifest.json --destination data/knowledge.json
 
 **操作与验收。** `uv run pytest tests/test_ingestion.py -q`。用段落、单行长文本、空文档和中文混合资料观察边界。将 overlap 改为与 size 相等，应立即拒绝。新增规则后比较检索指标与输入成本，不能只凭片段看起来漂亮决定。
 
-**面试关联。** Q24：如何选 chunk 大小？Q25：如何保持跨页或文档级上下文？
 
-### 第 10 节：实现一个解释得清的中文 BM25 基线
+### 工程参考 E10｜实现一个解释得清的中文 BM25 基线
 
 **本节功能。** 没有 Embedding 服务时也能进行真实检索。基线使用中文单字、双字片段与英文词项，让“望闻问切”这样的无空格文本具有可匹配的检索单元。
 
@@ -60,9 +58,8 @@ uv run tcm ingest data/manifest.json --destination data/knowledge.json
 
 **操作与验收。** `uv run pytest tests/test_retrieval.py -q`。用“药名”“用药记录”“既往服药”测试同义改写，记录失败原因。执行 `uv run tcm evaluate`，注意报告只含 8 条小样本，不可宣传为全场景准确率。
 
-**面试关联。** Q26：稀疏与稠密检索如何比较？Q27：BM25 为什么适合做基线？
 
-### 第 11 节：接入真实 Embedding，处理维度与版本
+### 工程参考 E11｜接入真实 Embedding，处理维度与版本
 
 **本节功能。** 通过供应商 `/embeddings` 得到真实向量，而不是用随机数或哈希向量冒充语义能力。默认该能力关闭；开启需要平台确实支持 Embedding 模型。
 
@@ -76,9 +73,8 @@ uv run tcm ingest data/manifest.json --destination data/knowledge.json
 
 **操作与验收。** 配置 `TCM_EMBEDDING_MODEL` 后重启服务，并运行评测。没有真实向量服务时只做合同测试，报告保留“未验证”。比较同义问题的召回与额外延迟；检索指标不改善就不要为了技术栈好看而强行启用。
 
-**面试关联。** Q28：Embedding 如何选型与迁移？Q29：HNSW 与精确扫描有什么取舍？
 
-### 第 12 节：混合检索、RRF 与重排的边界
+### 工程参考 E12｜混合检索、RRF 与重排的边界
 
 **本节功能。** 将 BM25 与向量结果按排名融合，避免直接相加不可比的分数。BM25 分数与 cosine 数值的尺度并不相同。
 
@@ -92,9 +88,8 @@ uv run tcm ingest data/manifest.json --destination data/knowledge.json
 
 **操作与验收。** 比较 BM25-only 与 hybrid 的 Recall@4、MRR@4、单次耗时。做一个失败记录：某查询两路都没有正确条目时，再好的融合也无法补救。练习为同一文档多个 chunk 去重，说明为什么会减少来源多样性偏差。
 
-**面试关联。** Q30：为什么做混合检索？Q31：重排放在哪、如何评估收益？
 
-### 第 13 节：让每个知识解释都能回到证据
+### 工程参考 E13｜让每个知识解释都能回到证据
 
 **本节功能。** 模型只能引用本回合实际检索过的条目，并且引文必须是该条目原文片段。引用有效性不能靠模型自己声明。
 
@@ -110,9 +105,8 @@ uv run tcm ingest data/manifest.json --destination data/knowledge.json
 
 **操作与验收。** `uv run pytest tests/test_runtime.py -k citation -q`。先构造从未检索过但真实存在的 entry ID，应失败；再构造不存在的引文，也应失败。检查知识解释对未知问题的有限回答，不用虚构链接兜底。
 
-**面试关联。** Q32：RAG 有引用是否就可信？Q33：检索正确、回答仍错怎么查？
 
-### 第 14 节：事实记忆、人类确认与确定性摘要
+### 工程参考 E14｜事实记忆、人类确认与确定性摘要
 
 **本节功能。** 将用户确认写成真正的应用状态变化。用户输入中的事实片段先成为候选；确认时可以改正字段归类；同一字段的新确认替换旧值，版本加一。
 
@@ -130,4 +124,3 @@ uv run tcm ingest data/manifest.json --destination data/knowledge.json
 
 **阶段验收。** `uv run pytest tests/test_api.py -k 'summary or confirm' -q`。先不确认直接导出，摘要不含候选；确认后导出，原话出现；更正再导出，仅保留新事实。能够解释用户确认与 LangGraph 的 interrupt 为何不是同一层问题。
 
-**面试关联。** Q34：Human-in-the-loop 应放在哪里？Q35：更正和记忆污染怎么处理？

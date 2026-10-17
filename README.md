@@ -1,12 +1,35 @@
-# 中医就诊准备 Agent · Python 工程实战
+# Agent 系统开发课程 · Python 与中医就诊准备助手
 
-为有经验的 Python 后端开发者准备的完整课程与配套项目。30 个递进学习节点，80 道面试题及答案/考点解析，10 组原创架构与原理图。一个仓库贯穿工具调用、RAG、事实确认、幂等、并发、SSE、评测和部署。
+为有经验的 Python 后端开发者准备的完整课程与配套项目。按照“概念 → 机制 → 可运行实验 → 项目实现 → 生产工程”组织 30 个学习节点，配套 6 个离线基础实验、80 道完整面试题与 16 组原创架构和原理图。Python 后端经验可直接复用，Agent 知识从基础讲起。
 
 **从这里开始：[完整课程 Markdown](course/COURSE.md)。** 运行证据与未执行项见 [验证报告](evidence/validation.md)。课程直接在 GitHub 阅读，不再生成或分发 PDF。
 
 仓库仅保存源码、课程、原创教学数据和去除个人路径的验证记录。配置密钥前请阅读 [配置与数据保护说明](SECURITY.md)。
 
 GitHub CI 模板位于 [`.github/ci.yml.example`](.github/ci.yml.example)。当前上传凭据没有 `workflow` 权限，因此尚未启用 Actions；在有相应权限的环境将它移到 `.github/workflows/ci.yml` 后提交即可启用。相同检查可在本地运行 `make check`。
+
+## 学习顺序
+
+| 阶段 | 节点 | 学习目标 |
+|---|---|---|
+| 基础认知 | 01—05 | LLM、Token、上下文、Prompt 与 Agent 边界 |
+| 执行机制 | 06—10 | 工具调用、Agent Loop、规划、状态与终止 |
+| 知识与记忆 | 11—15 | 上下文工程、记忆、RAG、混合检索与评测 |
+| 编排与扩展 | 16—20 | 工作流、检查点、人工介入、LangGraph、MCP、多 Agent 取舍 |
+| 完整项目 | 21—24 | 需求、检索、事实确认、摘要与 Chainlit 交互 |
+| 生产工程 | 25—30 | 服务、并发、恢复、安全、观测与交付 |
+
+每节包含原理、实验、代码详解、项目映射、验收任务和面试关联。一个月是路线参考，可以按自己的节奏推进。[工程源码详解](course/ENGINEERING_REFERENCE.md)保留完整项目实现分析，按需查阅；旧版读者可查看[迁移导航](course/MIGRATION.md)。独立面试模块按基础、方案设计、项目、生产工程四类组织，每题有答案、原理、源码证据、常见错误和考点。
+
+无需模型密钥即可运行基础实验：
+
+```bash
+uv sync --all-extras --frozen
+uv run python -m labs.run_all
+uv run --extra graph python examples/checkpoint_approval.py
+```
+
+[实验说明](labs/README.md)明确区分数值演示、脚本决策夹具和真实框架调用；真实模型效果需接入自己的兼容平台另行验证。
 
 ## 项目做什么
 
@@ -70,7 +93,7 @@ uv run --extra ui chainlit run ui/app.py --host 127.0.0.1 --port 8001
 
 连接失败或流中断时，可点击“重试同一请求”；按钮复用原请求编号，后端幂等合同仍然有效。UI 尚未配置历史持久化，刷新后不会恢复原会话，请在刷新前查看摘要或删除记录。页面连接短暂断开时，Chainlit 在内存中保留会话最多 300 秒。
 
-端口 8000 是 API，8001 是界面；默认只监听本机。如通过反向代理对外部署，需要 TLS，并在 `.chainlit/config.toml` 中设置准确的 `allow_origins`，同时落实后端身份与数据生命周期要求。[界面实现与课程讲解](course/COURSE.md#补充实战chainlit-交互验证界面)。
+端口 8000 是 API，8001 是界面；默认只监听本机。如通过反向代理对外部署，需要 TLS，并在 `.chainlit/config.toml` 中设置准确的 `allow_origins`，同时落实后端身份与数据生命周期要求。[界面实现与课程讲解](course/COURSE.md#第-24-节chainlit-界面与完整交互验收)。
 
 ## 接入你的兼容 API 平台
 
@@ -118,8 +141,8 @@ TCM_RUN_LIVE=1 uv run pytest tests/test_live.py -m live -q
 ## 学习与验证命令
 
 ```bash
-uv run ruff check src tests examples scripts
-uv run ruff format --check src tests examples scripts
+uv run ruff check src tests examples scripts ui labs
+uv run ruff format --check src tests examples scripts ui labs
 uv run basedpyright
 uv run pytest
 uv run tcm evaluate
@@ -167,6 +190,6 @@ TCM_TEST_DATABASE_URL='postgresql+asyncpg://user:password@localhost/test_db' \
 
 ## 目录与许可
 
-`course/COURSE.md` 为主交付；`src/` 为完整实现；`tests/` 为行为验证；`examples/` 为集成入口；`knowledge/` 为原创教学语料；`evidence/` 保存结果。已有 `docs/` 研究材料保留。
+`course/COURSE.md` 为主交付；`src/` 为完整实现；`labs/` 为独立机制实验；`course/ENGINEERING_REFERENCE.md` 为工程详解；`tests/` 为行为验证；`examples/` 为集成入口；`knowledge/` 为原创教学语料；`evidence/` 保存结果。已有 `docs/` 研究材料保留。
 
 新编写源码 MIT；原创课程、图示与教学知识 CC BY 4.0。外部来源权利不变，详见 LICENSE 与 COURSE-LICENSE.md。

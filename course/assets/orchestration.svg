@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040">
+<rect width="100%" height="100%" fill="#f4f6f3"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3z" fill="#7e8d84"/></marker></defs>
+<text x="60" y="52" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="18" fill="#557265">TCM AGENT / ENGINEERING COURSE / 16</text>
+<text x="60" y="117" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="39" fill="#183c30">编排选择：按任务控制不确定性</text>
+<text x="60" y="157" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="20" fill="#52645b">每增加一个模型决策节点，都要说明它相比固定路径带来的可测收益。</text>
+<path d="M420,288 L520,288" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M880,288 L980,288" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M1160,356 L1160,470" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M980,538 L880,538" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M520,538 L420,538" stroke="#7e8d84" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="60" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="80" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">01 / 确定性函数</text>
+<text x="80" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">已知输入与规则</text>
+<text x="80" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">例如确认事实摘要</text>
+<rect x="520" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="540" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">02 / 固定工作流</text>
+<text x="540" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">步骤与分支由代码定</text>
+<text x="540" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">模型可作为局部节点</text>
+<rect x="980" y="220" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="1000" y="258" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">03 / 单 Agent 循环</text>
+<text x="1000" y="295" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">模型根据观察选动作</text>
+<text x="1000" y="321" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">工具和预算受限</text>
+<rect x="60" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="80" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">06 / 基线与评测决策</text>
+<text x="80" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">比较质量与资源</text>
+<text x="80" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">无收益就不增复杂度</text>
+<rect x="520" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="540" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">05 / 多个决策主体</text>
+<text x="540" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">可独立的工作任务</text>
+<text x="540" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">协调、冲突和总预算</text>
+<rect x="980" y="470" width="360" height="136" rx="12" fill="white" stroke="#dce3dd"/>
+<text x="1000" y="508" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="25" fill="#183c30">04 / 状态图与检查点</text>
+<text x="1000" y="545" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">显式更新与暂停恢复</text>
+<text x="1000" y="571" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="19" fill="#52645b">写操作仍需幂等</text>
+<text x="60" y="995" font-family="Heiti SC,Noto Sans CJK SC,sans-serif" font-size="18" fill="#52645b">本项目主线是单 Agent 与确定性控制，图和检查点位于独立示例。</text>
+</svg>
