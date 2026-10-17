@@ -31,6 +31,22 @@ uv run --extra graph python examples/checkpoint_approval.py
 
 [实验说明](labs/README.md)明确区分数值演示、脚本决策夹具和真实框架调用；真实模型效果需接入自己的兼容平台另行验证。
 
+## 深入学习与验收
+
+- [四个核心机制深讲](course/COURSE.md#核心机制深讲与故障工作坊)：执行轨迹、上下文与事实、评测排障、进程崩溃恢复。
+- [独立作业与答案](exercises/README.md)：4 个任务、16 项验收，starter 与 solution 分开；默认项目测试不收集未完成作业。
+- [30 节直达与术语索引](course/STUDY_GUIDE.md)、[综合答辩与评分](course/DEFENSE.md)、[生产演练手册](course/OPERATIONS_LAB.md)。
+
+```bash
+uv run python -m labs.trace_demo
+uv run python -m labs.benchmark
+TCM_EXERCISE=solution uv run pytest exercises/acceptance.py -q
+uv run python -m labs.crash_recovery
+uv run python examples/load_probe.py
+```
+
+新增 40 条原创合成问题比较关键词、固定 BM25 与离线策略的证据选择，逐题保存失败；不是临床效果或真实模型排行榜。源码包含完整作业与验证入口。真实平台通过显式 live 入口验收，结果默认留在忽略的 tmp/ 目录。
+
 ## 项目做什么
 
 用户描述困扰 → 模型选择追问或知识检索 → 提出可溯源候选事实 → 用户确认/更正 → 导出确定性就诊摘要。内置知识为少量原创教学条目，不是临床知识库。项目不自动诊断、开方或提供剂量。
@@ -141,8 +157,8 @@ TCM_RUN_LIVE=1 uv run pytest tests/test_live.py -m live -q
 ## 学习与验证命令
 
 ```bash
-uv run ruff check src tests examples scripts ui labs
-uv run ruff format --check src tests examples scripts ui labs
+uv run ruff check src tests examples scripts ui labs exercises
+uv run ruff format --check src tests examples scripts ui labs exercises
 uv run basedpyright
 uv run pytest
 uv run tcm evaluate

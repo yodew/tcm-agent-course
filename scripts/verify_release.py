@@ -32,6 +32,9 @@ def main() -> None:
             ("run", "tcm", "init-db"),
             ("run", "tcm", "run", "--text", "什么是四诊？"),
             ("run", "pytest", "-q"),
+            ("run", "pytest", "exercises/acceptance.py", "-q"),
+            ("run", "python", "-m", "labs.trace_demo"),
+            ("run", "python", "-m", "labs.benchmark"),
             ("run", "python", "-m", "labs.run_all"),
             ("run", "python", "scripts/check_course.py"),
         )

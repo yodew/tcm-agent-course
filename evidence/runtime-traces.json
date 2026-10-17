@@ -1,0 +1,318 @@
+{
+  "mode": "scripted-fixture; production-runtime; no-model-no-database",
+  "runs": {
+    "knowledge": {
+      "action": "knowledge",
+      "citation_ids": [
+        "tcm-four-examinations"
+      ],
+      "error": "",
+      "steps": 2,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "elapsed_ms": 1.113,
+      "events": [
+        {
+          "kind": "model_step",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "decision",
+          "step": 1,
+          "calls": [
+            "search_knowledge"
+          ],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "tool_started",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "model_step",
+          "step": 2,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "decision",
+          "step": 2,
+          "calls": [
+            "submit_turn"
+          ],
+          "observation_count": 1,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "tool_started",
+          "step": 2,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "validated",
+          "step": 2,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      ]
+    },
+    "unknown_tool": {
+      "action": "",
+      "citation_ids": [],
+      "error": "tool_not_allowed",
+      "steps": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "elapsed_ms": 0.047,
+      "events": [
+        {
+          "kind": "model_step",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "decision",
+          "step": 1,
+          "calls": [
+            "rejected"
+          ],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "tool_started",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      ]
+    },
+    "bad_arguments": {
+      "action": "",
+      "citation_ids": [],
+      "error": "invalid_tool_arguments",
+      "steps": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "elapsed_ms": 0.03,
+      "events": [
+        {
+          "kind": "model_step",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "decision",
+          "step": 1,
+          "calls": [
+            "search_knowledge"
+          ],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "tool_started",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      ]
+    },
+    "duplicate_call": {
+      "action": "",
+      "citation_ids": [],
+      "error": "duplicate_tool_call_id",
+      "steps": 2,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "elapsed_ms": 0.03,
+      "events": [
+        {
+          "kind": "model_step",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "decision",
+          "step": 1,
+          "calls": [
+            "read_visit_facts"
+          ],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "tool_started",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "model_step",
+          "step": 2,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "decision",
+          "step": 2,
+          "calls": [
+            "read_visit_facts"
+          ],
+          "observation_count": 1,
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      ]
+    },
+    "fabricated_fact": {
+      "action": "",
+      "citation_ids": [],
+      "error": "ungrounded_fact",
+      "steps": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "elapsed_ms": 0.034,
+      "events": [
+        {
+          "kind": "model_step",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "decision",
+          "step": 1,
+          "calls": [
+            "submit_turn"
+          ],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "tool_started",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      ]
+    },
+    "unseen_citation": {
+      "action": "",
+      "citation_ids": [],
+      "error": "ungrounded_citation",
+      "steps": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "elapsed_ms": 0.026,
+      "events": [
+        {
+          "kind": "model_step",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "decision",
+          "step": 1,
+          "calls": [
+            "submit_turn"
+          ],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "tool_started",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      ]
+    },
+    "step_budget": {
+      "action": "",
+      "citation_ids": [],
+      "error": "step_budget_exceeded",
+      "steps": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "elapsed_ms": 0.273,
+      "events": [
+        {
+          "kind": "model_step",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "decision",
+          "step": 1,
+          "calls": [
+            "search_knowledge"
+          ],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        {
+          "kind": "tool_started",
+          "step": 1,
+          "calls": [],
+          "observation_count": 0,
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      ]
+    }
+  }
+}

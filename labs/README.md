@@ -39,3 +39,15 @@ uv run pytest tests/test_labs.py -q
 - MCP：`uv run --extra mcp python examples/mcp_client.py` 真正初始化 stdio 会话、发现并调用工具。主服务仍可直接调用进程内检索。
 
 完整实现与边界见 [工程源码参考](../course/ENGINEERING_REFERENCE.md)，学习顺序见 [主课程](../course/COURSE.md)。
+
+## 进阶：真实执行轨迹、对比与恢复
+
+```bash
+uv run python -m labs.trace_demo
+uv run python -m labs.benchmark
+uv run python -m labs.crash_recovery
+```
+
+trace_demo 对实际 AgentRuntime 运行 7 条成功/失败轨迹；决策为固定夹具，记录器只保留工具白名单、步骤、错误码和用量，不保留模型正文与参数。benchmark 使用 40 条带理由的合成题，比较关键词、固定 BM25 和离线策略的证据选择；真实模型必须显式指定 `--live` 且设置 `TCM_RUN_LIVE=1`，可用 `--limit 5` 先试跑。live 报告只写 tmp/，不默认公开。
+
+crash_recovery 使用真正退出的子进程和临时 SQLite，控制租约时间而非等待；它不读取本地数据库配置。不能把 SQLite 子进程验证当作断电或 PostgreSQL 容灾验证。详情见 [核心机制深讲](../course/COURSE.md#核心机制深讲与故障工作坊)、[独立练习](../exercises/README.md)、[生产演练](../course/OPERATIONS_LAB.md)。

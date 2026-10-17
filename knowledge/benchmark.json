@@ -1,0 +1,346 @@
+[
+  {
+    "case_id": "exact-01",
+    "category": "exact",
+    "query": "什么是四诊？",
+    "relevant_ids": [
+      "tcm-four-examinations"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "exact-02",
+    "category": "exact",
+    "query": "解释四诊与望闻问切。",
+    "relevant_ids": [
+      "tcm-four-examinations"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "exact-03",
+    "category": "exact",
+    "query": "四诊包括哪些信息采集方法？",
+    "relevant_ids": [
+      "tcm-four-examinations"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "exact-04",
+    "category": "exact",
+    "query": "望闻问切是什么意思？",
+    "relevant_ids": [
+      "tcm-four-examinations"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "paraphrase-01",
+    "category": "paraphrase",
+    "query": "去看医师之前应该整理哪些困扰和时间变化？",
+    "relevant_ids": [
+      "visit-complaint"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "paraphrase-02",
+    "category": "paraphrase",
+    "query": "如何向医师说明这次最困扰自己的情况？",
+    "relevant_ids": [
+      "visit-complaint"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "paraphrase-03",
+    "category": "paraphrase",
+    "query": "准备就诊资料需要先给自己下诊断吗？",
+    "relevant_ids": [
+      "visit-complaint"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "paraphrase-04",
+    "category": "paraphrase",
+    "query": "主诉与就诊准备的资料应该怎么记录？",
+    "relevant_ids": [
+      "visit-complaint"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "negation-01",
+    "category": "negation",
+    "query": "没有提供过敏资料是否等于没有过敏？",
+    "relevant_ids": [
+      "visit-medication"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "negation-02",
+    "category": "negation",
+    "query": "解释未提供药品信息为什么不能记为没有用药。",
+    "relevant_ids": [
+      "visit-medication"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "negation-03",
+    "category": "negation",
+    "query": "不知道过敏情况，记录时应该怎样保留未知？",
+    "relevant_ids": [
+      "visit-medication"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "negation-04",
+    "category": "negation",
+    "query": "用药和过敏记录可以靠助手猜测吗？",
+    "relevant_ids": [
+      "visit-medication"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "boundary-01",
+    "category": "boundary",
+    "query": "解释证型与疾病名称的区别。",
+    "relevant_ids": [
+      "tcm-syndrome"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "boundary-02",
+    "category": "boundary",
+    "query": "知道一个证型术语就能确定本人具有该证型吗？",
+    "relevant_ids": [
+      "tcm-syndrome"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "boundary-03",
+    "category": "boundary",
+    "query": "理解传统术语能据此排除其他健康问题吗？",
+    "relevant_ids": [
+      "tcm-syndrome"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "boundary-04",
+    "category": "boundary",
+    "query": "解释个人诊疗问题为什么需要合格医师判断。",
+    "relevant_ids": [
+      "tcm-syndrome"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "boundary-05",
+    "category": "boundary",
+    "query": "舌象照片的光线为什么影响记录？",
+    "relevant_ids": [
+      "photo-limit"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "boundary-06",
+    "category": "boundary",
+    "query": "解释拍摄设备与遮挡对舌象照片的影响。",
+    "relevant_ids": [
+      "photo-limit"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "boundary-07",
+    "category": "boundary",
+    "query": "本课程能通过照片判断体质吗？",
+    "relevant_ids": [
+      "photo-limit"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "boundary-08",
+    "category": "boundary",
+    "query": "提供舌象照片可以替代医师完整诊察吗？",
+    "relevant_ids": [
+      "photo-limit"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "paraphrase-05",
+    "category": "paraphrase",
+    "query": "健康记录的访问范围和保留方式应如何说明？",
+    "relevant_ids": [
+      "privacy-consent"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "paraphrase-06",
+    "category": "paraphrase",
+    "query": "如何更正、导出和删除自己的健康会话？",
+    "relevant_ids": [
+      "privacy-consent"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "paraphrase-07",
+    "category": "paraphrase",
+    "query": "用户是否可以不提交不必要的资料？",
+    "relevant_ids": [
+      "privacy-consent"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "paraphrase-08",
+    "category": "paraphrase",
+    "query": "解释健康信息授权与处理目的的关系。",
+    "relevant_ids": [
+      "privacy-consent"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "negation-05",
+    "category": "negation",
+    "query": "摘要为什么不应该直接收录模型提议的信息？",
+    "relevant_ids": [
+      "summary-fidelity"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "negation-06",
+    "category": "negation",
+    "query": "解释用户更正后怎样成为正式摘要记录。",
+    "relevant_ids": [
+      "summary-fidelity"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "negation-07",
+    "category": "negation",
+    "query": "摘要是否必须保留用户表述和来源？",
+    "relevant_ids": [
+      "summary-fidelity"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "negation-08",
+    "category": "negation",
+    "query": "没有确认的候选资料能成为摘要事实吗？",
+    "relevant_ids": [
+      "summary-fidelity"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "exact-05",
+    "category": "exact",
+    "query": "知识解释应区分哪些证据范围？",
+    "relevant_ids": [
+      "knowledge-limits"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "exact-06",
+    "category": "exact",
+    "query": "解释课程内置知识是不是医学知识库。",
+    "relevant_ids": [
+      "knowledge-limits"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "exact-07",
+    "category": "exact",
+    "query": "原创教学条目是否经过临床审核？",
+    "relevant_ids": [
+      "knowledge-limits"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "exact-08",
+    "category": "exact",
+    "query": "传统理论、现代证据与个人健康判断可以混在一起吗？",
+    "relevant_ids": [
+      "knowledge-limits"
+    ],
+    "rationale": "问题可由该教学条目的明确陈述回答；只标注证据选择，不认证临床结论。"
+  },
+  {
+    "case_id": "unknown-01",
+    "category": "unknown",
+    "query": "解释 Python 生成器的工作方式。",
+    "relevant_ids": [],
+    "rationale": "内置八条教学资料没有足以回答此问题的证据；词面相似不算支持。"
+  },
+  {
+    "case_id": "unknown-02",
+    "category": "unknown",
+    "query": "什么是 Kubernetes 滚动发布？",
+    "relevant_ids": [],
+    "rationale": "内置八条教学资料没有足以回答此问题的证据；词面相似不算支持。"
+  },
+  {
+    "case_id": "unknown-03",
+    "category": "unknown",
+    "query": "火星的大气成分是什么？",
+    "relevant_ids": [],
+    "rationale": "内置八条教学资料没有足以回答此问题的证据；词面相似不算支持。"
+  },
+  {
+    "case_id": "unknown-04",
+    "category": "unknown",
+    "query": "解释二叉树旋转。",
+    "relevant_ids": [],
+    "rationale": "内置八条教学资料没有足以回答此问题的证据；词面相似不算支持。"
+  },
+  {
+    "case_id": "unknown-05",
+    "category": "unknown",
+    "query": "明天本地天气怎样？",
+    "relevant_ids": [],
+    "rationale": "内置八条教学资料没有足以回答此问题的证据；词面相似不算支持。"
+  },
+  {
+    "case_id": "unknown-06",
+    "category": "unknown",
+    "query": "解释课程作者的真实就诊经历。",
+    "relevant_ids": [],
+    "rationale": "内置八条教学资料没有足以回答此问题的证据；词面相似不算支持。"
+  },
+  {
+    "case_id": "unknown-07",
+    "category": "unknown",
+    "query": "某医院今天的挂号余量是多少？",
+    "relevant_ids": [],
+    "rationale": "内置八条教学资料没有足以回答此问题的证据；词面相似不算支持。"
+  },
+  {
+    "case_id": "unknown-08",
+    "category": "unknown",
+    "query": "知识问题：我本人的血液检验结果是多少？",
+    "relevant_ids": [],
+    "rationale": "内置八条教学资料没有足以回答此问题的证据；词面相似不算支持。"
+  }
+]

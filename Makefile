@@ -2,10 +2,11 @@
 setup:
 	uv sync --all-extras --frozen
 check:
-	uv run ruff check src tests examples scripts ui labs
-	uv run ruff format --check src tests examples scripts ui labs
+	uv run ruff check src tests examples scripts ui labs exercises
+	uv run ruff format --check src tests examples scripts ui labs exercises
 	uv run basedpyright
 	uv run pytest
+	TCM_EXERCISE=solution uv run pytest exercises/acceptance.py -q
 	uv run python -m labs.run_all
 	uv run python scripts/check_course.py
 serve:

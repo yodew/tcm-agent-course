@@ -1,0 +1,133 @@
+{
+  "mode": "offline",
+  "samples": 24,
+  "concurrency": 4,
+  "passed": 24,
+  "failed": 0,
+  "p50_ms": 8.955416968092322,
+  "p95_ms": 28.778832987882197,
+  "total_ms": 148.15883297706023,
+  "results": [
+    {
+      "ok": true,
+      "elapsed_ms": 11.628334003034979,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 10.92566701117903,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 13.543375011067837,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 5.183000001125038,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 4.20833402313292,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 4.739541036542505,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 25.16800002194941,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 9.35425003990531,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 4.774959001224488,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 14.360208995640278,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 4.424167040269822,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 4.1519589722156525,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 13.56758299516514,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 4.6891659731045365,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 4.336708982009441,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 24.874458031263202,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 8.955416968092322,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 6.3582080183550715,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 18.89054197818041,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 105.89974996400997,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 4.171958949882537,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 4.752291017211974,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 27.210000029299408,
+      "error": ""
+    },
+    {
+      "ok": true,
+      "elapsed_ms": 28.778832987882197,
+      "error": ""
+    }
+  ],
+  "scope": "24 independent sessions, concurrency=4, actual loopback HTTP turn latency only; setup/delete excluded per sample. Rate limit raised to 1000/min only in isolated probe; not provider capacity or production SLO."
+}

@@ -151,3 +151,5 @@ uv run pytest tests/test_labs.py -k 'budget or repeated or stale' -q
 **练习与验收。** 写一张“故障 → 已知事实 → 是否重试 → 是否复用 request_id”的表，覆盖请求尚未发出、服务已提交但断线、明确版本拒绝、工具参数错误。阶段验收是能说明每次恢复操作可能重复什么。
 
 **面试关联。** [幂等与 exactly-once](#legacy-q40)、[超时重试](#legacy-q45)、[断线取消](#legacy-q48)。
+
+继续深入：[核心机制深讲](#w1沿一条执行轨迹理解-agent-loop)，通过失败实验理解本阶段机制。

@@ -724,7 +724,7 @@ def create_app(settings: Settings | None = None, gateway: ModelGateway | None = 
 
     app = FastAPI(
         title="中医就诊准备 Agent",
-        version="1.2.0",
+        version="1.3.0",
         lifespan=lifespan,
         description="整理资料、核对事实与知识解释。offline 模式是确定性工程夹具。",
     )

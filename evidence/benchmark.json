@@ -1,0 +1,3786 @@
+{
+  "dataset_sha256": "9335abe8330c6e0d0eba4678168e6c844797c813468a739321511228a42ce7a6",
+  "corpus_sha256": "c8b219e8e089b3c837375d830c0632d17f58287e748f68421d82ca8cc7053ea3",
+  "scope": "Top-1 evidence selection and unknown abstention on original synthetic questions; not full answer quality, clinical validation or market performance. No embedding/reranker.",
+  "mode": "offline",
+  "harness_version": "1.3.0",
+  "decision_model": "scripted-offline-v1",
+  "max_steps": 6,
+  "context_chars": 16000,
+  "max_output_tokens": 1600,
+  "per_case_deadline_seconds": 30.0,
+  "summaries": [
+    {
+      "system": "agent-runtime",
+      "category": "all",
+      "samples": 40,
+      "passed": 14,
+      "evidence_success_rate": 0.35,
+      "p50_ms": 0.077,
+      "p95_ms": 0.494,
+      "decision_calls": 60,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "agent-runtime",
+      "category": "boundary",
+      "samples": 8,
+      "passed": 4,
+      "evidence_success_rate": 0.5,
+      "p50_ms": 0.035,
+      "p95_ms": 0.492,
+      "decision_calls": 12,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "agent-runtime",
+      "category": "exact",
+      "samples": 8,
+      "passed": 6,
+      "evidence_success_rate": 0.75,
+      "p50_ms": 0.341,
+      "p95_ms": 0.639,
+      "decision_calls": 14,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "agent-runtime",
+      "category": "negation",
+      "samples": 8,
+      "passed": 3,
+      "evidence_success_rate": 0.375,
+      "p50_ms": 0.068,
+      "p95_ms": 0.601,
+      "decision_calls": 11,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "agent-runtime",
+      "category": "paraphrase",
+      "samples": 8,
+      "passed": 1,
+      "evidence_success_rate": 0.125,
+      "p50_ms": 0.033,
+      "p95_ms": 0.441,
+      "decision_calls": 9,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "agent-runtime",
+      "category": "unknown",
+      "samples": 8,
+      "passed": 0,
+      "evidence_success_rate": 0.0,
+      "p50_ms": 0.299,
+      "p95_ms": 0.453,
+      "decision_calls": 14,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "fixed-bm25",
+      "category": "all",
+      "samples": 40,
+      "passed": 31,
+      "evidence_success_rate": 0.775,
+      "p50_ms": 0.344,
+      "p95_ms": 0.446,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "fixed-bm25",
+      "category": "boundary",
+      "samples": 8,
+      "passed": 7,
+      "evidence_success_rate": 0.875,
+      "p50_ms": 0.37,
+      "p95_ms": 0.407,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "fixed-bm25",
+      "category": "exact",
+      "samples": 8,
+      "passed": 8,
+      "evidence_success_rate": 1.0,
+      "p50_ms": 0.309,
+      "p95_ms": 0.901,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "fixed-bm25",
+      "category": "negation",
+      "samples": 8,
+      "passed": 8,
+      "evidence_success_rate": 1.0,
+      "p50_ms": 0.363,
+      "p95_ms": 0.529,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "fixed-bm25",
+      "category": "paraphrase",
+      "samples": 8,
+      "passed": 8,
+      "evidence_success_rate": 1.0,
+      "p50_ms": 0.351,
+      "p95_ms": 0.402,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "fixed-bm25",
+      "category": "unknown",
+      "samples": 8,
+      "passed": 0,
+      "evidence_success_rate": 0.0,
+      "p50_ms": 0.257,
+      "p95_ms": 0.368,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "keyword-rule",
+      "category": "all",
+      "samples": 40,
+      "passed": 25,
+      "evidence_success_rate": 0.625,
+      "p50_ms": 0.001,
+      "p95_ms": 0.001,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "keyword-rule",
+      "category": "boundary",
+      "samples": 8,
+      "passed": 5,
+      "evidence_success_rate": 0.625,
+      "p50_ms": 0.001,
+      "p95_ms": 0.001,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "keyword-rule",
+      "category": "exact",
+      "samples": 8,
+      "passed": 4,
+      "evidence_success_rate": 0.5,
+      "p50_ms": 0.001,
+      "p95_ms": 0.004,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "keyword-rule",
+      "category": "negation",
+      "samples": 8,
+      "passed": 6,
+      "evidence_success_rate": 0.75,
+      "p50_ms": 0.001,
+      "p95_ms": 0.001,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "keyword-rule",
+      "category": "paraphrase",
+      "samples": 8,
+      "passed": 2,
+      "evidence_success_rate": 0.25,
+      "p50_ms": 0.001,
+      "p95_ms": 0.001,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    {
+      "system": "keyword-rule",
+      "category": "unknown",
+      "samples": 8,
+      "passed": 8,
+      "evidence_success_rate": 1.0,
+      "p50_ms": 0.001,
+      "p95_ms": 0.001,
+      "decision_calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  ],
+  "results": [
+    {
+      "case_id": "exact-01",
+      "category": "exact",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": true,
+      "latency_ms": 0.004,
+      "run": null
+    },
+    {
+      "case_id": "exact-01",
+      "category": "exact",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": true,
+      "latency_ms": 0.901,
+      "run": null
+    },
+    {
+      "case_id": "exact-01",
+      "category": "exact",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": true,
+      "latency_ms": 0.639,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "tcm-four-examinations"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.639,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "exact-02",
+      "category": "exact",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "exact-02",
+      "category": "exact",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": true,
+      "latency_ms": 0.24,
+      "run": null
+    },
+    {
+      "case_id": "exact-02",
+      "category": "exact",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": true,
+      "latency_ms": 0.341,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "tcm-four-examinations"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.341,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "exact-03",
+      "category": "exact",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "exact-03",
+      "category": "exact",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": true,
+      "latency_ms": 0.272,
+      "run": null
+    },
+    {
+      "case_id": "exact-03",
+      "category": "exact",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": true,
+      "latency_ms": 0.364,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "tcm-four-examinations"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.364,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "exact-04",
+      "category": "exact",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "exact-04",
+      "category": "exact",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": true,
+      "latency_ms": 0.234,
+      "run": null
+    },
+    {
+      "case_id": "exact-04",
+      "category": "exact",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": true,
+      "latency_ms": 0.333,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "tcm-four-examinations"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.333,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "paraphrase-01",
+      "category": "paraphrase",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-01",
+      "category": "paraphrase",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "visit-complaint"
+      ],
+      "passed": true,
+      "latency_ms": 0.399,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-01",
+      "category": "paraphrase",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.043,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.043,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "paraphrase-02",
+      "category": "paraphrase",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-02",
+      "category": "paraphrase",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "visit-complaint"
+      ],
+      "passed": true,
+      "latency_ms": 0.368,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-02",
+      "category": "paraphrase",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.035,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.035,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "paraphrase-03",
+      "category": "paraphrase",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-03",
+      "category": "paraphrase",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "visit-complaint"
+      ],
+      "passed": true,
+      "latency_ms": 0.344,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-03",
+      "category": "paraphrase",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.034,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.034,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "paraphrase-04",
+      "category": "paraphrase",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "visit-complaint"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-04",
+      "category": "paraphrase",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "visit-complaint"
+      ],
+      "passed": true,
+      "latency_ms": 0.362,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-04",
+      "category": "paraphrase",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.033,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.033,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "negation-01",
+      "category": "negation",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "negation-01",
+      "category": "negation",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "visit-medication"
+      ],
+      "passed": true,
+      "latency_ms": 0.316,
+      "run": null
+    },
+    {
+      "case_id": "negation-01",
+      "category": "negation",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.033,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.033,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "negation-02",
+      "category": "negation",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "visit-medication"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "negation-02",
+      "category": "negation",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "visit-medication"
+      ],
+      "passed": true,
+      "latency_ms": 0.529,
+      "run": null
+    },
+    {
+      "case_id": "negation-02",
+      "category": "negation",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "visit-medication"
+      ],
+      "passed": true,
+      "latency_ms": 0.601,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "visit-medication"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.601,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "negation-03",
+      "category": "negation",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "negation-03",
+      "category": "negation",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "visit-medication"
+      ],
+      "passed": true,
+      "latency_ms": 0.38,
+      "run": null
+    },
+    {
+      "case_id": "negation-03",
+      "category": "negation",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.077,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.077,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "negation-04",
+      "category": "negation",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "visit-medication"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "negation-04",
+      "category": "negation",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "visit-medication"
+      ],
+      "passed": true,
+      "latency_ms": 0.344,
+      "run": null
+    },
+    {
+      "case_id": "negation-04",
+      "category": "negation",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.035,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.035,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "boundary-01",
+      "category": "boundary",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "tcm-syndrome"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "boundary-01",
+      "category": "boundary",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "tcm-syndrome"
+      ],
+      "passed": true,
+      "latency_ms": 0.295,
+      "run": null
+    },
+    {
+      "case_id": "boundary-01",
+      "category": "boundary",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "tcm-syndrome"
+      ],
+      "passed": true,
+      "latency_ms": 0.394,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "tcm-syndrome"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.394,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "boundary-02",
+      "category": "boundary",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "tcm-syndrome"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "boundary-02",
+      "category": "boundary",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "tcm-syndrome"
+      ],
+      "passed": true,
+      "latency_ms": 0.407,
+      "run": null
+    },
+    {
+      "case_id": "boundary-02",
+      "category": "boundary",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.035,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.035,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "boundary-03",
+      "category": "boundary",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "boundary-03",
+      "category": "boundary",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "tcm-syndrome"
+      ],
+      "passed": true,
+      "latency_ms": 0.395,
+      "run": null
+    },
+    {
+      "case_id": "boundary-03",
+      "category": "boundary",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.032,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.032,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "boundary-04",
+      "category": "boundary",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "boundary-04",
+      "category": "boundary",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "tcm-syndrome"
+      ],
+      "passed": true,
+      "latency_ms": 0.404,
+      "run": null
+    },
+    {
+      "case_id": "boundary-04",
+      "category": "boundary",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "tcm-syndrome"
+      ],
+      "passed": true,
+      "latency_ms": 0.492,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "tcm-syndrome"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.492,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "boundary-05",
+      "category": "boundary",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "photo-limit"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "boundary-05",
+      "category": "boundary",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "photo-limit"
+      ],
+      "passed": true,
+      "latency_ms": 0.322,
+      "run": null
+    },
+    {
+      "case_id": "boundary-05",
+      "category": "boundary",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "photo-limit"
+      ],
+      "passed": true,
+      "latency_ms": 0.41,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "photo-limit"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.41,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "boundary-06",
+      "category": "boundary",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "photo-limit"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "boundary-06",
+      "category": "boundary",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "photo-limit"
+      ],
+      "passed": true,
+      "latency_ms": 0.374,
+      "run": null
+    },
+    {
+      "case_id": "boundary-06",
+      "category": "boundary",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "photo-limit"
+      ],
+      "passed": true,
+      "latency_ms": 0.456,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "photo-limit"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.456,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "boundary-07",
+      "category": "boundary",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "boundary-07",
+      "category": "boundary",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "photo-limit"
+      ],
+      "passed": true,
+      "latency_ms": 0.308,
+      "run": null
+    },
+    {
+      "case_id": "boundary-07",
+      "category": "boundary",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.034,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.034,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "boundary-08",
+      "category": "boundary",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "photo-limit"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "boundary-08",
+      "category": "boundary",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": false,
+      "latency_ms": 0.37,
+      "run": null
+    },
+    {
+      "case_id": "boundary-08",
+      "category": "boundary",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.032,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.032,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "paraphrase-05",
+      "category": "paraphrase",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-05",
+      "category": "paraphrase",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "privacy-consent"
+      ],
+      "passed": true,
+      "latency_ms": 0.402,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-05",
+      "category": "paraphrase",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.031,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.031,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "paraphrase-06",
+      "category": "paraphrase",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-06",
+      "category": "paraphrase",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "privacy-consent"
+      ],
+      "passed": true,
+      "latency_ms": 0.351,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-06",
+      "category": "paraphrase",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.032,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.032,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "paraphrase-07",
+      "category": "paraphrase",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-07",
+      "category": "paraphrase",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "privacy-consent"
+      ],
+      "passed": true,
+      "latency_ms": 0.334,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-07",
+      "category": "paraphrase",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.031,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.031,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "paraphrase-08",
+      "category": "paraphrase",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "privacy-consent"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-08",
+      "category": "paraphrase",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "privacy-consent"
+      ],
+      "passed": true,
+      "latency_ms": 0.348,
+      "run": null
+    },
+    {
+      "case_id": "paraphrase-08",
+      "category": "paraphrase",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "privacy-consent"
+      ],
+      "passed": true,
+      "latency_ms": 0.441,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "privacy-consent"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.441,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "negation-05",
+      "category": "negation",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "negation-05",
+      "category": "negation",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": true,
+      "latency_ms": 0.405,
+      "run": null
+    },
+    {
+      "case_id": "negation-05",
+      "category": "negation",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": true,
+      "latency_ms": 0.494,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "summary-fidelity"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.494,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "negation-06",
+      "category": "negation",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "negation-06",
+      "category": "negation",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": true,
+      "latency_ms": 0.363,
+      "run": null
+    },
+    {
+      "case_id": "negation-06",
+      "category": "negation",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": true,
+      "latency_ms": 0.453,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "summary-fidelity"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.453,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "negation-07",
+      "category": "negation",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "negation-07",
+      "category": "negation",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": true,
+      "latency_ms": 0.335,
+      "run": null
+    },
+    {
+      "case_id": "negation-07",
+      "category": "negation",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.035,
+      "run": {
+        "action": "summary",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.035,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "negation-08",
+      "category": "negation",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "negation-08",
+      "category": "negation",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": true,
+      "latency_ms": 0.369,
+      "run": null
+    },
+    {
+      "case_id": "negation-08",
+      "category": "negation",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.068,
+      "run": {
+        "action": "summary",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.068,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "exact-05",
+      "category": "exact",
+      "system": "keyword-rule",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "exact-05",
+      "category": "exact",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": true,
+      "latency_ms": 0.309,
+      "run": null
+    },
+    {
+      "case_id": "exact-05",
+      "category": "exact",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": true,
+      "latency_ms": 0.398,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "knowledge-limits"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.398,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "exact-06",
+      "category": "exact",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "exact-06",
+      "category": "exact",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": true,
+      "latency_ms": 0.326,
+      "run": null
+    },
+    {
+      "case_id": "exact-06",
+      "category": "exact",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": true,
+      "latency_ms": 0.413,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "knowledge-limits"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.413,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "exact-07",
+      "category": "exact",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "exact-07",
+      "category": "exact",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": true,
+      "latency_ms": 0.324,
+      "run": null
+    },
+    {
+      "case_id": "exact-07",
+      "category": "exact",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.035,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.035,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "exact-08",
+      "category": "exact",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "exact-08",
+      "category": "exact",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": true,
+      "latency_ms": 0.446,
+      "run": null
+    },
+    {
+      "case_id": "exact-08",
+      "category": "exact",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.033,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.033,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "unknown-01",
+      "category": "unknown",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "unknown-01",
+      "category": "unknown",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": false,
+      "latency_ms": 0.274,
+      "run": null
+    },
+    {
+      "case_id": "unknown-01",
+      "category": "unknown",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": false,
+      "latency_ms": 0.351,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "knowledge-limits"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.351,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "unknown-02",
+      "category": "unknown",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "unknown-02",
+      "category": "unknown",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": false,
+      "latency_ms": 0.213,
+      "run": null
+    },
+    {
+      "case_id": "unknown-02",
+      "category": "unknown",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "summary-fidelity"
+      ],
+      "passed": false,
+      "latency_ms": 0.299,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "summary-fidelity"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.299,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "unknown-03",
+      "category": "unknown",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "unknown-03",
+      "category": "unknown",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": false,
+      "latency_ms": 0.257,
+      "run": null
+    },
+    {
+      "case_id": "unknown-03",
+      "category": "unknown",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": false,
+      "latency_ms": 0.341,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "knowledge-limits"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.341,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "unknown-04",
+      "category": "unknown",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "unknown-04",
+      "category": "unknown",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": false,
+      "latency_ms": 0.208,
+      "run": null
+    },
+    {
+      "case_id": "unknown-04",
+      "category": "unknown",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": false,
+      "latency_ms": 0.294,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "knowledge-limits"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.294,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "unknown-05",
+      "category": "unknown",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "unknown-05",
+      "category": "unknown",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "privacy-consent"
+      ],
+      "passed": false,
+      "latency_ms": 0.221,
+      "run": null
+    },
+    {
+      "case_id": "unknown-05",
+      "category": "unknown",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.032,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.032,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "unknown-06",
+      "category": "unknown",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "unknown-06",
+      "category": "unknown",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": false,
+      "latency_ms": 0.309,
+      "run": null
+    },
+    {
+      "case_id": "unknown-06",
+      "category": "unknown",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": false,
+      "latency_ms": 0.398,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "knowledge-limits"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.398,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "unknown-07",
+      "category": "unknown",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "unknown-07",
+      "category": "unknown",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "tcm-four-examinations"
+      ],
+      "passed": false,
+      "latency_ms": 0.307,
+      "run": null
+    },
+    {
+      "case_id": "unknown-07",
+      "category": "unknown",
+      "system": "agent-runtime",
+      "selected_ids": [],
+      "passed": false,
+      "latency_ms": 0.036,
+      "run": {
+        "action": "ask",
+        "citation_ids": [],
+        "error": "",
+        "steps": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.036,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "unknown-08",
+      "category": "unknown",
+      "system": "keyword-rule",
+      "selected_ids": [],
+      "passed": true,
+      "latency_ms": 0.001,
+      "run": null
+    },
+    {
+      "case_id": "unknown-08",
+      "category": "unknown",
+      "system": "fixed-bm25",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": false,
+      "latency_ms": 0.368,
+      "run": null
+    },
+    {
+      "case_id": "unknown-08",
+      "category": "unknown",
+      "system": "agent-runtime",
+      "selected_ids": [
+        "knowledge-limits"
+      ],
+      "passed": false,
+      "latency_ms": 0.453,
+      "run": {
+        "action": "knowledge",
+        "citation_ids": [
+          "knowledge-limits"
+        ],
+        "error": "",
+        "steps": 2,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "elapsed_ms": 0.453,
+        "events": [
+          {
+            "kind": "model_step",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 1,
+            "calls": [
+              "search_knowledge"
+            ],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 1,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "model_step",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "decision",
+            "step": 2,
+            "calls": [
+              "submit_turn"
+            ],
+            "observation_count": 1,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "tool_started",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          },
+          {
+            "kind": "validated",
+            "step": 2,
+            "calls": [],
+            "observation_count": 0,
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "child_exit": 73,
+  "before_expiry": "request_in_progress",
+  "stale_worker": "operation_lease_lost",
+  "version_after_stale": 0,
+  "committed_version": 1,
+  "replay_identical": true,
+  "scope": "Real SQLite child process crash; expiry timestamp controlled by SQL, no wall-clock sleep. Not PostgreSQL, failover or power-loss durability."
+}

@@ -23,6 +23,7 @@ DIRECTORIES: Final = (
     "ui",
     "docs/images",
     "labs",
+    "exercises",
 )
 FILES: Final = (
     "README.md",
