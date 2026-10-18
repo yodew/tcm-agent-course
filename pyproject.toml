@@ -1,6 +1,6 @@
 [project]
 name = "tcm-agent-course"
-version = "1.4.0"
+version = "1.5.0"
 description = "Verifiable Python agent engineering course and visit-preparation service"
 readme = "README.md"
 requires-python = ">=3.12,<3.15"

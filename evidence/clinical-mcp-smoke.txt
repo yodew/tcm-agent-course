@@ -1,0 +1,10 @@
+[10/18/26 22:33:42] INFO     Processing request of type            server.py:733
+                             ListToolsRequest
+                    INFO     Processing request of type            server.py:733
+                             CallToolRequest
+                    INFO     Processing request of type            server.py:733
+                             CallToolRequest
+PASS: MCP discovery → indexed retrieval → exact evidence resolution
+literature-insomnia-heart-spleen 睡眠相关主诉的历史研究特征整理：心脾两虚
+source: https://doi.org/10.1155/2012/735078
+clinical_use: disabled

@@ -3,8 +3,8 @@ Using CPython 3.12.13
 Creating virtual environment at: .venv
    Building tcm-agent-course @ file:///private<temporary-build-directory>
       Built tcm-agent-course @ file:///private<temporary-build-directory>
-Prepared 1 package in 157ms
-Installed 180 packages in 293ms
+Prepared 1 package in 164ms
+Installed 180 packages in 222ms
  + aiofiles==25.1.0
  + aiohappyeyeballs==2.7.1
  + aiohttp==3.14.5
@@ -164,7 +164,7 @@ Installed 180 packages in 293ms
  + sse-starlette==3.5.0
  + starlette==1.8.0
  + syncer==2.0.3
- + tcm-agent-course==1.4.0 (from file:///private<temporary-build-directory>)
+ + tcm-agent-course==1.5.0 (from file:///private<temporary-build-directory>)
  + tenacity==9.2.1
  + tinycss2==1.5.1
  + tomli==2.5.0
@@ -193,8 +193,8 @@ Schema upgraded to head.
 
 uv run tcm run --text 什么是四诊？
 {
-  "turn_id": "335f978a-0a86-4b19-8dd1-d42b95866250",
-  "session_id": "6c557f9c-5203-4a27-8eef-e51990aa61eb",
+  "turn_id": "10405199-2762-4d0a-9bfd-2874421e2dfd",
+  "session_id": "05613c2a-41c3-4ea3-b66c-ade56e2f602c",
   "version": 1,
   "action": "knowledge",
   "answer": "四诊指望、闻、问、切，是中医收集信息的传统方法。本课程助手只能整理用户提供的资料，不能通过文字或照片替代医师的完整诊察。",
@@ -220,12 +220,12 @@ uv run tcm run --text 什么是四诊？
 
 
 uv run pytest -q
-........................................................................ [ 67%]
-........s.....s...................                                       [100%]
+........................................................................ [ 60%]
+......................s.....s...................                         [100%]
 =========================== short test summary info ============================
 SKIPPED [1] tests/test_live.py:15: Real provider explicitly opt-in
 SKIPPED [1] tests/test_postgres.py:15: PostgreSQL explicitly opt-in
-104 passed, 2 skipped in 2.18s
+118 passed, 2 skipped in 3.31s
 
 
 uv run pytest exercises/acceptance.py -q
@@ -297,3 +297,26 @@ uv run python scripts/clinical_knowledge.py audit
   "clinical_inference_enabled": false,
   "scope": "Collection, provenance and schema validation only; not clinical validation"
 }
+
+
+uv run python scripts/clinical_knowledge.py build-index
+{
+  "index_version": "clinical-fts5-v1",
+  "document_count": 1205,
+  "content_sha256": "1d8e7152363d86fa3b678887fe1a7c66608a4e1dd4c4e5949169474c9b0bb234",
+  "retrieval": "SQLite FTS5 BM25; Chinese bigrams and single-character fallback",
+  "clinical_inference_enabled": false
+}
+
+
+uv run python examples/clinical_mcp_client.py
+PASS: MCP discovery → indexed retrieval → exact evidence resolution
+literature-insomnia-heart-spleen 睡眠相关主诉的历史研究特征整理：心脾两虚
+source: https://doi.org/10.1155/2012/735078
+clinical_use: disabled
+[10/18/26 22:35:12] INFO     Processing request of type            server.py:733
+                             ListToolsRequest
+                    INFO     Processing request of type            server.py:733
+                             CallToolRequest
+                    INFO     Processing request of type            server.py:733
+                             CallToolRequest

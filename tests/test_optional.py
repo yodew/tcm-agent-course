@@ -35,6 +35,10 @@ async def test_mcp_when_real_subprocess_started_discovers_and_calls_tool() -> No
         listed = await session.list_tools()
         result = await session.call_tool("search_public_knowledge", {"query": "四诊"})
     # Then
-    assert [tool.name for tool in listed.tools] == ["search_public_knowledge"]
+    assert {tool.name for tool in listed.tools} == {
+        "search_public_knowledge",
+        "search_clinical_references",
+        "get_clinical_document",
+    }
     assert result.isError is False
     assert result.content

@@ -38,6 +38,8 @@ def main() -> None:
             ("run", "python", "-m", "labs.run_all"),
             ("run", "python", "scripts/check_course.py"),
             ("run", "python", "scripts/clinical_knowledge.py", "audit"),
+            ("run", "python", "scripts/clinical_knowledge.py", "build-index"),
+            ("run", "python", "examples/clinical_mcp_client.py"),
         )
         for arguments in commands:
             result = subprocess.run(  # noqa: S603

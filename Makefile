@@ -10,6 +10,8 @@ check:
 	uv run python -m labs.run_all
 	uv run python scripts/check_course.py
 	uv run python scripts/clinical_knowledge.py audit
+	uv run python scripts/clinical_knowledge.py build-index
+	uv run --extra mcp python examples/clinical_mcp_client.py
 serve:
 	uv run tcm serve
 test:

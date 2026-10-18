@@ -1,0 +1,7 @@
+{
+  "index_version": "clinical-fts5-v1",
+  "document_count": 1205,
+  "content_sha256": "1d8e7152363d86fa3b678887fe1a7c66608a4e1dd4c4e5949169474c9b0bb234",
+  "retrieval": "SQLite FTS5 BM25; Chinese bigrams and single-character fallback",
+  "clinical_inference_enabled": false
+}

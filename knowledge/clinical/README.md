@@ -1,6 +1,6 @@
-# 问诊、诊断与辨证研究知识包 v0.1
+# 问诊、诊断与辨证研究知识库 v0.2
 
-整理日期：2026-10-18。本包为新版多模态辅助问诊方向准备数据与接口合同。当前运行的问诊准备服务仍使用原有教学知识；本包没有接入患者诊断流程，没有把模型改成可独立确诊的系统。
+整理日期：2026-10-18。本库为新版多模态辅助问诊方向提供结构化资料、可持久化的全文索引和只读 Agent 工具。当前运行的问诊准备服务仍使用原有教学知识；本包没有接入患者诊断流程，没有把模型改成可独立确诊的系统。
 
 已经实际完成采集与整理，而非待办目录：
 
@@ -17,24 +17,36 @@
 
 数量由 [实际审计](../../evidence/clinical-knowledge-audit.json) 生成。200 条 TCMEval 训练记录可以包含多个证候标签，因此候选证候数可以大于病例数；不能把每个标签当作一个独立患者。术语也有跨来源重复标签合并，合并只针对同一种类的完全相同文本，不自动进行繁简转换或医学同义归并。
 
-## 为什么采用结构化数据，而不直接建向量库
+## 已转成可实际调用的知识库
 
-问题、患者观察、证候标签、诊断标准和病例关联的含义不同。向量检索只能找到相近文本，无法自动提供必要条件、排除条件或诊断阈值。因此先使用可版本控制的 JSON 和 Pydantic 合同；以后需要 RAG 时，再为允许的文本建立索引，而不是把所有数据直接批准进入诊断 Prompt。
+结构化 JSON 是可追溯的源数据；现在已有独立的转换、索引、检索和引用回查链路，不再只是资料目录。共生成 **1,205 份检索文档**：63 份问诊、845 份术语、294 份语料共现卡、3 份文献参考。769 条共现关系收在对应证候卡里，保留来源记录计数，没有作为 769 个独立医学依据重复检索。
+
+| 层次 | 已实现内容 |
+|---|---|
+| 源数据 | 严格合同、固定来源版本、许可和引用定位 |
+| 文档转换 | 稳定文档 ID；每份文档附证据类型、来源、许可和局限 |
+| 检索索引 | 本地 SQLite FTS5 + BM25；中文双字词、单字回退，标题加权 |
+| 检索接口 | 分类过滤、最多 20 条结果、文档 ID 精确回查 |
+| Agent 工具 | MCP 的 search_clinical_references、get_clinical_document |
+| 更新保护 | 文档内容和来源元数据指纹；变更后拒绝使用旧索引，原子重建 |
+| 可移植输出 | JSONL 文档及指纹，供后续接入嵌入模型和向量库 |
 
 ```mermaid
 flowchart LR
-    A[固定版本公开来源] --> B[许可与用途登记]
-    B --> C[允许字段投影与来源定位]
-    C --> D[术语与描述性关联]
-    E[官方四诊规范解读] --> F[原创问诊采集草案]
-    G[开放文献] --> H[有限特征参考卡]
-    D --> I[研究包校验与只读检索]
-    F --> I
-    H --> I
-    I --> J[后续专病依据核查与临床验证]
+    A[固定版本公开来源] --> B[许可登记与字段投影]
+    B --> C[结构化 JSON 与引用定位]
+    C --> D[1205 份自带来源及局限的检索文档]
+    D --> E[SQLite FTS5 持久索引]
+    D --> F[JSONL 可移植文档]
+    G[Agent 检索请求] --> H[MCP 只读工具]
+    H --> E
+    E --> I[分类结果与稳定文档 ID]
+    I --> J[原始 URL 版本 许可 定位]
 ```
 
-最后一个节点尚未完成，不通过一个 JSON 的 approved=true 开关跳过。当前所有候选与文献卡的 clinical_use 固定为 disabled；`require_clinical_ready()` 明确拒绝进入诊断。这个限制是对数据证据状态的真实表达，不妨碍查看、整理和对接。
+**可检索不等于已获得临床诊断资格。** 每条返回结果保留 clinical_use=disabled；这表示资料尚未完成临床验证，而不是关闭检索。BM25 relevance 只表示文字匹配程度，不是诊断概率。`corpus_association` 是病例标签共现，`literature_reference` 是历史文献参考，两者不会自动升级为诊断标准。
+
+知识库已经可以由支持 MCP 的 Agent 调用。当前主服务的问诊准备流程仍使用原有工具注册表；本次没有声称已将其升级为诊断 Agent，也未完成 DeepSeek 或面舌脉诊 API 接入。
 
 ## 已采集的两个开源数据源
 
@@ -83,6 +95,15 @@ uv run python scripts/clinical_knowledge.py audit
 uv run python scripts/clinical_knowledge.py questions --profile sleep --limit 8
 uv run python scripts/clinical_knowledge.py search --query 心脾
 uv run python scripts/clinical_knowledge.py schemas
+
+# 首次构建：无需模型服务、密钥或重新下载原始病例
+uv run python scripts/clinical_knowledge.py build-index
+uv run python scripts/clinical_knowledge.py query --query 心脾两虚 --kind literature_reference --limit 3
+uv run python scripts/clinical_knowledge.py query --query 睡眠 --kind question --limit 3
+uv run python scripts/clinical_knowledge.py document literature-insomnia-heart-spleen
+
+# 真实 MCP 客户端会启动服务、发现工具、检索和回查引用
+uv run --extra mcp python examples/clinical_mcp_client.py
 ```
 
 重建上游派生数据：
@@ -95,4 +116,6 @@ uv run pytest tests/test_clinical_knowledge.py -q
 
 collector 只访问 inputs.json 中固定提交的公开原始文件和许可声明，校验 SHA256 后保存在被忽略的 tmp/；不执行外部代码，不读取模型密钥。builder 使用严格字段投影，输出可以离线审计。源码包不携带原始病例和下载的原始文件。若来源文件变化，哈希不符会拒绝，不偷偷接受新版本。
 
-[对接合同](INTEGRATION.md) 说明明天面舌诊与脉诊示例到达后如何映射。原服务仍使用 knowledge/entries.json；临床研究包与当前教学检索不会混合。
+[对接合同](INTEGRATION.md) 说明明天面舌诊与脉诊示例到达后如何映射。索引位于被忽略的 `data/clinical-index.sqlite`，导出文档位于 `data/clinical-documents.jsonl`，不提交二进制数据库或运行数据。修改源资料后重新执行 build-index；旧索引会被拒绝。当前是词法检索，不宣称支持语义同义词、患者诊断或已经完成临床准确率评测。后续可从导出文档建立向量索引，仍需保留分类和来源限制。
+
+实现参见 [文档转换](../../src/tcm_agent/clinical/documents.py)、[索引与检索](../../src/tcm_agent/clinical/index.py)、[MCP 服务](../../examples/mcp_server.py)、[检索测试](../../tests/test_clinical_index.py)。原服务仍使用 knowledge/entries.json。

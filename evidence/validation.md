@@ -9,18 +9,25 @@
 | 依赖安装 | `uv sync --all-extras --frozen` | 源码 ZIP 解压到独立临时目录，重新同步依赖、迁移、运行、测试与课程检查均通过；[干净安装记录](clean-install.txt) |
 | 类型检查 | `uv run basedpyright` | 核心应用 `src/tcm_agent`、`labs` 与作业参考实现：0 errors、0 warnings；源码规则审计包含 UI，无违规 |
 | 静态检查 | `uv run ruff check src tests examples scripts ui labs exercises` | 无问题；格式检查单独执行 |
-| 自动化行为 | `uv run pytest --cov=tcm_agent` | 104 passed、2 skipped；[完整结果](tests.txt) |
-| 代码覆盖 | pytest-cov statement coverage | 87%；[机器报告](coverage.json)。CLI、浏览器与评测另行执行，未计入该测试进程覆盖率 |
+| 自动化行为 | `uv run pytest --cov=tcm_agent` | 118 passed、2 skipped；[完整结果](tests.txt) |
+| 代码覆盖 | pytest-cov statement coverage | 88%；[机器报告](coverage.json)。CLI、浏览器与评测另行执行，未计入该测试进程覆盖率 |
 | 双模型协议 | HTTP-level MockTransport 合同测试 | 两种请求格式、调用结果关联、推理条目重放、截断/错误拒绝；不是用户平台连通测试 |
 | 会话与隔离 | FastAPI TestClient + 真实 SQLite | 授权、确认、摘要、来源校验、重放、并发冲突、删除、SSE |
 | 崩溃与取消 | 真实 SQLite、可控租约/任务取消 | 旧租约被拒绝且回滚，取消后相同请求可重试 |
 | 真实 HTTP | 独立 uvicorn 进程 + smoke 客户端 | 创建 201、提交/确认 200、摘要忠实、重放一致、SSE 阶段事件、导出 2 回合、删除 204；[结果](http-smoke.json) |
-| MCP | 真实 stdio 子进程初始化、发现与调用 | 唯一公共检索工具；[结果](mcp-smoke.txt) |
+| MCP | 真实 stdio 子进程初始化、发现与调用 | 原公共检索及新增临床资料检索/回查；[原工具](mcp-smoke.txt)、[知识库工具](clinical-mcp-smoke.txt) |
 | LangGraph | 实际执行条件图两个分支 | 知识分支完成，风险分支 handoff；[结果](graph-smoke.jsonl) |
 | 小样本检索 | `uv run tcm evaluate` | 8 条原创教学问题，Recall@4=1、MRR@4=1；[逐题结果](retrieval-eval.json) |
 | 图文课程 | 构建与链接脚本、Python 节选语法检查 | 30 个完整学习节点、80 道六段式答案、16 组 PNG/SVG/Mermaid；源码同步、Python 语法与本地锚点通过 |
 | Chainlit HTTP 适配 | MockTransport + 真实 FastAPI/SQLite | 同请求重试、截断流拒绝、错误体脱敏、明确版本冲突、确认/撤回/删除和跨身份隔离 |
 | Chainlit 浏览器 | 本机 Chainlit 2.12.0 + 真实独立 API 进程 | 登录、同意、对话、确认前后摘要、撤回、知识引用与删除后清屏；[桌面实图](../docs/images/chainlit.png)、[手机实图](../docs/images/chainlit-mobile.png)、[验收范围](ui-validation.md) |
+
+## v1.5 可运行知识库验收（2026-10-18）
+
+- 结构化源转换成 1,205 份独立检索文档；持久化 SQLite FTS5/BM25 索引、分类检索、文档 ID 引用回查、JSONL 导出及来源变更拒绝均已实现。
+- 新增 14 项行为/参数化测试，覆盖实际来源检索、分类、诊断限制、无匹配、FTS 运算符输入、查询限制、精确回查、来源变更、缺失索引与可重复导出。完整套件 118 passed / 2 skipped。
+- 真实 MCP 子进程完成工具发现、心脾两虚文献检索与引用回查；[记录](clinical-mcp-smoke.txt)、[索引清单](clinical-index-manifest.json)。这不是调用模型完成问诊或诊断的测试。
+- 不需要模型密钥；索引和 JSONL 输出保存在忽略的 data/。没有接入患者诊断流程、真实模型/嵌入服务或面舌脉 API。当前为词法检索，不宣称语义召回或临床准确率。
 
 ## v1.4 研究知识包验收（2026-10-18）
 

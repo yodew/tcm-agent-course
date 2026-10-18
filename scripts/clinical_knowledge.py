@@ -22,6 +22,8 @@ from tcm_agent.clinical.contracts import (
     Source,
     Term,
 )
+from tcm_agent.clinical.documents import DocumentKind
+from tcm_agent.clinical.index import ClinicalIndex, build_index, export_documents
 from tcm_agent.clinical.store import ResearchKnowledge
 
 ROOT: Final = Path(__file__).resolve().parents[1]
@@ -82,6 +84,34 @@ def schemas() -> None:
             json.dumps(contract.model_json_schema(), ensure_ascii=False, indent=2) + "\n"
         )
     print(f"{len(contracts)} JSON Schemas exported")
+
+
+@app.command("build-index")
+def build() -> None:
+    """Convert structured sources to a persistent searchable research knowledge base."""
+    manifest = build_index(ROOT / "knowledge/clinical", ROOT / "data/clinical-index.sqlite")
+    export_documents(ROOT / "knowledge/clinical", ROOT / "data/clinical-documents.jsonl")
+    print(manifest.model_dump_json(indent=2))
+
+
+@app.command()
+def query(
+    query: Annotated[str, typer.Option()],
+    kind: Annotated[DocumentKind | None, typer.Option()] = None,
+    limit: Annotated[int, typer.Option(min=1, max=20)] = 5,
+) -> None:
+    """Search actual indexed content, including source URLs, licenses and limitations."""
+    index = ClinicalIndex(ROOT / "knowledge/clinical", ROOT / "data/clinical-index.sqlite")
+    hits = index.search(query, kind=kind, limit=limit)
+    print(json.dumps([hit.model_dump() for hit in hits], ensure_ascii=False, indent=2))
+
+
+@app.command()
+def document(document_id: str) -> None:
+    """Resolve an indexed document ID to its complete evidence."""
+    index = ClinicalIndex(ROOT / "knowledge/clinical", ROOT / "data/clinical-index.sqlite")
+    row = index.document(document_id)
+    print(row.model_dump_json(indent=2) if row else "null")
 
 
 if __name__ == "__main__":
