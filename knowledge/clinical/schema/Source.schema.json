@@ -1,0 +1,70 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "url": {
+      "title": "Url",
+      "type": "string"
+    },
+    "publisher": {
+      "title": "Publisher",
+      "type": "string"
+    },
+    "checked_on": {
+      "title": "Checked On",
+      "type": "string"
+    },
+    "version": {
+      "title": "Version",
+      "type": "string"
+    },
+    "license": {
+      "title": "License",
+      "type": "string"
+    },
+    "license_url": {
+      "title": "License Url",
+      "type": "string"
+    },
+    "rights_scope": {
+      "title": "Rights Scope",
+      "type": "string"
+    },
+    "uses": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Uses",
+      "type": "array"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "source_id",
+    "title",
+    "url",
+    "publisher",
+    "checked_on",
+    "version",
+    "license",
+    "license_url",
+    "rights_scope",
+    "uses",
+    "limitations"
+  ],
+  "title": "Source",
+  "type": "object"
+}

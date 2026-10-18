@@ -1,0 +1,92 @@
+[
+  {
+    "card_id": "literature-insomnia-heart-spleen",
+    "source_id": "poon-insomnia-2012",
+    "topic": "睡眠相关主诉的历史研究特征整理",
+    "pattern_label": "心脾两虚",
+    "related_features": [
+      "入睡或维持睡眠困难",
+      "心悸、乏力或食欲减退等伴随表现",
+      "舌淡伴薄苔",
+      "细弱脉"
+    ],
+    "question_links": [
+      "sleep.main",
+      "sleep.awakening",
+      "diet.appetite",
+      "quality.tongue_time",
+      "quality.pulse_time"
+    ],
+    "locator": "Table 2, deficiency patterns, publisher PDF page 6 / journal numbered page 6",
+    "limitations": [
+      "这些为综述中描述的相关表现，不是每项必有的必要条件",
+      "证候间存在重叠，不能据单一舌脉结果确诊或排除",
+      "没有根据原文推导分值、权重、诊断概率或满足几项即可确诊的规则",
+      "不用于急症、儿童、妊娠或已知特殊疾病人群的自动推断"
+    ],
+    "required_criteria": null,
+    "exclusion_criteria": null,
+    "evidence_kind": "literature_feature_summary",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "literature-insomnia-yin-fire",
+    "source_id": "poon-insomnia-2012",
+    "topic": "睡眠相关主诉的历史研究特征整理",
+    "pattern_label": "阴虚火旺",
+    "related_features": [
+      "入睡或维持睡眠困难",
+      "口干、耳鸣或五心烦热等伴随表现",
+      "舌红或少苔",
+      "细数脉"
+    ],
+    "question_links": [
+      "sleep.main",
+      "diet.thirst",
+      "cold_heat.sensation",
+      "quality.tongue_time",
+      "quality.pulse_time"
+    ],
+    "locator": "Table 2, deficiency patterns, publisher PDF page 6 / journal numbered page 6",
+    "limitations": [
+      "这些为综述中描述的相关表现，不是每项必有的必要条件",
+      "证候间存在重叠，不能据单一舌脉结果确诊或排除",
+      "没有根据原文推导分值、权重、诊断概率或满足几项即可确诊的规则",
+      "不用于急症、儿童、妊娠或已知特殊疾病人群的自动推断"
+    ],
+    "required_criteria": null,
+    "exclusion_criteria": null,
+    "evidence_kind": "literature_feature_summary",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "literature-insomnia-heart-gallbladder",
+    "source_id": "poon-insomnia-2012",
+    "topic": "睡眠相关主诉的历史研究特征整理",
+    "pattern_label": "心胆气虚",
+    "related_features": [
+      "多梦或易惊醒等睡眠表现",
+      "心悸、易惊或乏力等伴随表现",
+      "舌淡或薄苔",
+      "细弦脉"
+    ],
+    "question_links": [
+      "sleep.main",
+      "sleep.awakening",
+      "emotion.mood",
+      "quality.tongue_time",
+      "quality.pulse_time"
+    ],
+    "locator": "Table 2, deficiency patterns, publisher PDF page 6 / journal numbered page 6",
+    "limitations": [
+      "这些为综述中描述的相关表现，不是每项必有的必要条件",
+      "证候间存在重叠，不能据单一舌脉结果确诊或排除",
+      "没有根据原文推导分值、权重、诊断概率或满足几项即可确诊的规则",
+      "不用于急症、儿童、妊娠或已知特殊疾病人群的自动推断"
+    ],
+    "required_criteria": null,
+    "exclusion_criteria": null,
+    "evidence_kind": "literature_feature_summary",
+    "clinical_use": "disabled"
+  }
+]

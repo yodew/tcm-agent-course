@@ -1,0 +1,119 @@
+[
+  {
+    "source_id": "editorial",
+    "title": "本项目原创问诊采集草案",
+    "url": "https://github.com/yodew/tcm-agent-course/tree/main/knowledge/clinical",
+    "publisher": "tcm-agent-course contributors",
+    "checked_on": "2026-10-18",
+    "version": "0.1.0",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "rights_scope": "Original question wording and engineering schemas; not a clinical guideline",
+    "uses": [
+      "question_draft",
+      "engineering_test"
+    ],
+    "limitations": [
+      "未接受中医临床专家审核",
+      "不提供诊断阈值或风险排除保证"
+    ]
+  },
+  {
+    "source_id": "samr-four-examinations",
+    "title": "中医四诊操作规范系列国家标准及官方解读",
+    "url": "https://www.samr.gov.cn/bzjss/bzjd/art/2022/art_d96f4e909dd04ed082b20b5fdf87e84a.html",
+    "publisher": "国家市场监督管理总局 标准技术司",
+    "checked_on": "2026-10-18",
+    "version": "GB/T 40665.1—4-2021; interpretation 2022-09-30",
+    "license": "reference-only",
+    "license_url": "https://www.samr.gov.cn/bzjss/bzjd/art/2022/art_d96f4e909dd04ed082b20b5fdf87e84a.html",
+    "rights_scope": "Bibliographic reference and original summaries only; no full standard copied",
+    "uses": [
+      "collection_domain_reference"
+    ],
+    "limitations": [
+      "核查官方题录与解读，不声称已逐条解析标准全文",
+      "操作规范不是专病诊断算法"
+    ]
+  },
+  {
+    "source_id": "samr-syndrome-terms",
+    "title": "中医临床诊疗术语 第2部分：证候",
+    "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=C71A9DAD24CB1252F12439D1F045DA6A",
+    "publisher": "国家市场监督管理总局 国家标准化管理委员会",
+    "checked_on": "2026-10-18",
+    "version": "GB/T 16751.2-2021",
+    "license": "reference-only",
+    "license_url": "https://www.samr.gov.cn/bzjss/bzjd/art/2022/art_ae386988ba3a44f387bb5634b5f2aa08.html",
+    "rights_scope": "Metadata reference only; term lists below are dataset labels, not claimed national-standard mappings",
+    "uses": [
+      "terminology_reference"
+    ],
+    "limitations": [
+      "术语存在不代表患者符合诊断",
+      "未提供标准代码，不猜测代码或自动宣称同义"
+    ]
+  },
+  {
+    "source_id": "tcmeval-sdt-train",
+    "title": "TCMEval-SDT Train_TCM_Data_v1.json",
+    "url": "https://github.com/zhuyan166/TCMEval/tree/12473b50ce94ad2fd22b1e984b826b0a618c4407/evaluation/TCMEval-SDT",
+    "publisher": "Zhe Wang, Meng Hao, Suyuan Peng, Yan Zhu et al.; TCMEval contributors",
+    "checked_on": "2026-10-18",
+    "version": "12473b50ce94ad2fd22b1e984b826b0a618c4407",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/zhuyan166/TCMEval/blob/12473b50ce94ad2fd22b1e984b826b0a618c4407/evaluation/TCMEval-SDT/readme.md",
+    "rights_scope": "Dataset-level CC BY 4.0 statement verified; transformed labels and aggregate associations only",
+    "uses": [
+      "research_vocabulary",
+      "candidate_discovery",
+      "development_only"
+    ],
+    "limitations": [
+      "只使用 train；test/validation 留作以后外部评测，不导入候选库",
+      "病例共现不等于诊断条件、排除条件或概率",
+      "未复制原始病例、病机推理、处方或自由文本问答",
+      "上游许可不保证原始个案和全部第三方来源权利，仍需后续审查"
+    ]
+  },
+  {
+    "source_id": "mtcmb-diagnosis",
+    "title": "MTCMB TCM-Diagnosis",
+    "url": "https://github.com/Wayyuanyuan/MTCMB/tree/faffd813c67fe012cef74277a23270d5dd6db9b8",
+    "publisher": "MTCMB dataset contributors",
+    "checked_on": "2026-10-18",
+    "version": "faffd813c67fe012cef74277a23270d5dd6db9b8",
+    "license": "CC-BY-4.0 (dataset declaration); Apache-2.0 (code)",
+    "license_url": "https://github.com/Wayyuanyuan/MTCMB/blob/faffd813c67fe012cef74277a23270d5dd6db9b8/ReadMe.md",
+    "rights_scope": "README distinguishes dataset CC BY 4.0 from code Apache-2.0; short answer labels only",
+    "uses": [
+      "research_vocabulary"
+    ],
+    "limitations": [
+      "上游声明题目来自教材；未复制题干、叙述性答案与病例",
+      "病名、证名和证素分别保留，不自动合并为同义词",
+      "未将本来源当作独立留出集；未据此生成诊断规则"
+    ]
+  },
+  {
+    "source_id": "poon-insomnia-2012",
+    "title": "Classification of Insomnia Using the Traditional Chinese Medicine System: A Systematic Review",
+    "url": "https://doi.org/10.1155/2012/735078",
+    "publisher": "Maggie Man-Ki Poon, Ka-Fai Chung, Wing-Fai Yeung, Verdi Hon-Kin Yau, Shi-Ping Zhang",
+    "checked_on": "2026-10-18",
+    "version": "2012; Article 735078; Table 2",
+    "license": "CC-BY (article statement; version not specified)",
+    "license_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3414091/",
+    "rights_scope": "Original Chinese summaries of selected descriptive features; source article explicitly permits attribution reuse; no full article or PDF redistributed",
+    "uses": [
+      "literature_reference",
+      "question_topic_reference"
+    ],
+    "limitations": [
+      "历史系统综述，检索截至2008年，不作为当前指南",
+      "作者指出证候重叠且量表需进一步验证",
+      "没有验证可执行的诊断阈值、排除规则或人群外推",
+      "英文特征摘要人工转写中文，尚未临床审核"
+    ]
+  }
+]

@@ -4,34 +4,35 @@ rootdir: <project-root>
 configfile: pyproject.toml
 testpaths: tests
 plugins: cov-7.1.0, langsmith-0.14.9, anyio-4.15.1
-collected 90 items
+collected 106 items
 
-tests/test_api.py .................                                      [ 18%]
-tests/test_benchmark.py .........                                        [ 28%]
-tests/test_cancellation.py .                                             [ 30%]
-tests/test_checkpoint_example.py ..                                      [ 32%]
-tests/test_crash_recovery.py .                                           [ 33%]
-tests/test_embeddings.py ..                                              [ 35%]
-tests/test_failure.py .                                                  [ 36%]
-tests/test_gateway.py ......                                             [ 43%]
-tests/test_ingestion.py .                                                [ 44%]
-tests/test_labs.py ..................                                    [ 64%]
-tests/test_learning_scenarios.py ......                                  [ 71%]
-tests/test_live.py s                                                     [ 72%]
-tests/test_operations.py ..                                              [ 74%]
-tests/test_optional.py ...                                               [ 77%]
-tests/test_postgres.py s                                                 [ 78%]
-tests/test_provider_resilience.py ...                                    [ 82%]
-tests/test_rate_limit.py .                                               [ 83%]
-tests/test_retrieval.py ....                                             [ 87%]
-tests/test_runtime.py .....                                              [ 93%]
+tests/test_api.py .................                                      [ 16%]
+tests/test_benchmark.py .........                                        [ 24%]
+tests/test_cancellation.py .                                             [ 25%]
+tests/test_checkpoint_example.py ..                                      [ 27%]
+tests/test_clinical_knowledge.py ................                        [ 42%]
+tests/test_crash_recovery.py .                                           [ 43%]
+tests/test_embeddings.py ..                                              [ 45%]
+tests/test_failure.py .                                                  [ 46%]
+tests/test_gateway.py ......                                             [ 51%]
+tests/test_ingestion.py .                                                [ 52%]
+tests/test_labs.py ..................                                    [ 69%]
+tests/test_learning_scenarios.py ......                                  [ 75%]
+tests/test_live.py s                                                     [ 76%]
+tests/test_operations.py ..                                              [ 78%]
+tests/test_optional.py ...                                               [ 81%]
+tests/test_postgres.py s                                                 [ 82%]
+tests/test_provider_resilience.py ...                                    [ 84%]
+tests/test_rate_limit.py .                                               [ 85%]
+tests/test_retrieval.py ....                                             [ 89%]
+tests/test_runtime.py .....                                              [ 94%]
 tests/test_ui_client.py ......                                           [100%]
 
 ================================ tests coverage ================================
 ______________ coverage: platform darwin, python 3.12.13-final-0 _______________
 
-Coverage JSON written to file tmp/coverage-v13.json
+Coverage JSON written to file tmp/coverage-v14.json
 =========================== short test summary info ============================
 SKIPPED [1] tests/test_live.py:15: Real provider explicitly opt-in
 SKIPPED [1] tests/test_postgres.py:15: PostgreSQL explicitly opt-in
-======================== 88 passed, 2 skipped in 3.19s =========================
+======================== 104 passed, 2 skipped in 3.05s ========================

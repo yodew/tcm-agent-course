@@ -1,0 +1,28 @@
+[
+  {
+    "source_id": "tcmeval-sdt-train",
+    "decision": "limited_projection",
+    "reason": "固定 train 分片；CC BY 4.0 声明已核查；只提取短标签、过滤观察和共现，不收原始病例与推理。"
+  },
+  {
+    "source_id": "mtcmb-diagnosis",
+    "decision": "terminology_only",
+    "reason": "数据许可与代码许可分开；教材来源链仍有局限，仅保留短病名、证名和证素标签。"
+  },
+  {
+    "source_id": "TCMClinicalReason-Bench",
+    "url": "https://github.com/NJUCM-BJUCM-TCM-AI/TCMClinicalReason-Bench",
+    "decision": "excluded",
+    "reason": "CC BY-NC 4.0，且以真实病例和诊疗序列为主；本次不复制，不作为通用诊断依据。"
+  },
+  {
+    "source_id": "samr-four-examinations",
+    "decision": "reference_only",
+    "reason": "仅引用题录与官方解读，原创采集问题，不再分发标准全文。"
+  },
+  {
+    "source_id": "poon-insomnia-2012",
+    "decision": "historical_reference_only",
+    "reason": "开放署名许可；只整理少量特征与重叠限制，不能代替当前专病指南。"
+  }
+]

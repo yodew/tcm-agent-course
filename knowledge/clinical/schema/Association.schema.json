@@ -1,0 +1,42 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "observation_id": {
+      "title": "Observation Id",
+      "type": "string"
+    },
+    "syndrome_id": {
+      "title": "Syndrome Id",
+      "type": "string"
+    },
+    "record_count": {
+      "minimum": 1,
+      "title": "Record Count",
+      "type": "integer"
+    },
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "evidence_kind": {
+      "const": "dataset_cooccurrence",
+      "default": "dataset_cooccurrence",
+      "title": "Evidence Kind",
+      "type": "string"
+    },
+    "clinical_use": {
+      "const": "disabled",
+      "default": "disabled",
+      "title": "Clinical Use",
+      "type": "string"
+    }
+  },
+  "required": [
+    "observation_id",
+    "syndrome_id",
+    "record_count",
+    "source_id"
+  ],
+  "title": "Association",
+  "type": "object"
+}

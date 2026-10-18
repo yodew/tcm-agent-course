@@ -9,6 +9,7 @@ check:
 	TCM_EXERCISE=solution uv run pytest exercises/acceptance.py -q
 	uv run python -m labs.run_all
 	uv run python scripts/check_course.py
+	uv run python scripts/clinical_knowledge.py audit
 serve:
 	uv run tcm serve
 test:

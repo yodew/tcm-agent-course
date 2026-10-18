@@ -1,0 +1,4553 @@
+[
+  {
+    "card_id": "corpus-syndrome-00868977cae79773",
+    "syndrome_id": "syndrome-00868977cae79773",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-093b95093384bc0e",
+      "finding-43badb174b62938d",
+      "finding-5ff5e514c8f88203",
+      "finding-629a09e514b50f5c",
+      "finding-6ffa9029037cfe4b",
+      "finding-c7eda79979aafd3b",
+      "finding-de228293c821581b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-00ef718250cae29b",
+    "syndrome_id": "syndrome-00ef718250cae29b",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-629a09e514b50f5c",
+      "finding-6a4fd4f31fd5f51e",
+      "finding-6ffa9029037cfe4b",
+      "finding-83d4ca788a008b4b",
+      "finding-fcf1e3fe2884f1b5"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-01282bb0006fdfb2",
+    "syndrome_id": "syndrome-01282bb0006fdfb2",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-022194ffdebd21ac",
+    "syndrome_id": "syndrome-022194ffdebd21ac",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-433058c3d1aca468",
+      "finding-65f819624655c9e9"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0346594596238d31",
+    "syndrome_id": "syndrome-0346594596238d31",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-03bba43dab09d542",
+    "syndrome_id": "syndrome-03bba43dab09d542",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-050c5c24f9256913",
+    "syndrome_id": "syndrome-050c5c24f9256913",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-2c064f656e33ad8c",
+      "finding-34ff534a3342be99",
+      "finding-4e4ffcb82d51c028",
+      "finding-b2eaadc11592d9f3",
+      "finding-e4d96a5008501696"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0556910ba5020b10",
+    "syndrome_id": "syndrome-0556910ba5020b10",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-115bbdd5562c017b",
+      "finding-3d1e2928efe8a887",
+      "finding-4fe4796897d3adba"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-06246addbdad3ec5",
+    "syndrome_id": "syndrome-06246addbdad3ec5",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-a4df5fe98b8057a3",
+      "finding-b0069c4200739ed3",
+      "finding-c06041e9c18d17a2",
+      "finding-fcdca87adabfcee2"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-09faf06f8bb7cb1a",
+    "syndrome_id": "syndrome-09faf06f8bb7cb1a",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-43badb174b62938d",
+      "finding-65d7d479ba19d49a"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0a565c6d2d7d4581",
+    "syndrome_id": "syndrome-0a565c6d2d7d4581",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-b10f94552b297c4d"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0abdfae982789853",
+    "syndrome_id": "syndrome-0abdfae982789853",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-20229c0d3d173468",
+      "finding-546e09debbd92f43",
+      "finding-6ffa9029037cfe4b",
+      "finding-9702dff04bfdada3",
+      "finding-b7f3d9090c76b9d1",
+      "finding-e51a5b5a35e604ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0d277d54fd47ab88",
+    "syndrome_id": "syndrome-0d277d54fd47ab88",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-5ff5e514c8f88203",
+      "finding-6ffa9029037cfe4b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0d6702bd7037b56e",
+    "syndrome_id": "syndrome-0d6702bd7037b56e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0db7a48cafb46b1c",
+    "syndrome_id": "syndrome-0db7a48cafb46b1c",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-0a144ba65589edfc",
+      "finding-0d0b28cdd56d8382",
+      "finding-30207f4c3f7c845b",
+      "finding-649f7db3c80eda74",
+      "finding-71639d534daa113b",
+      "finding-7e6c67020bbe67f4"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0dbe73e07750e745",
+    "syndrome_id": "syndrome-0dbe73e07750e745",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-9a52cc2bda582e92",
+      "finding-b7c1d4e1b9b67ca8"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0dcce2ab8f550d04",
+    "syndrome_id": "syndrome-0dcce2ab8f550d04",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-626131d0f56f8c39",
+      "finding-e51a5b5a35e604ca",
+      "finding-ecac780422e05474"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0df67b13a22706c9",
+    "syndrome_id": "syndrome-0df67b13a22706c9",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-0e876352db66939b",
+      "finding-429c352d517771e9",
+      "finding-55a36e0dccefa3ae",
+      "finding-5c18c2668088fb66",
+      "finding-7b78844986e2b041",
+      "finding-ef5a8bb2e52625a1"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0e007c76f3ddec3c",
+    "syndrome_id": "syndrome-0e007c76f3ddec3c",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0f5521d640ae3aad",
+      "finding-2043c7e8cd0d16bc",
+      "finding-73419d0f519d0fa3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-0e4eb5b6bdf0b9fe",
+    "syndrome_id": "syndrome-0e4eb5b6bdf0b9fe",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-5f567890a5065daf"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-10ae8cf4183cb8e5",
+    "syndrome_id": "syndrome-10ae8cf4183cb8e5",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-649f7db3c80eda74",
+      "finding-b2eaadc11592d9f3",
+      "finding-e8e4da696dbf7b7b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-11b5741d2658f5c9",
+    "syndrome_id": "syndrome-11b5741d2658f5c9",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-277150804f0ecfee"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-131a03830a9a4ad2",
+    "syndrome_id": "syndrome-131a03830a9a4ad2",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3304cea5d7e64360"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-13bd1b4d87df0e24",
+    "syndrome_id": "syndrome-13bd1b4d87df0e24",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0e52f4b827ecc553",
+      "finding-69725d9066325846"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-14dce91aa515782d",
+    "syndrome_id": "syndrome-14dce91aa515782d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-17206d04ce7c1b55",
+    "syndrome_id": "syndrome-17206d04ce7c1b55",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0239f6712f2a5741",
+      "finding-f565254d73f45d9b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-181e1842e724906d",
+    "syndrome_id": "syndrome-181e1842e724906d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-187d462c7328083d",
+    "syndrome_id": "syndrome-187d462c7328083d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-50511c338f76732a",
+      "finding-bae72857acd50ba0",
+      "finding-cc2ae52a7944f2bf"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-18de7ed936885563",
+    "syndrome_id": "syndrome-18de7ed936885563",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0239f6712f2a5741",
+      "finding-e4d96a5008501696",
+      "finding-efbeafd3b91fb4eb"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-18eb5364c962cf1e",
+    "syndrome_id": "syndrome-18eb5364c962cf1e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-41ce35a6b8b941eb",
+      "finding-43badb174b62938d",
+      "finding-55a36e0dccefa3ae",
+      "finding-aae75b897822435b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-1947df6c071b5afe",
+    "syndrome_id": "syndrome-1947df6c071b5afe",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3582e25e8e4b7ba3",
+      "finding-649f7db3c80eda74",
+      "finding-b7c1d4e1b9b67ca8",
+      "finding-e51a5b5a35e604ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-1a57ccfd3d9e9e38",
+    "syndrome_id": "syndrome-1a57ccfd3d9e9e38",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0f5521d640ae3aad",
+      "finding-2043c7e8cd0d16bc",
+      "finding-73419d0f519d0fa3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-1af96c69a4f2e8e9",
+    "syndrome_id": "syndrome-1af96c69a4f2e8e9",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3f1f3468a5875dd2"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-1b0bbc78a7673de2",
+    "syndrome_id": "syndrome-1b0bbc78a7673de2",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-649f7db3c80eda74"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-1c328b5116f09e5b",
+    "syndrome_id": "syndrome-1c328b5116f09e5b",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-5f567890a5065daf",
+      "finding-649f7db3c80eda74",
+      "finding-c3d981c5d6f299a1"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-1c627068df0dcb95",
+    "syndrome_id": "syndrome-1c627068df0dcb95",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-093b95093384bc0e",
+      "finding-625550e3638e19f0",
+      "finding-d0fa72f7566fc76b",
+      "finding-e8a1339e64026756"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-1de331995ce69dca",
+    "syndrome_id": "syndrome-1de331995ce69dca",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-032740d6e5e35d02",
+      "finding-0ea84e1892e27192",
+      "finding-133c512c0613da48",
+      "finding-429c352d517771e9",
+      "finding-629a09e514b50f5c",
+      "finding-6ffa9029037cfe4b",
+      "finding-9702dff04bfdada3",
+      "finding-d42a5c94312d8524",
+      "finding-e51a5b5a35e604ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-1f5871bbd101d711",
+    "syndrome_id": "syndrome-1f5871bbd101d711",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-115bbdd5562c017b",
+      "finding-3d1e2928efe8a887",
+      "finding-4fe4796897d3adba"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-21bf6fe441c205e3",
+    "syndrome_id": "syndrome-21bf6fe441c205e3",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-232c14220a92f1e6",
+    "syndrome_id": "syndrome-232c14220a92f1e6",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-473e6ea934253e12",
+      "finding-efbeafd3b91fb4eb"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-23aa606552edc988",
+    "syndrome_id": "syndrome-23aa606552edc988",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3e4acad97c73b610"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-262744c2d4ff750d",
+    "syndrome_id": "syndrome-262744c2d4ff750d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-014d2b460a13a721",
+      "finding-16518ea02aba26f6",
+      "finding-972e9dd7383a47d7",
+      "finding-a2613947f1bc84ee",
+      "finding-d2656b46ace87dc2",
+      "finding-ec02512c605302ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-26cb2b9c06b6ac16",
+    "syndrome_id": "syndrome-26cb2b9c06b6ac16",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-26cc89d24610ac5f",
+    "syndrome_id": "syndrome-26cc89d24610ac5f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-96eb5c4759b4fd9d",
+      "finding-ecac780422e05474"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-270d45fdd4c841c6",
+    "syndrome_id": "syndrome-270d45fdd4c841c6",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-433058c3d1aca468",
+      "finding-65f819624655c9e9"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-283d474d628b2a1d",
+    "syndrome_id": "syndrome-283d474d628b2a1d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-2912b66752ccbd8f",
+    "syndrome_id": "syndrome-2912b66752ccbd8f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-20229c0d3d173468",
+      "finding-625550e3638e19f0",
+      "finding-e0b5f5d7be5f7177"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-2a3ad46c1425d274",
+    "syndrome_id": "syndrome-2a3ad46c1425d274",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-e0b5f5d7be5f7177"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-2b6775d3e570f2e1",
+    "syndrome_id": "syndrome-2b6775d3e570f2e1",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-2b95d5ebbddafe7e",
+    "syndrome_id": "syndrome-2b95d5ebbddafe7e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0a144ba65589edfc",
+      "finding-6c3a9ea3b410ab90",
+      "finding-b0069c4200739ed3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-2ca5c7845834dd4f",
+    "syndrome_id": "syndrome-2ca5c7845834dd4f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3e652ce9d1fad9ef",
+      "finding-c7eda79979aafd3b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-2d8e74a00f30cd33",
+    "syndrome_id": "syndrome-2d8e74a00f30cd33",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-6a75808d7f6bdc03",
+      "finding-96eb5c4759b4fd9d",
+      "finding-cb8f03f8b2ceaf02",
+      "finding-def3bd97206666fc"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-2e2eb94ec275a597",
+    "syndrome_id": "syndrome-2e2eb94ec275a597",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-115bbdd5562c017b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-2e96786c7214dbe1",
+    "syndrome_id": "syndrome-2e96786c7214dbe1",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 3,
+    "associated_observation_ids": [
+      "finding-50511c338f76732a",
+      "finding-626131d0f56f8c39",
+      "finding-6a75808d7f6bdc03",
+      "finding-6b396350b32ea966",
+      "finding-96eb5c4759b4fd9d",
+      "finding-b7c1d4e1b9b67ca8",
+      "finding-cb8f03f8b2ceaf02",
+      "finding-def3bd97206666fc"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-3009c9eaf7b9cf57",
+    "syndrome_id": "syndrome-3009c9eaf7b9cf57",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3189d633233fa8b9",
+      "finding-49ba8a46860c46fb",
+      "finding-4c024d2ede0178ba",
+      "finding-4f9c21eae4700290",
+      "finding-efbeafd3b91fb4eb"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-306a8527237d6f72",
+    "syndrome_id": "syndrome-306a8527237d6f72",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-032740d6e5e35d02",
+      "finding-30207f4c3f7c845b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-30a97772b67c5d26",
+    "syndrome_id": "syndrome-30a97772b67c5d26",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-649f7db3c80eda74"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-31f5be316e50f46f",
+    "syndrome_id": "syndrome-31f5be316e50f46f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-277150804f0ecfee"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-31f9ecd3a46320b6",
+    "syndrome_id": "syndrome-31f9ecd3a46320b6",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-41ce35a6b8b941eb",
+      "finding-43badb174b62938d",
+      "finding-55a36e0dccefa3ae",
+      "finding-aae75b897822435b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-32c09bc2080f4f20",
+    "syndrome_id": "syndrome-32c09bc2080f4f20",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-473e6ea934253e12"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-338001ec4396e257",
+    "syndrome_id": "syndrome-338001ec4396e257",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-16518ea02aba26f6",
+      "finding-a2613947f1bc84ee",
+      "finding-e5c9c5a98e84882e"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-3614961d404cffbb",
+    "syndrome_id": "syndrome-3614961d404cffbb",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-093b95093384bc0e"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-3651567b7fb53cd9",
+    "syndrome_id": "syndrome-3651567b7fb53cd9",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-82d711fabac8791e",
+      "finding-b2eaadc11592d9f3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-36772338c367fb4c",
+    "syndrome_id": "syndrome-36772338c367fb4c",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3d1e2928efe8a887",
+      "finding-d3149fc1267bd721"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-36ad967b7ff05914",
+    "syndrome_id": "syndrome-36ad967b7ff05914",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-36f6aff0bc47606a",
+    "syndrome_id": "syndrome-36f6aff0bc47606a",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-6ffa9029037cfe4b",
+      "finding-b7f3d9090c76b9d1"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-38a42dd98f4a9558",
+    "syndrome_id": "syndrome-38a42dd98f4a9558",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-459126be9c374d3b",
+      "finding-649f7db3c80eda74",
+      "finding-b7c1d4e1b9b67ca8",
+      "finding-cbf96fe1614f9f9a",
+      "finding-d877624a44d56e55"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-38c8a9e13a43cebe",
+    "syndrome_id": "syndrome-38c8a9e13a43cebe",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-71639d534daa113b",
+      "finding-f6eda0fee839f444"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-3afa1cd94732d8c8",
+    "syndrome_id": "syndrome-3afa1cd94732d8c8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 3,
+    "associated_observation_ids": [
+      "finding-0a144ba65589edfc",
+      "finding-2858958f987c8d89",
+      "finding-30207f4c3f7c845b",
+      "finding-546e09debbd92f43",
+      "finding-82d711fabac8791e",
+      "finding-83d4ca788a008b4b",
+      "finding-87adec53bba53618",
+      "finding-aae75b897822435b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-3b118391bcaaaa98",
+    "syndrome_id": "syndrome-3b118391bcaaaa98",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-3e4acad97c73b610",
+      "finding-43badb174b62938d",
+      "finding-609d39ef9285f3e8",
+      "finding-626131d0f56f8c39",
+      "finding-8a4bb4e3f00b9164",
+      "finding-9ee3962b1fd478b8",
+      "finding-b04a48fd5aceae28"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-3c4f47c44fb89e1c",
+    "syndrome_id": "syndrome-3c4f47c44fb89e1c",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-014d2b460a13a721",
+      "finding-0c70bb966c626329",
+      "finding-0d0b28cdd56d8382",
+      "finding-30207f4c3f7c845b",
+      "finding-41ce35a6b8b941eb",
+      "finding-50511c338f76732a",
+      "finding-66971ee4f4234da5",
+      "finding-79932681875aec5e",
+      "finding-7e6c67020bbe67f4"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-3da1f039d2d7b9ba",
+    "syndrome_id": "syndrome-3da1f039d2d7b9ba",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-093b95093384bc0e"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-3ee756ecce25c5d8",
+    "syndrome_id": "syndrome-3ee756ecce25c5d8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-b7e1923ba7fa0c41"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-3fe60023ed96a686",
+    "syndrome_id": "syndrome-3fe60023ed96a686",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-5ff5e514c8f88203",
+      "finding-6ffa9029037cfe4b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-40fa1fe27fc5de50",
+    "syndrome_id": "syndrome-40fa1fe27fc5de50",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-bc03e925204e2ff8",
+      "finding-d2656b46ace87dc2",
+      "finding-e51a5b5a35e604ca",
+      "finding-ec02512c605302ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-41ac40c00ac54e42",
+    "syndrome_id": "syndrome-41ac40c00ac54e42",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-6a75808d7f6bdc03",
+      "finding-96eb5c4759b4fd9d",
+      "finding-cb8f03f8b2ceaf02",
+      "finding-def3bd97206666fc"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-432ecc41efaa460c",
+    "syndrome_id": "syndrome-432ecc41efaa460c",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-115bbdd5562c017b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-4419de62cd55a04a",
+    "syndrome_id": "syndrome-4419de62cd55a04a",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-41ce35a6b8b941eb"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-44db6ff45e054477",
+    "syndrome_id": "syndrome-44db6ff45e054477",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-4547f831421875c1",
+    "syndrome_id": "syndrome-4547f831421875c1",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-473e6ea934253e12"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-4567e82cbf5377c5",
+    "syndrome_id": "syndrome-4567e82cbf5377c5",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-267db60e3208b667",
+      "finding-2858958f987c8d89",
+      "finding-3e5e228d8ca962e0",
+      "finding-3e652ce9d1fad9ef",
+      "finding-dc8ed4af534fcf07",
+      "finding-def3bd97206666fc",
+      "finding-e51a5b5a35e604ca",
+      "finding-fcf1e3fe2884f1b5"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-45695482da966036",
+    "syndrome_id": "syndrome-45695482da966036",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-625550e3638e19f0",
+      "finding-79932681875aec5e",
+      "finding-cbf96fe1614f9f9a"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-48a06a757ee5d352",
+    "syndrome_id": "syndrome-48a06a757ee5d352",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0c70bb966c626329",
+      "finding-0d0b28cdd56d8382",
+      "finding-0e876352db66939b",
+      "finding-69725d9066325846",
+      "finding-c3d981c5d6f299a1"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-4920c007b53df699",
+    "syndrome_id": "syndrome-4920c007b53df699",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-e8e4da696dbf7b7b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-49dfaaa744aee2bf",
+    "syndrome_id": "syndrome-49dfaaa744aee2bf",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-8a4bb4e3f00b9164",
+      "finding-9c8225bb2bfe8b00",
+      "finding-cc53fc0cdf01ddeb"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-4a3f88cefda941c8",
+    "syndrome_id": "syndrome-4a3f88cefda941c8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-4af8bca403b84893",
+    "syndrome_id": "syndrome-4af8bca403b84893",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-4d049284b1e25c5b",
+    "syndrome_id": "syndrome-4d049284b1e25c5b",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-5ce4831b887afdc2",
+      "finding-734782ada6ac3c02",
+      "finding-95efb17dca2c4445",
+      "finding-fcdca87adabfcee2"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-4fdf0e5df92b0592",
+    "syndrome_id": "syndrome-4fdf0e5df92b0592",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0e52f4b827ecc553",
+      "finding-69725d9066325846"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-50cd7d29e79b3a43",
+    "syndrome_id": "syndrome-50cd7d29e79b3a43",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-5f567890a5065daf"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-510b4fff1d1687d9",
+    "syndrome_id": "syndrome-510b4fff1d1687d9",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-6d117fe8e81b6b58",
+      "finding-c06041e9c18d17a2"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-531559f3136d8bac",
+    "syndrome_id": "syndrome-531559f3136d8bac",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3f1f3468a5875dd2",
+      "finding-73419d0f519d0fa3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-53dc1ab80990c244",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 3,
+    "associated_observation_ids": [
+      "finding-20229c0d3d173468",
+      "finding-546e09debbd92f43",
+      "finding-5c0deb5e6a23cbdf",
+      "finding-62113eff87b3a701",
+      "finding-6a4fd4f31fd5f51e",
+      "finding-6ffa9029037cfe4b",
+      "finding-9702dff04bfdada3",
+      "finding-b7f3d9090c76b9d1",
+      "finding-dc8ed4af534fcf07",
+      "finding-e51a5b5a35e604ca",
+      "finding-e5c9c5a98e84882e",
+      "finding-ecf2c5347708a07c"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-544c4ea087280f62",
+    "syndrome_id": "syndrome-544c4ea087280f62",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-629a09e514b50f5c",
+      "finding-6a4fd4f31fd5f51e",
+      "finding-6ffa9029037cfe4b",
+      "finding-83d4ca788a008b4b",
+      "finding-fcf1e3fe2884f1b5"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-54ce03999343b123",
+    "syndrome_id": "syndrome-54ce03999343b123",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-550d18851c721c42",
+    "syndrome_id": "syndrome-550d18851c721c42",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-b2eaadc11592d9f3",
+      "finding-c0d45535d14e5331"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-565d54a3d60ea180",
+    "syndrome_id": "syndrome-565d54a3d60ea180",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-73419d0f519d0fa3",
+      "finding-82d711fabac8791e",
+      "finding-ce49c2e3fd81fffb"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-57edbbcf0bf13293",
+    "syndrome_id": "syndrome-57edbbcf0bf13293",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3e652ce9d1fad9ef",
+      "finding-c7eda79979aafd3b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-57fd436db6d4ac17",
+    "syndrome_id": "syndrome-57fd436db6d4ac17",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-bae72857acd50ba0"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-58657a301bd3c6c6",
+    "syndrome_id": "syndrome-58657a301bd3c6c6",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-115bbdd5562c017b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-59c34bc7be5f2d1b",
+    "syndrome_id": "syndrome-59c34bc7be5f2d1b",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-83d4ca788a008b4b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-5a53b458228c54b8",
+    "syndrome_id": "syndrome-5a53b458228c54b8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-de228293c821581b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-5ab852d8500d52e7",
+    "syndrome_id": "syndrome-5ab852d8500d52e7",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-b7c1d4e1b9b67ca8",
+      "finding-c4af0ed5f9c59c0e"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-5c78c4955f2e4cbf",
+    "syndrome_id": "syndrome-5c78c4955f2e4cbf",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-b7e1923ba7fa0c41"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-5ccb32f4e49d04e0",
+    "syndrome_id": "syndrome-5ccb32f4e49d04e0",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-cb8f03f8b2ceaf02"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-5d86399886b74ee4",
+    "syndrome_id": "syndrome-5d86399886b74ee4",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-30207f4c3f7c845b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-5e3f701e3fb417d4",
+    "syndrome_id": "syndrome-5e3f701e3fb417d4",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-2858958f987c8d89",
+      "finding-37aaefc9cb407522",
+      "finding-62113eff87b3a701",
+      "finding-6d117fe8e81b6b58",
+      "finding-a3b9be6016f3ff84"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-5f2d1941ece35213",
+    "syndrome_id": "syndrome-5f2d1941ece35213",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-6d117fe8e81b6b58",
+      "finding-c06041e9c18d17a2"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-5f3e86d17d0c41a0",
+    "syndrome_id": "syndrome-5f3e86d17d0c41a0",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-1f17feaf5445ff6b",
+      "finding-4f9c21eae4700290"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-5fd8559d76132df0",
+    "syndrome_id": "syndrome-5fd8559d76132df0",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-a4df5fe98b8057a3",
+      "finding-b0069c4200739ed3",
+      "finding-c06041e9c18d17a2",
+      "finding-fcdca87adabfcee2"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-607ee8b9c711c1d9",
+    "syndrome_id": "syndrome-607ee8b9c711c1d9",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-609de38986c62a73",
+    "syndrome_id": "syndrome-609de38986c62a73",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-ec02512c605302ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-61372e58609dfb94",
+    "syndrome_id": "syndrome-61372e58609dfb94",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-014d2b460a13a721",
+      "finding-cc2ae52a7944f2bf"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-62fe43ebfbdd12c6",
+    "syndrome_id": "syndrome-62fe43ebfbdd12c6",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-277150804f0ecfee"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-63fda5db44964a39",
+    "syndrome_id": "syndrome-63fda5db44964a39",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3304cea5d7e64360"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-64a4a2ac58b1f648",
+    "syndrome_id": "syndrome-64a4a2ac58b1f648",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-473e6ea934253e12"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-65003568abae18b4",
+    "syndrome_id": "syndrome-65003568abae18b4",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0c70bb966c626329",
+      "finding-0d0b28cdd56d8382",
+      "finding-0e876352db66939b",
+      "finding-69725d9066325846",
+      "finding-c3d981c5d6f299a1"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-65ce5089d0d9507f",
+    "syndrome_id": "syndrome-65ce5089d0d9507f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0e52f4b827ecc553",
+      "finding-9ee3962b1fd478b8"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-667b62dd7358a755",
+    "syndrome_id": "syndrome-667b62dd7358a755",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0e876352db66939b",
+      "finding-6b396350b32ea966"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-6aaf30ca27d784f8",
+    "syndrome_id": "syndrome-6aaf30ca27d784f8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-6b6076c778ad6c99",
+    "syndrome_id": "syndrome-6b6076c778ad6c99",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-73419d0f519d0fa3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-6bd52b2b034ae7ef",
+    "syndrome_id": "syndrome-6bd52b2b034ae7ef",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-649f7db3c80eda74",
+      "finding-83d4ca788a008b4b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-6e9821a0737c166e",
+    "syndrome_id": "syndrome-6e9821a0737c166e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 3,
+    "associated_observation_ids": [
+      "finding-50511c338f76732a",
+      "finding-6d117fe8e81b6b58",
+      "finding-79932681875aec5e",
+      "finding-c06041e9c18d17a2"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-6f3ade025d70564d",
+    "syndrome_id": "syndrome-6f3ade025d70564d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-e51a5b5a35e604ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-6f85c5eef9d25208",
+    "syndrome_id": "syndrome-6f85c5eef9d25208",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0ea84e1892e27192"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-6fab886fdbffe97d",
+    "syndrome_id": "syndrome-6fab886fdbffe97d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-30207f4c3f7c845b",
+      "finding-55a36e0dccefa3ae",
+      "finding-96eb5c4759b4fd9d",
+      "finding-cc53fc0cdf01ddeb",
+      "finding-d877624a44d56e55",
+      "finding-e8e4da696dbf7b7b",
+      "finding-ecd011522fffb5fa"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-702f5662fcfc2cd8",
+    "syndrome_id": "syndrome-702f5662fcfc2cd8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7032362fe4c48be0",
+    "syndrome_id": "syndrome-7032362fe4c48be0",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-34ff534a3342be99",
+      "finding-37aaefc9cb407522",
+      "finding-e51a5b5a35e604ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7123977f1c6d3f15",
+    "syndrome_id": "syndrome-7123977f1c6d3f15",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-ef5a8bb2e52625a1"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-715fd3b5c6bba68e",
+    "syndrome_id": "syndrome-715fd3b5c6bba68e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-5c18c2668088fb66",
+      "finding-625550e3638e19f0",
+      "finding-65d7d479ba19d49a",
+      "finding-83d4ca788a008b4b",
+      "finding-f6eda0fee839f444"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-731a534719e50854",
+    "syndrome_id": "syndrome-731a534719e50854",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-49ba8a46860c46fb",
+      "finding-b2eaadc11592d9f3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-74848e8c497a86bf",
+    "syndrome_id": "syndrome-74848e8c497a86bf",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-dcb31ed50613ab09"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-749f1028ba149117",
+    "syndrome_id": "syndrome-749f1028ba149117",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-75a78eb05cc92c76",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 3,
+    "associated_observation_ids": [
+      "finding-0e876352db66939b",
+      "finding-267db60e3208b667",
+      "finding-2858958f987c8d89",
+      "finding-3e5e228d8ca962e0",
+      "finding-3e652ce9d1fad9ef",
+      "finding-429c352d517771e9",
+      "finding-6a75808d7f6bdc03",
+      "finding-7b78844986e2b041",
+      "finding-96eb5c4759b4fd9d",
+      "finding-cb8f03f8b2ceaf02",
+      "finding-dc8ed4af534fcf07",
+      "finding-def3bd97206666fc",
+      "finding-e51a5b5a35e604ca",
+      "finding-ef5a8bb2e52625a1",
+      "finding-fcf1e3fe2884f1b5"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7683411f33881b0e",
+    "syndrome_id": "syndrome-7683411f33881b0e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-785eab5bf3a3a405",
+    "syndrome_id": "syndrome-785eab5bf3a3a405",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-71639d534daa113b",
+      "finding-f6eda0fee839f444"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7a62100ef81d7cfa",
+    "syndrome_id": "syndrome-7a62100ef81d7cfa",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-649f7db3c80eda74",
+      "finding-83d4ca788a008b4b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7b6ac3a965987306",
+    "syndrome_id": "syndrome-7b6ac3a965987306",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-2858958f987c8d89",
+      "finding-37aaefc9cb407522",
+      "finding-609d39ef9285f3e8",
+      "finding-62113eff87b3a701",
+      "finding-626131d0f56f8c39",
+      "finding-6d117fe8e81b6b58",
+      "finding-8a4bb4e3f00b9164",
+      "finding-a3b9be6016f3ff84"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7b8fa71f894445b6",
+    "syndrome_id": "syndrome-7b8fa71f894445b6",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7baeb40c9bea03e5",
+    "syndrome_id": "syndrome-7baeb40c9bea03e5",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-649f7db3c80eda74",
+      "finding-6deb2701007b1661",
+      "finding-b2eaadc11592d9f3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7bc960fd4e17a3a1",
+    "syndrome_id": "syndrome-7bc960fd4e17a3a1",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-8a4bb4e3f00b9164",
+      "finding-9c8225bb2bfe8b00",
+      "finding-cc53fc0cdf01ddeb"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7c4f22ce0258b789",
+    "syndrome_id": "syndrome-7c4f22ce0258b789",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-459126be9c374d3b",
+      "finding-c1cfc06b830a0c86"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7c7e473a0b83c5ff",
+    "syndrome_id": "syndrome-7c7e473a0b83c5ff",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-9257e3de29071093",
+      "finding-9702dff04bfdada3",
+      "finding-d41bedcbf515bfe1",
+      "finding-f565254d73f45d9b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7d11db71b03fc776",
+    "syndrome_id": "syndrome-7d11db71b03fc776",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7d3f8ec0c2f85647",
+    "syndrome_id": "syndrome-7d3f8ec0c2f85647",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-14a058e373b57243",
+      "finding-30207f4c3f7c845b",
+      "finding-649f7db3c80eda74",
+      "finding-76e99270162c0398",
+      "finding-d476691435e423e3",
+      "finding-e8a1339e64026756"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7e1d40deddbd518c",
+    "syndrome_id": "syndrome-7e1d40deddbd518c",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-39fdc3f9262a41f3",
+      "finding-d41bedcbf515bfe1"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7e5c1bd00fb18e8c",
+    "syndrome_id": "syndrome-7e5c1bd00fb18e8c",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7e73dc3b4c236a6a",
+    "syndrome_id": "syndrome-7e73dc3b4c236a6a",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-032740d6e5e35d02"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7ea8bac25a7020db",
+    "syndrome_id": "syndrome-7ea8bac25a7020db",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-c1cfc06b830a0c86"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-7fcd83f8b7c88b4d",
+    "syndrome_id": "syndrome-7fcd83f8b7c88b4d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-2858958f987c8d89",
+      "finding-95efb17dca2c4445"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-821f742e21447626",
+    "syndrome_id": "syndrome-821f742e21447626",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-649f7db3c80eda74",
+      "finding-cbf96fe1614f9f9a"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-845efae6b96ba7f8",
+    "syndrome_id": "syndrome-845efae6b96ba7f8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-e4d96a5008501696"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-84b520caf7e954a8",
+    "syndrome_id": "syndrome-84b520caf7e954a8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-2043c7e8cd0d16bc",
+      "finding-3e5e228d8ca962e0",
+      "finding-433058c3d1aca468",
+      "finding-e51a5b5a35e604ca",
+      "finding-fcf1e3fe2884f1b5"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-865d2bedabe63458",
+    "syndrome_id": "syndrome-865d2bedabe63458",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0239f6712f2a5741",
+      "finding-e4d96a5008501696",
+      "finding-efbeafd3b91fb4eb"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-86d88583a5fb2aef",
+    "syndrome_id": "syndrome-86d88583a5fb2aef",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3304cea5d7e64360",
+      "finding-ce49c2e3fd81fffb",
+      "finding-dc8ed4af534fcf07",
+      "finding-def3bd97206666fc",
+      "finding-ebd56bea58acb52c"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-87148541c3d8a4dc",
+    "syndrome_id": "syndrome-87148541c3d8a4dc",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 3,
+    "associated_observation_ids": [
+      "finding-014d2b460a13a721",
+      "finding-0c70bb966c626329",
+      "finding-0d0b28cdd56d8382",
+      "finding-30207f4c3f7c845b",
+      "finding-3e652ce9d1fad9ef",
+      "finding-41ce35a6b8b941eb",
+      "finding-66971ee4f4234da5",
+      "finding-7e6c67020bbe67f4",
+      "finding-c7eda79979aafd3b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8729a720ec47af1b",
+    "syndrome_id": "syndrome-8729a720ec47af1b",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-ba82f7957efe38fc"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8aab1a77889bd874",
+    "syndrome_id": "syndrome-8aab1a77889bd874",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-37aaefc9cb407522",
+      "finding-734782ada6ac3c02",
+      "finding-cbf96fe1614f9f9a"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8ac6286747d7a546",
+    "syndrome_id": "syndrome-8ac6286747d7a546",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-626131d0f56f8c39"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8b31bfb8cbe04354",
+    "syndrome_id": "syndrome-8b31bfb8cbe04354",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-032740d6e5e35d02",
+      "finding-0ea84e1892e27192",
+      "finding-9702dff04bfdada3",
+      "finding-d42a5c94312d8524",
+      "finding-e51a5b5a35e604ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8bb906915d56e8a8",
+    "syndrome_id": "syndrome-8bb906915d56e8a8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-115bbdd5562c017b",
+      "finding-69725d9066325846"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8bd68071b08fd534",
+    "syndrome_id": "syndrome-8bd68071b08fd534",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0a144ba65589edfc",
+      "finding-6c3a9ea3b410ab90",
+      "finding-b0069c4200739ed3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8c0530ee7e2dafe4",
+    "syndrome_id": "syndrome-8c0530ee7e2dafe4",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-625550e3638e19f0",
+      "finding-b04a48fd5aceae28",
+      "finding-c4af0ed5f9c59c0e"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8d59a3b5213092e0",
+    "syndrome_id": "syndrome-8d59a3b5213092e0",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-7b78844986e2b041",
+      "finding-95efb17dca2c4445",
+      "finding-ebd56bea58acb52c"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8ed172c8e934f6d5",
+    "syndrome_id": "syndrome-8ed172c8e934f6d5",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-277150804f0ecfee"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8eff29d50294427d",
+    "syndrome_id": "syndrome-8eff29d50294427d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-14a058e373b57243",
+      "finding-30207f4c3f7c845b",
+      "finding-649f7db3c80eda74",
+      "finding-76e99270162c0398",
+      "finding-d476691435e423e3",
+      "finding-e8a1339e64026756"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8f9befe568cd724d",
+    "syndrome_id": "syndrome-8f9befe568cd724d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-73419d0f519d0fa3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-8fed2e233db99acd",
+    "syndrome_id": "syndrome-8fed2e233db99acd",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-90c607084c1445ac",
+    "syndrome_id": "syndrome-90c607084c1445ac",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-626131d0f56f8c39",
+      "finding-e51a5b5a35e604ca",
+      "finding-ecac780422e05474"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-910f406976e926ea",
+    "syndrome_id": "syndrome-910f406976e926ea",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-91bbcb56fa7b3084",
+    "syndrome_id": "syndrome-91bbcb56fa7b3084",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-b2eaadc11592d9f3",
+      "finding-c0d45535d14e5331"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-91e92e83228977c4",
+    "syndrome_id": "syndrome-91e92e83228977c4",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-032740d6e5e35d02",
+      "finding-3582e25e8e4b7ba3",
+      "finding-e4d96a5008501696"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-9463c4e94ccb56c0",
+    "syndrome_id": "syndrome-9463c4e94ccb56c0",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-2043c7e8cd0d16bc",
+      "finding-3e5e228d8ca962e0",
+      "finding-433058c3d1aca468",
+      "finding-e51a5b5a35e604ca",
+      "finding-fcf1e3fe2884f1b5"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-94b3d238822e85ca",
+    "syndrome_id": "syndrome-94b3d238822e85ca",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-9544cc24be3df84f",
+    "syndrome_id": "syndrome-9544cc24be3df84f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-37aaefc9cb407522",
+      "finding-734782ada6ac3c02",
+      "finding-ba82f7957efe38fc",
+      "finding-cbf96fe1614f9f9a"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-96b74691e7bd87c8",
+    "syndrome_id": "syndrome-96b74691e7bd87c8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-546e09debbd92f43",
+      "finding-b7e1923ba7fa0c41",
+      "finding-e51a5b5a35e604ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-971e25901be7c968",
+    "syndrome_id": "syndrome-971e25901be7c968",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3f1f3468a5875dd2"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-9847e06f9b5c3d1e",
+    "syndrome_id": "syndrome-9847e06f9b5c3d1e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-96eb5c4759b4fd9d",
+      "finding-ecac780422e05474"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-9bec532a1d74b288",
+    "syndrome_id": "syndrome-9bec532a1d74b288",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-032740d6e5e35d02"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-9d1dca1d2ae27c83",
+    "syndrome_id": "syndrome-9d1dca1d2ae27c83",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-bae72857acd50ba0"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-9e94fffe12960408",
+    "syndrome_id": "syndrome-9e94fffe12960408",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3d1e2928efe8a887",
+      "finding-6d117fe8e81b6b58"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-9ffbcfb8fe43d08f",
+    "syndrome_id": "syndrome-9ffbcfb8fe43d08f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-49ba8a46860c46fb",
+      "finding-87adec53bba53618",
+      "finding-de228293c821581b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a281d73f0c2cd4a2",
+    "syndrome_id": "syndrome-a281d73f0c2cd4a2",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-16518ea02aba26f6"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a2bb66093724dd5f",
+    "syndrome_id": "syndrome-a2bb66093724dd5f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-79932681875aec5e"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a2e3707d28aa488e",
+    "syndrome_id": "syndrome-a2e3707d28aa488e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-50511c338f76732a"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a325720a6d5086b3",
+    "syndrome_id": "syndrome-a325720a6d5086b3",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-69725d9066325846"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a3f3ba1fee8b7b69",
+    "syndrome_id": "syndrome-a3f3ba1fee8b7b69",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a45c8b847de8caa2",
+    "syndrome_id": "syndrome-a45c8b847de8caa2",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-c1cfc06b830a0c86"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a46709cbdf0c7947",
+    "syndrome_id": "syndrome-a46709cbdf0c7947",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-41ce35a6b8b941eb",
+      "finding-649f7db3c80eda74",
+      "finding-c0d45535d14e5331",
+      "finding-fa00c19b93064172"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a47fcc8e4029c695",
+    "syndrome_id": "syndrome-a47fcc8e4029c695",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-49ba8a46860c46fb",
+      "finding-87adec53bba53618",
+      "finding-de228293c821581b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a4a787a7c2f63b6a",
+    "syndrome_id": "syndrome-a4a787a7c2f63b6a",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-16518ea02aba26f6",
+      "finding-a2613947f1bc84ee",
+      "finding-e5c9c5a98e84882e"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a50bdcee3842684b",
+    "syndrome_id": "syndrome-a50bdcee3842684b",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-05b03379078575e0",
+      "finding-1f17feaf5445ff6b",
+      "finding-a4df5fe98b8057a3",
+      "finding-bc03e925204e2ff8"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a59e2a77296c6798",
+    "syndrome_id": "syndrome-a59e2a77296c6798",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-4c024d2ede0178ba",
+      "finding-609d39ef9285f3e8",
+      "finding-9702dff04bfdada3",
+      "finding-aae75b897822435b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a5e849767e0f62f4",
+    "syndrome_id": "syndrome-a5e849767e0f62f4",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-9a52cc2bda582e92"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a603272e4386185e",
+    "syndrome_id": "syndrome-a603272e4386185e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-115bbdd5562c017b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-a9dca73c98eb63d1",
+    "syndrome_id": "syndrome-a9dca73c98eb63d1",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-9257e3de29071093"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-aa4c284f15cc2e97",
+    "syndrome_id": "syndrome-aa4c284f15cc2e97",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-1252497cb08c2768",
+      "finding-6d117fe8e81b6b58",
+      "finding-ecd011522fffb5fa"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-acdcfd88d95fa31c",
+    "syndrome_id": "syndrome-acdcfd88d95fa31c",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-093b95093384bc0e",
+      "finding-43badb174b62938d",
+      "finding-5ff5e514c8f88203",
+      "finding-629a09e514b50f5c",
+      "finding-6ffa9029037cfe4b",
+      "finding-c7eda79979aafd3b",
+      "finding-de228293c821581b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ad6fc31635b2d44b",
+    "syndrome_id": "syndrome-ad6fc31635b2d44b",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ae245c14abb1ce8c",
+    "syndrome_id": "syndrome-ae245c14abb1ce8c",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-aede43dc2e342e7e",
+    "syndrome_id": "syndrome-aede43dc2e342e7e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-76e99270162c0398"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-af49f0b9b2e9a08e",
+    "syndrome_id": "syndrome-af49f0b9b2e9a08e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-6ffa9029037cfe4b",
+      "finding-b7f3d9090c76b9d1"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-b08946989c46cf33",
+    "syndrome_id": "syndrome-b08946989c46cf33",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-82d711fabac8791e",
+      "finding-b2eaadc11592d9f3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-b1f187966dac1089",
+    "syndrome_id": "syndrome-b1f187966dac1089",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-b361927a63ef2315",
+    "syndrome_id": "syndrome-b361927a63ef2315",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-79932681875aec5e"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-b39e5d0bd1b1ea13",
+    "syndrome_id": "syndrome-b39e5d0bd1b1ea13",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-7e6c67020bbe67f4"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-b3b707c2cf06c90a",
+    "syndrome_id": "syndrome-b3b707c2cf06c90a",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0be87ac2d048af4e",
+      "finding-6a75808d7f6bdc03",
+      "finding-95efb17dca2c4445",
+      "finding-fcf1e3fe2884f1b5"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-b6243a17008a003d",
+    "syndrome_id": "syndrome-b6243a17008a003d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-133c512c0613da48",
+      "finding-4fe4796897d3adba",
+      "finding-d42a5c94312d8524",
+      "finding-d476691435e423e3",
+      "finding-d877624a44d56e55"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-b6a164f9fe6e310e",
+    "syndrome_id": "syndrome-b6a164f9fe6e310e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0be87ac2d048af4e",
+      "finding-6a75808d7f6bdc03",
+      "finding-95efb17dca2c4445",
+      "finding-fcf1e3fe2884f1b5"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-b6f0ae6e2af7cc2b",
+    "syndrome_id": "syndrome-b6f0ae6e2af7cc2b",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-b6ff30064e616595",
+    "syndrome_id": "syndrome-b6ff30064e616595",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-9702dff04bfdada3",
+      "finding-9c8225bb2bfe8b00"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-b8a01136393630f1",
+    "syndrome_id": "syndrome-b8a01136393630f1",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-ec02512c605302ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ba077a7b71271e76",
+    "syndrome_id": "syndrome-ba077a7b71271e76",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-1252497cb08c2768"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ba1e595a9d9dd971",
+    "syndrome_id": "syndrome-ba1e595a9d9dd971",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-2c064f656e33ad8c",
+      "finding-3189d633233fa8b9",
+      "finding-83d4ca788a008b4b",
+      "finding-d0fa72f7566fc76b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ba7250eb1c62ecfe",
+    "syndrome_id": "syndrome-ba7250eb1c62ecfe",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-41ce35a6b8b941eb",
+      "finding-43badb174b62938d",
+      "finding-55a36e0dccefa3ae",
+      "finding-aae75b897822435b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-bbb8cc1a6bb82df3",
+    "syndrome_id": "syndrome-bbb8cc1a6bb82df3",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-b10f94552b297c4d"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-bd8ccbdc55c61359",
+    "syndrome_id": "syndrome-bd8ccbdc55c61359",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-dc8ed4af534fcf07"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-be3f58483d030f24",
+    "syndrome_id": "syndrome-be3f58483d030f24",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0a144ba65589edfc",
+      "finding-0d0b28cdd56d8382",
+      "finding-649f7db3c80eda74",
+      "finding-71639d534daa113b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-bf357b2a3432508d",
+    "syndrome_id": "syndrome-bf357b2a3432508d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-133c512c0613da48",
+      "finding-4fe4796897d3adba",
+      "finding-d42a5c94312d8524",
+      "finding-d476691435e423e3",
+      "finding-d877624a44d56e55"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-bfb8d70b9c295e27",
+    "syndrome_id": "syndrome-bfb8d70b9c295e27",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-bffafe30fee4ad86",
+    "syndrome_id": "syndrome-bffafe30fee4ad86",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0239f6712f2a5741",
+      "finding-f565254d73f45d9b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-c051c5462e26be32",
+    "syndrome_id": "syndrome-c051c5462e26be32",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 8,
+    "associated_observation_ids": [
+      "finding-05b03379078575e0",
+      "finding-14a058e373b57243",
+      "finding-1f17feaf5445ff6b",
+      "finding-43badb174b62938d",
+      "finding-62113eff87b3a701",
+      "finding-a4df5fe98b8057a3",
+      "finding-bc03e925204e2ff8",
+      "finding-ecf2c5347708a07c"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-c2cbb22c4f00abb7",
+    "syndrome_id": "syndrome-c2cbb22c4f00abb7",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-459126be9c374d3b",
+      "finding-c1cfc06b830a0c86"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-c2d2c6b1b9b16e62",
+    "syndrome_id": "syndrome-c2d2c6b1b9b16e62",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-73419d0f519d0fa3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-c3260d11c11e4b18",
+    "syndrome_id": "syndrome-c3260d11c11e4b18",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-626131d0f56f8c39"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-c49f1ed19e92473f",
+    "syndrome_id": "syndrome-c49f1ed19e92473f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-9257e3de29071093"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-c5dce654c58f733e",
+    "syndrome_id": "syndrome-c5dce654c58f733e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-39fdc3f9262a41f3",
+      "finding-55a36e0dccefa3ae",
+      "finding-9702dff04bfdada3",
+      "finding-aae75b897822435b",
+      "finding-c8662485320be403"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-c767f5f5e24c259d",
+    "syndrome_id": "syndrome-c767f5f5e24c259d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-ef5a8bb2e52625a1"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-c7f0ea4d6c546059",
+    "syndrome_id": "syndrome-c7f0ea4d6c546059",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-c82f23af44648091",
+    "syndrome_id": "syndrome-c82f23af44648091",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-50511c338f76732a",
+      "finding-6b396350b32ea966"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ca6abe57fc6eb202",
+    "syndrome_id": "syndrome-ca6abe57fc6eb202",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-efbeafd3b91fb4eb"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-cb999c5b818dbbb5",
+    "syndrome_id": "syndrome-cb999c5b818dbbb5",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0e876352db66939b",
+      "finding-6b396350b32ea966"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-cdc0ed319c8a859a",
+    "syndrome_id": "syndrome-cdc0ed319c8a859a",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-5f567890a5065daf",
+      "finding-649f7db3c80eda74",
+      "finding-c3d981c5d6f299a1"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ce0d119eafa54415",
+    "syndrome_id": "syndrome-ce0d119eafa54415",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-014d2b460a13a721",
+      "finding-16518ea02aba26f6",
+      "finding-972e9dd7383a47d7",
+      "finding-a2613947f1bc84ee",
+      "finding-d2656b46ace87dc2",
+      "finding-ec02512c605302ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-cecbce92da493786",
+    "syndrome_id": "syndrome-cecbce92da493786",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-2043c7e8cd0d16bc",
+      "finding-37aaefc9cb407522",
+      "finding-41ce35a6b8b941eb",
+      "finding-734782ada6ac3c02",
+      "finding-cbf96fe1614f9f9a",
+      "finding-fa00c19b93064172"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-cf6dea7ef46e0cc7",
+    "syndrome_id": "syndrome-cf6dea7ef46e0cc7",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-014d2b460a13a721",
+      "finding-16518ea02aba26f6",
+      "finding-972e9dd7383a47d7",
+      "finding-a2613947f1bc84ee",
+      "finding-d2656b46ace87dc2",
+      "finding-ec02512c605302ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d012f854986c6c22",
+    "syndrome_id": "syndrome-d012f854986c6c22",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-9702dff04bfdada3",
+      "finding-9c8225bb2bfe8b00"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d05f5d5e8b8d7886",
+    "syndrome_id": "syndrome-d05f5d5e8b8d7886",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-5c0deb5e6a23cbdf",
+      "finding-6a4fd4f31fd5f51e",
+      "finding-dc8ed4af534fcf07",
+      "finding-e5c9c5a98e84882e"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d0ab4edcbd129b72",
+    "syndrome_id": "syndrome-d0ab4edcbd129b72",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d2132d8f1f6177b8",
+    "syndrome_id": "syndrome-d2132d8f1f6177b8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-546e09debbd92f43",
+      "finding-5c18c2668088fb66"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d391d7dbfd52712f",
+    "syndrome_id": "syndrome-d391d7dbfd52712f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-5c18c2668088fb66",
+      "finding-625550e3638e19f0",
+      "finding-65d7d479ba19d49a",
+      "finding-83d4ca788a008b4b",
+      "finding-9a52cc2bda582e92",
+      "finding-f6eda0fee839f444"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d3a084a33acd8694",
+    "syndrome_id": "syndrome-d3a084a33acd8694",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-2043c7e8cd0d16bc",
+      "finding-267db60e3208b667",
+      "finding-95efb17dca2c4445"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d3adfd0dcd7da5ed",
+    "syndrome_id": "syndrome-d3adfd0dcd7da5ed",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-7e6c67020bbe67f4"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d3b4664f782efe67",
+    "syndrome_id": "syndrome-d3b4664f782efe67",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-459126be9c374d3b",
+      "finding-649f7db3c80eda74",
+      "finding-b7c1d4e1b9b67ca8",
+      "finding-cbf96fe1614f9f9a",
+      "finding-d877624a44d56e55"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d510aa0170a0151f",
+    "syndrome_id": "syndrome-d510aa0170a0151f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-546e09debbd92f43",
+      "finding-6deb2701007b1661"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d5b74134559615c7",
+    "syndrome_id": "syndrome-d5b74134559615c7",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-bc03e925204e2ff8",
+      "finding-d2656b46ace87dc2",
+      "finding-e51a5b5a35e604ca",
+      "finding-ec02512c605302ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d6bba8356b98e709",
+    "syndrome_id": "syndrome-d6bba8356b98e709",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-05b03379078575e0",
+      "finding-0be87ac2d048af4e",
+      "finding-2043c7e8cd0d16bc",
+      "finding-65d7d479ba19d49a",
+      "finding-7b78844986e2b041",
+      "finding-9257e3de29071093",
+      "finding-9702dff04bfdada3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d841fcfad75380e0",
+    "syndrome_id": "syndrome-d841fcfad75380e0",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-4e4ffcb82d51c028"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d94b37e0a9442e5d",
+    "syndrome_id": "syndrome-d94b37e0a9442e5d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-d9580481bddcb8da",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 3,
+    "associated_observation_ids": [
+      "finding-2c064f656e33ad8c",
+      "finding-34ff534a3342be99",
+      "finding-4e4ffcb82d51c028",
+      "finding-609d39ef9285f3e8",
+      "finding-9702dff04bfdada3",
+      "finding-b2eaadc11592d9f3",
+      "finding-bc03e925204e2ff8",
+      "finding-d2656b46ace87dc2",
+      "finding-e4d96a5008501696",
+      "finding-e51a5b5a35e604ca",
+      "finding-ec02512c605302ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-da4a64edf2f5be9f",
+    "syndrome_id": "syndrome-da4a64edf2f5be9f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-39fdc3f9262a41f3",
+      "finding-43badb174b62938d",
+      "finding-55a36e0dccefa3ae",
+      "finding-65d7d479ba19d49a",
+      "finding-9702dff04bfdada3",
+      "finding-aae75b897822435b",
+      "finding-c8662485320be403"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-db1e397cb70e0d9b",
+    "syndrome_id": "syndrome-db1e397cb70e0d9b",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3f1f3468a5875dd2",
+      "finding-73419d0f519d0fa3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-db2fb88b9c19429d",
+    "syndrome_id": "syndrome-db2fb88b9c19429d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-dbc91e78dd84e5e6",
+    "syndrome_id": "syndrome-dbc91e78dd84e5e6",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-3304cea5d7e64360",
+      "finding-4c024d2ede0178ba",
+      "finding-5ce4831b887afdc2",
+      "finding-649f7db3c80eda74",
+      "finding-b2eaadc11592d9f3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-de97159508df537c",
+    "syndrome_id": "syndrome-de97159508df537c",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0e876352db66939b",
+      "finding-55a36e0dccefa3ae",
+      "finding-5c18c2668088fb66"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e14e127d0df7b31b",
+    "syndrome_id": "syndrome-e14e127d0df7b31b",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3f1f3468a5875dd2"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e18b4ad4a6ed2374",
+    "syndrome_id": "syndrome-e18b4ad4a6ed2374",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3304cea5d7e64360",
+      "finding-4c024d2ede0178ba",
+      "finding-5ce4831b887afdc2",
+      "finding-649f7db3c80eda74",
+      "finding-b2eaadc11592d9f3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e2f8537ca77fc769",
+    "syndrome_id": "syndrome-e2f8537ca77fc769",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-473e6ea934253e12",
+      "finding-4c024d2ede0178ba",
+      "finding-65f819624655c9e9",
+      "finding-b2eaadc11592d9f3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e382a9409abc550b",
+    "syndrome_id": "syndrome-e382a9409abc550b",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-1252497cb08c2768"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e3ac192152a8ae8f",
+    "syndrome_id": "syndrome-e3ac192152a8ae8f",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0f5521d640ae3aad",
+      "finding-66971ee4f4234da5",
+      "finding-96eb5c4759b4fd9d",
+      "finding-ba82f7957efe38fc",
+      "finding-c8662485320be403",
+      "finding-cc2ae52a7944f2bf",
+      "finding-e51a5b5a35e604ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e3c81e21cb170326",
+    "syndrome_id": "syndrome-e3c81e21cb170326",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-7b78844986e2b041",
+      "finding-95efb17dca2c4445",
+      "finding-ebd56bea58acb52c"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e3e3dd1e6a094323",
+    "syndrome_id": "syndrome-e3e3dd1e6a094323",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-e8e4da696dbf7b7b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e3eac84efd7d2126",
+    "syndrome_id": "syndrome-e3eac84efd7d2126",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-9a52cc2bda582e92",
+      "finding-b7c1d4e1b9b67ca8"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e438151bdb894144",
+    "syndrome_id": "syndrome-e438151bdb894144",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-5f567890a5065daf",
+      "finding-6c3a9ea3b410ab90",
+      "finding-73419d0f519d0fa3",
+      "finding-f565254d73f45d9b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e5c73f69e2fa0af0",
+    "syndrome_id": "syndrome-e5c73f69e2fa0af0",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0c70bb966c626329",
+      "finding-0d0b28cdd56d8382",
+      "finding-0e876352db66939b",
+      "finding-69725d9066325846",
+      "finding-c3d981c5d6f299a1"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e5fae1de57d6d600",
+    "syndrome_id": "syndrome-e5fae1de57d6d600",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-625550e3638e19f0",
+      "finding-79932681875aec5e",
+      "finding-cbf96fe1614f9f9a"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e6cc369f3067ae0d",
+    "syndrome_id": "syndrome-e6cc369f3067ae0d",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-972e9dd7383a47d7",
+      "finding-dcb31ed50613ab09"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e7b06b7e18745728",
+    "syndrome_id": "syndrome-e7b06b7e18745728",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-50511c338f76732a"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e87c9a33096c967e",
+    "syndrome_id": "syndrome-e87c9a33096c967e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-626131d0f56f8c39",
+      "finding-d3149fc1267bd721"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e99928c469251aee",
+    "syndrome_id": "syndrome-e99928c469251aee",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e9ee221888272120",
+    "syndrome_id": "syndrome-e9ee221888272120",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-39fdc3f9262a41f3",
+      "finding-55a36e0dccefa3ae",
+      "finding-9702dff04bfdada3",
+      "finding-aae75b897822435b",
+      "finding-c8662485320be403"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-e9ff1474a753fd14",
+    "syndrome_id": "syndrome-e9ff1474a753fd14",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-41ce35a6b8b941eb",
+      "finding-fa00c19b93064172"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ea9a2f1949846e03",
+    "syndrome_id": "syndrome-ea9a2f1949846e03",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ebbcd4c411a187da",
+    "syndrome_id": "syndrome-ebbcd4c411a187da",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-115bbdd5562c017b",
+      "finding-bc03e925204e2ff8"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ec0a3d396d9801e6",
+    "syndrome_id": "syndrome-ec0a3d396d9801e6",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0e876352db66939b",
+      "finding-6b396350b32ea966"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ec384be3524ccb93",
+    "syndrome_id": "syndrome-ec384be3524ccb93",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ecbe6cb711c44dc0",
+    "syndrome_id": "syndrome-ecbe6cb711c44dc0",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-649f7db3c80eda74",
+      "finding-83d4ca788a008b4b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ecc3f8d90b312be0",
+    "syndrome_id": "syndrome-ecc3f8d90b312be0",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-115bbdd5562c017b",
+      "finding-69725d9066325846"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-eccaec4d39017059",
+    "syndrome_id": "syndrome-eccaec4d39017059",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-05b03379078575e0",
+      "finding-0be87ac2d048af4e",
+      "finding-2043c7e8cd0d16bc",
+      "finding-65d7d479ba19d49a",
+      "finding-7b78844986e2b041",
+      "finding-9257e3de29071093",
+      "finding-9702dff04bfdada3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ed4819d36e0cad2c",
+    "syndrome_id": "syndrome-ed4819d36e0cad2c",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0ea84e1892e27192"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-ed768da0f913fadc",
+    "syndrome_id": "syndrome-ed768da0f913fadc",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-73419d0f519d0fa3",
+      "finding-82d711fabac8791e",
+      "finding-ce49c2e3fd81fffb"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f107f430fc9b542a",
+    "syndrome_id": "syndrome-f107f430fc9b542a",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0a144ba65589edfc",
+      "finding-2858958f987c8d89",
+      "finding-546e09debbd92f43",
+      "finding-82d711fabac8791e",
+      "finding-87adec53bba53618",
+      "finding-aae75b897822435b"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f1a4b3d18d6bcf3e",
+    "syndrome_id": "syndrome-f1a4b3d18d6bcf3e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 2,
+    "associated_observation_ids": [
+      "finding-625550e3638e19f0",
+      "finding-b04a48fd5aceae28",
+      "finding-c4af0ed5f9c59c0e",
+      "finding-cb8f03f8b2ceaf02"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f1d1940ef4e239d6",
+    "syndrome_id": "syndrome-f1d1940ef4e239d6",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 3,
+    "associated_observation_ids": [
+      "finding-133c512c0613da48",
+      "finding-429c352d517771e9",
+      "finding-629a09e514b50f5c",
+      "finding-6ffa9029037cfe4b",
+      "finding-d42a5c94312d8524"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f21390d6c4a06e47",
+    "syndrome_id": "syndrome-f21390d6c4a06e47",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-6d117fe8e81b6b58",
+      "finding-9257e3de29071093",
+      "finding-aae75b897822435b",
+      "finding-b04a48fd5aceae28"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f4462d233c604fa8",
+    "syndrome_id": "syndrome-f4462d233c604fa8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-49ba8a46860c46fb",
+      "finding-b2eaadc11592d9f3"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f546f68493b26338",
+    "syndrome_id": "syndrome-f546f68493b26338",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0f5521d640ae3aad",
+      "finding-66971ee4f4234da5",
+      "finding-96eb5c4759b4fd9d",
+      "finding-ba82f7957efe38fc",
+      "finding-c8662485320be403",
+      "finding-cc2ae52a7944f2bf",
+      "finding-e51a5b5a35e604ca"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f692a38f89bb3467",
+    "syndrome_id": "syndrome-f692a38f89bb3467",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-014d2b460a13a721",
+      "finding-cc2ae52a7944f2bf"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f6b2773adb25288e",
+    "syndrome_id": "syndrome-f6b2773adb25288e",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-5c0deb5e6a23cbdf",
+      "finding-625550e3638e19f0",
+      "finding-73419d0f519d0fa3",
+      "finding-b7f3d9090c76b9d1",
+      "finding-bc03e925204e2ff8",
+      "finding-ecf2c5347708a07c"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f7566e2e7bcd20a1",
+    "syndrome_id": "syndrome-f7566e2e7bcd20a1",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-a3b9be6016f3ff84"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f7999b9d1663ec90",
+    "syndrome_id": "syndrome-f7999b9d1663ec90",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-30207f4c3f7c845b",
+      "finding-7e6c67020bbe67f4"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f7d968ae3c7f0dc2",
+    "syndrome_id": "syndrome-f7d968ae3c7f0dc2",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-0e52f4b827ecc553",
+      "finding-69725d9066325846"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f873fe2e496f94a8",
+    "syndrome_id": "syndrome-f873fe2e496f94a8",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  },
+  {
+    "card_id": "corpus-syndrome-f9c1227cd6e456ec",
+    "syndrome_id": "syndrome-f9c1227cd6e456ec",
+    "source_id": "tcmeval-sdt-train",
+    "source_record_count": 1,
+    "associated_observation_ids": [
+      "finding-3304cea5d7e64360",
+      "finding-ce49c2e3fd81fffb",
+      "finding-dc8ed4af534fcf07",
+      "finding-def3bd97206666fc",
+      "finding-ebd56bea58acb52c"
+    ],
+    "diagnostic_criteria": null,
+    "exclusion_criteria": null,
+    "differential_rules": null,
+    "criteria_status": "not_available_from_case_labels",
+    "clinical_use": "disabled"
+  }
+]

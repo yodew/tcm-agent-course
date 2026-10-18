@@ -1,0 +1,80 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "card_id": {
+      "title": "Card Id",
+      "type": "string"
+    },
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "topic": {
+      "title": "Topic",
+      "type": "string"
+    },
+    "pattern_label": {
+      "title": "Pattern Label",
+      "type": "string"
+    },
+    "related_features": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Related Features",
+      "type": "array"
+    },
+    "question_links": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Question Links",
+      "type": "array"
+    },
+    "locator": {
+      "title": "Locator",
+      "type": "string"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    },
+    "required_criteria": {
+      "default": null,
+      "title": "Required Criteria",
+      "type": "null"
+    },
+    "exclusion_criteria": {
+      "default": null,
+      "title": "Exclusion Criteria",
+      "type": "null"
+    },
+    "evidence_kind": {
+      "const": "literature_feature_summary",
+      "default": "literature_feature_summary",
+      "title": "Evidence Kind",
+      "type": "string"
+    },
+    "clinical_use": {
+      "const": "disabled",
+      "default": "disabled",
+      "title": "Clinical Use",
+      "type": "string"
+    }
+  },
+  "required": [
+    "card_id",
+    "source_id",
+    "topic",
+    "pattern_label",
+    "related_features",
+    "question_links",
+    "locator",
+    "limitations"
+  ],
+  "title": "LiteratureCard",
+  "type": "object"
+}

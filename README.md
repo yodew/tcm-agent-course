@@ -4,7 +4,7 @@
 
 **从这里开始：[完整课程 Markdown](course/COURSE.md)。** 运行证据与未执行项见 [验证报告](evidence/validation.md)。课程直接在 GitHub 阅读，不再生成或分发 PDF。
 
-仓库仅保存源码、课程、原创教学数据和去除个人路径的验证记录。配置密钥前请阅读 [配置与数据保护说明](SECURITY.md)。
+仓库仅保存源码、课程、注明来源与许可的教学/研究数据和去除个人路径的验证记录。配置密钥前请阅读 [配置与数据保护说明](SECURITY.md)。
 
 GitHub CI 模板位于 [`.github/ci.yml.example`](.github/ci.yml.example)。当前上传凭据没有 `workflow` 权限，因此尚未启用 Actions；在有相应权限的环境将它移到 `.github/workflows/ci.yml` 后提交即可启用。相同检查可在本地运行 `make check`。
 
@@ -58,6 +58,20 @@ uv run python examples/load_probe.py
 - 扩展：真实 stdio MCP 往返和 LangGraph 条件路由示例。
 
 ![架构](course/assets/architecture.png)
+
+## 新方向：多模态问诊与辅助诊断的知识准备
+
+已整理独立的[临床研究知识包](knowledge/clinical/README.md)：63 个原创问诊条目、845 个来源术语、769 条描述性关联、294 张候选资料卡及 3 张文献参考卡。固定两个开源数据源的提交与 SHA256；原始病例、处方和原题不进入源码包。所有条目保留出处与证据局限。
+
+这是一份**已采集、可查验的研究数据层**，还没有接入患者诊断流程。267 张单记录卡、40 张无保留观察卡明确列入质量报告，不当作充分诊断依据。病例共现不等于诊断规则；现有运行服务仍为就诊准备，未悄悄开放诊断。
+
+```bash
+uv run python scripts/clinical_knowledge.py audit
+uv run python scripts/clinical_knowledge.py questions --profile sleep --limit 8
+uv run python scripts/clinical_knowledge.py search --query 心脾
+```
+
+[来源与许可](knowledge/clinical/ATTRIBUTION.md) · [采集与验证](evidence/clinical-knowledge-validation.md) · [面舌脉接入约定](knowledge/clinical/INTEGRATION.md)。取得实际结果样本后，再映射字段、时间、质量、未知状态与共同证据组；不把 API 特征置信度变成诊断概率。
 
 ## 安装与本地启动
 
@@ -206,6 +220,6 @@ TCM_TEST_DATABASE_URL='postgresql+asyncpg://user:password@localhost/test_db' \
 
 ## 目录与许可
 
-`course/COURSE.md` 为主交付；`src/` 为完整实现；`labs/` 为独立机制实验；`course/ENGINEERING_REFERENCE.md` 为工程详解；`tests/` 为行为验证；`examples/` 为集成入口；`knowledge/` 为原创教学语料；`evidence/` 保存结果。已有 `docs/` 研究材料保留。
+`course/COURSE.md` 为主交付；`src/` 为完整实现；`labs/` 为独立机制实验；`course/ENGINEERING_REFERENCE.md` 为工程详解；`tests/` 为行为验证；`examples/` 为集成入口；`knowledge/entries.json` 为原创教学语料，`knowledge/clinical/` 为注明第三方来源与限制的研究包；`evidence/` 保存结果。已有 `docs/` 研究材料保留。
 
 新编写源码 MIT；原创课程、图示与教学知识 CC BY 4.0。外部来源权利不变，详见 LICENSE 与 COURSE-LICENSE.md。

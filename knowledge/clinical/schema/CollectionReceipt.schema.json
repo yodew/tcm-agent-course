@@ -1,0 +1,60 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "input_sha256": {
+      "title": "Input Sha256",
+      "type": "string"
+    },
+    "input_records": {
+      "title": "Input Records",
+      "type": "integer"
+    },
+    "exported_fields": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Exported Fields",
+      "type": "array"
+    },
+    "excluded_fields": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Excluded Fields",
+      "type": "array"
+    },
+    "source_file_url": {
+      "title": "Source File Url",
+      "type": "string"
+    },
+    "license_evidence_url": {
+      "title": "License Evidence Url",
+      "type": "string"
+    },
+    "license_evidence_sha256": {
+      "title": "License Evidence Sha256",
+      "type": "string"
+    },
+    "collection_date": {
+      "title": "Collection Date",
+      "type": "string"
+    }
+  },
+  "required": [
+    "source_id",
+    "input_sha256",
+    "input_records",
+    "exported_fields",
+    "excluded_fields",
+    "source_file_url",
+    "license_evidence_url",
+    "license_evidence_sha256",
+    "collection_date"
+  ],
+  "title": "CollectionReceipt",
+  "type": "object"
+}

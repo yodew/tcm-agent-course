@@ -1,0 +1,20 @@
+[
+  {
+    "source_id": "tcmeval-sdt-train",
+    "url": "https://raw.githubusercontent.com/zhuyan166/TCMEval/12473b50ce94ad2fd22b1e984b826b0a618c4407/evaluation/TCMEval-SDT/data/Train_TCM_Data_v1.json",
+    "local_name": "tcmeval-train.json",
+    "sha256": "cddcf9c7187d43462b8c80b1756527e506b2e8d9d0329171d50477f49bd679cd",
+    "license_url": "https://raw.githubusercontent.com/zhuyan166/TCMEval/12473b50ce94ad2fd22b1e984b826b0a618c4407/evaluation/TCMEval-SDT/readme.md",
+    "license_local_name": "tcmeval-readme-pinned.md",
+    "license_sha256": "3f0371b6c672e15142e2531d5ca929861f24c2fbb92237a58c7d52f30dac1e0b"
+  },
+  {
+    "source_id": "mtcmb-diagnosis",
+    "url": "https://raw.githubusercontent.com/Wayyuanyuan/MTCMB/faffd813c67fe012cef74277a23270d5dd6db9b8/data/TCM-Diagnosis.jsonl",
+    "local_name": "mtcmb-diagnosis.jsonl",
+    "sha256": "efe4b33f523e1f060185a71c1ba725b1be9eac69c596744ceb74eac953a31db1",
+    "license_url": "https://raw.githubusercontent.com/Wayyuanyuan/MTCMB/faffd813c67fe012cef74277a23270d5dd6db9b8/ReadMe.md",
+    "license_local_name": "mtcmb-readme-pinned.md",
+    "license_sha256": "1df38fcd37a198daddde5f998aa24c1f0f54d328f4e547e6d20a00a9320b48c5"
+  }
+]

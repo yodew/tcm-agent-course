@@ -1,0 +1,13 @@
+{
+  "sources": 6,
+  "questions": 63,
+  "terms": 845,
+  "associations": 769,
+  "candidate_cards": 294,
+  "literature_cards": 3,
+  "single_record_cards": 267,
+  "cards_without_retained_observations": 40,
+  "raw_case_exported": false,
+  "clinical_inference_enabled": false,
+  "scope": "Collection, provenance and schema validation only; not clinical validation"
+}

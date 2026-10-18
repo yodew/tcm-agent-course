@@ -9,8 +9,8 @@
 | 依赖安装 | `uv sync --all-extras --frozen` | 源码 ZIP 解压到独立临时目录，重新同步依赖、迁移、运行、测试与课程检查均通过；[干净安装记录](clean-install.txt) |
 | 类型检查 | `uv run basedpyright` | 核心应用 `src/tcm_agent`、`labs` 与作业参考实现：0 errors、0 warnings；源码规则审计包含 UI，无违规 |
 | 静态检查 | `uv run ruff check src tests examples scripts ui labs exercises` | 无问题；格式检查单独执行 |
-| 自动化行为 | `uv run pytest --cov=tcm_agent` | 88 passed、2 skipped；[完整结果](tests.txt) |
-| 代码覆盖 | pytest-cov statement coverage | 85%；[机器报告](coverage.json)。CLI、浏览器与评测另行执行，未计入该测试进程覆盖率 |
+| 自动化行为 | `uv run pytest --cov=tcm_agent` | 104 passed、2 skipped；[完整结果](tests.txt) |
+| 代码覆盖 | pytest-cov statement coverage | 87%；[机器报告](coverage.json)。CLI、浏览器与评测另行执行，未计入该测试进程覆盖率 |
 | 双模型协议 | HTTP-level MockTransport 合同测试 | 两种请求格式、调用结果关联、推理条目重放、截断/错误拒绝；不是用户平台连通测试 |
 | 会话与隔离 | FastAPI TestClient + 真实 SQLite | 授权、确认、摘要、来源校验、重放、并发冲突、删除、SSE |
 | 崩溃与取消 | 真实 SQLite、可控租约/任务取消 | 旧租约被拒绝且回滚，取消后相同请求可重试 |
@@ -21,6 +21,15 @@
 | 图文课程 | 构建与链接脚本、Python 节选语法检查 | 30 个完整学习节点、80 道六段式答案、16 组 PNG/SVG/Mermaid；源码同步、Python 语法与本地锚点通过 |
 | Chainlit HTTP 适配 | MockTransport + 真实 FastAPI/SQLite | 同请求重试、截断流拒绝、错误体脱敏、明确版本冲突、确认/撤回/删除和跨身份隔离 |
 | Chainlit 浏览器 | 本机 Chainlit 2.12.0 + 真实独立 API 进程 | 登录、同意、对话、确认前后摘要、撤回、知识引用与删除后清屏；[桌面实图](../docs/images/chainlit.png)、[手机实图](../docs/images/chainlit-mobile.png)、[验收范围](ui-validation.md) |
+
+## v1.4 研究知识包验收（2026-10-18）
+
+- 从固定提交的 TCMEval-SDT train 与 MTCMB TCM-Diagnosis 各实际取得 200 条，核对数据许可声明与文件 SHA256；collector 实际网络下载及哈希校验通过。未执行上游代码，原始下载只保存在忽略的 tmp/。
+- 已导出 63 个原创问题、845 个分种类术语、769 条描述性关联、294 张候选资料卡和 3 张历史文献参考卡；6 个来源、9 份 JSON Schema、署名和来源处置均随包提供。[清单](clinical-knowledge-audit.json)、[具体范围](clinical-knowledge-validation.md)。
+- 明确披露 267 张单记录卡、40 张无保留观察卡；不据此生成概率、权重、必要条件或排除条件。资料用于研究和工程对接，临床推断仍禁止，不混入原运行服务。
+- 新增 16 项行为/参数化测试：否定、记录内去重、受控字段投影、敏感/稀有标签过滤、来源引用、依赖环、共现计数越界、临床启用拒绝、时区和未知/未测状态。正常套件当前 104 passed / 2 skipped；作业参考验收仍为 16 passed。
+- 实际执行研究包审计、问题预览、词表检索、Schema 导出与确定性重建；类型、格式、静态规则、课程/资料链接与代码节选语法均通过。
+- 没有导出原始病例、题干、病机推理、处方、用量或真实患者接口结果；没有下载测试分片作为知识输入。尚未完成临床审核、诊断效果验证或面舌脉实际 API 接入。
 
 ## v1.3 增强验收（2026-10-18）
 

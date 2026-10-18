@@ -1,0 +1,1781 @@
+[
+  {
+    "question_id": "context.age",
+    "domain": "context",
+    "prompt": "您目前的年龄或年龄段是多少？",
+    "target_field": "inquiry.context.age",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "确认适用人群；本包仅为成人一般采集草案",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/age"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 10,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "context.complaint",
+    "domain": "context",
+    "prompt": "这次最希望解决或说明的困扰是什么？",
+    "target_field": "inquiry.context.complaint",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "确定主诉而非先假定证候",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/complaint"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 10,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "context.onset",
+    "domain": "context",
+    "prompt": "这项困扰大约从何时开始？",
+    "target_field": "inquiry.context.onset",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "建立起病时间和病程",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/onset"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 10,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "context.course",
+    "domain": "context",
+    "prompt": "从开始到现在，表现有什么变化？",
+    "target_field": "inquiry.context.course",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "区分当前状态与既往阶段",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/course"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 10,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "context.severity",
+    "domain": "context",
+    "prompt": "它对日常生活、工作或休息有什么影响？",
+    "target_field": "inquiry.context.severity",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "采集患者感受到的影响，不自动换算疾病严重度",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/severity"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 10,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "context.previous_care",
+    "domain": "context",
+    "prompt": "为此看过哪些医师、做过哪些检查或治疗？结果怎样？",
+    "target_field": "inquiry.context.previous_care",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "保存已经发生的诊疗经过",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/previous_care"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 10,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "context.medication",
+    "domain": "context",
+    "prompt": "最近使用了哪些药物、保健品或其他干预？",
+    "target_field": "inquiry.context.medication",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "记录干预与时间，不推断因果",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/medication"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 10,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "context.allergy",
+    "domain": "context",
+    "prompt": "有没有本人已知的过敏经历？不确定也可以说明。",
+    "target_field": "inquiry.context.allergy",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "区分已知过敏、未知与未提供",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/allergy"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 10,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "context.history",
+    "domain": "context",
+    "prompt": "有什么希望医师了解的既往疾病、手术或重要健康经历？",
+    "target_field": "inquiry.context.history",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "补充相关背景而非推断无病史",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/history"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 10,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "context.goal",
+    "domain": "context",
+    "prompt": "您希望这次咨询优先回答什么问题？",
+    "target_field": "inquiry.context.goal",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "使采集围绕患者目标",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/goal"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 10,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "context.urgent",
+    "domain": "context",
+    "prompt": "目前是否有您认为需要立即线下处理的严重不适？",
+    "target_field": "inquiry.context.urgent",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "提示人工关注；此问题不构成完整急症筛查",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/urgent"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 0,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "context.recent_change",
+    "domain": "context",
+    "prompt": "最近作息、工作、饮食或生活环境发生过什么变化？",
+    "target_field": "inquiry.context.recent_change",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "记录时间背景而不直接认定病因",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/context/recent_change"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 10,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "cold_heat.sensation",
+    "domain": "cold_heat",
+    "prompt": "最近是否出现特别怕冷、怕热或冷热感觉变化？",
+    "target_field": "inquiry.cold_heat.sensation",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive"
+    ],
+    "reason": "记录寒热感受及其是否存在",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/cold_heat/sensation"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "cold_heat.timing",
+    "domain": "cold_heat",
+    "prompt": "这种冷热感受通常在什么时候出现，持续多久？",
+    "target_field": "inquiry.cold_heat.timing",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive"
+    ],
+    "reason": "采集发生时间与持续特点",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/cold_heat/timing"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "cold_heat.temperature",
+    "domain": "cold_heat",
+    "prompt": "是否测量过体温？如有，请提供数值、单位和测量时间。",
+    "target_field": "inquiry.cold_heat.temperature",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive"
+    ],
+    "reason": "区别主观感受与实际测量",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/cold_heat/temperature"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "cold_heat.context",
+    "domain": "cold_heat",
+    "prompt": "出现时有哪些环境、活动或其他伴随情况？",
+    "target_field": "inquiry.cold_heat.context",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive"
+    ],
+    "reason": "保留条件背景，不据单项推证",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/cold_heat/context"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sweat.presence",
+    "domain": "sweat",
+    "prompt": "近期出汗情况与平时相比有什么变化？",
+    "target_field": "inquiry.sweat.presence",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "区分变化、无变化与未知",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sweat/presence"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sweat.timing",
+    "domain": "sweat",
+    "prompt": "出汗多发生在活动、安静、入睡后还是其他时间？",
+    "target_field": "inquiry.sweat.timing",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "记录时间与活动条件",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sweat/timing"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sweat.distribution",
+    "domain": "sweat",
+    "prompt": "主要哪些部位出汗，衣物或寝具是否明显受影响？",
+    "target_field": "inquiry.sweat.distribution",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "描述分布和患者可观察程度",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sweat/distribution"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sweat.associated",
+    "domain": "sweat",
+    "prompt": "出汗时同时有哪些其他不适？",
+    "target_field": "inquiry.sweat.associated",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "保留伴随现象而不自动合并为证候",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sweat/associated"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "pain.location",
+    "domain": "pain",
+    "prompt": "不适或疼痛具体在什么位置，会移动或放射吗？",
+    "target_field": "inquiry.pain.location",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "pain"
+    ],
+    "reason": "明确部位与分布",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/pain/location"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 20,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "pain.quality",
+    "domain": "pain",
+    "prompt": "请用自己的话描述感觉，例如胀、刺、隐痛或其他。",
+    "target_field": "inquiry.pain.quality",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "pain"
+    ],
+    "reason": "保留原话，选项不是强制分类",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/pain/quality"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "pain.location"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "pain.pattern",
+    "domain": "pain",
+    "prompt": "是持续存在还是间歇出现？每次通常多久？",
+    "target_field": "inquiry.pain.pattern",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "pain"
+    ],
+    "reason": "记录发作模式",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/pain/pattern"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "pain.location"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "pain.intensity",
+    "domain": "pain",
+    "prompt": "您会怎样描述它的程度，以及对活动的影响？",
+    "target_field": "inquiry.pain.intensity",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "pain"
+    ],
+    "reason": "采集自述程度，不自动分诊",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/pain/intensity"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "pain.location"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "pain.triggers",
+    "domain": "pain",
+    "prompt": "哪些活动、姿势、饮食或情境会使它变化？",
+    "target_field": "inquiry.pain.triggers",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "pain"
+    ],
+    "reason": "明确加重与缓解条件",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/pain/triggers"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "pain.location"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "pain.associated",
+    "domain": "pain",
+    "prompt": "出现时还伴随什么变化或不适？",
+    "target_field": "inquiry.pain.associated",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "pain"
+    ],
+    "reason": "为后续专业鉴别收集信息",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/pain/associated"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "pain.location"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "body_discomfort.head",
+    "domain": "body_discomfort",
+    "prompt": "近期头部是否有想记录的不适？请描述。",
+    "target_field": "inquiry.body_discomfort.head",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "digestive",
+      "pain"
+    ],
+    "reason": "补充头部相关表现",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/body_discomfort/head"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "body_discomfort.chest",
+    "domain": "body_discomfort",
+    "prompt": "近期胸部是否有不适？请描述发生时间和变化。",
+    "target_field": "inquiry.body_discomfort.chest",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "digestive",
+      "pain"
+    ],
+    "reason": "记录胸部表现；不替代风险筛查",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/body_discomfort/chest"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "body_discomfort.abdomen",
+    "domain": "body_discomfort",
+    "prompt": "近期腹部是否有不适？具体位置和变化怎样？",
+    "target_field": "inquiry.body_discomfort.abdomen",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "digestive",
+      "pain"
+    ],
+    "reason": "定位腹部表现",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/body_discomfort/abdomen"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "body_discomfort.limbs",
+    "domain": "body_discomfort",
+    "prompt": "近期身体或四肢有何不适、乏力或活动变化？",
+    "target_field": "inquiry.body_discomfort.limbs",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "digestive",
+      "pain"
+    ],
+    "reason": "保留身体与肢体表现",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/body_discomfort/limbs"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "diet.appetite",
+    "domain": "diet",
+    "prompt": "最近食欲与平时相比怎样？",
+    "target_field": "inquiry.diet.appetite",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive"
+    ],
+    "reason": "采集食欲变化",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/diet/appetite"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "diet.intake",
+    "domain": "diet",
+    "prompt": "进食量和进食规律最近有何变化？",
+    "target_field": "inquiry.diet.intake",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive"
+    ],
+    "reason": "区别食欲与实际摄入",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/diet/intake"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "diet.thirst",
+    "domain": "diet",
+    "prompt": "最近是否容易口渴？饮水量和饮水偏好有何变化？",
+    "target_field": "inquiry.diet.thirst",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive"
+    ],
+    "reason": "采集口渴与饮水，不据此直接判寒热",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/diet/thirst"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "diet.taste",
+    "domain": "diet",
+    "prompt": "口中是否有不同于平时的味觉或其他感受？",
+    "target_field": "inquiry.diet.taste",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive"
+    ],
+    "reason": "保留口味自述",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/diet/taste"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "diet.after_meal",
+    "domain": "diet",
+    "prompt": "进食前后，不适是否出现变化？",
+    "target_field": "inquiry.diet.after_meal",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive"
+    ],
+    "reason": "记录与进食的时间关系",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/diet/after_meal"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "diet.nausea",
+    "domain": "diet",
+    "prompt": "是否出现恶心、呕吐、反酸或嗳气等情况？请描述。",
+    "target_field": "inquiry.diet.nausea",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive"
+    ],
+    "reason": "采集消化相关表现，不预设疾病",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/diet/nausea"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "bowel_urine.stool_frequency",
+    "domain": "bowel_urine",
+    "prompt": "近期排便次数和规律与平时相比怎样？",
+    "target_field": "inquiry.bowel_urine.stool_frequency",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "digestive"
+    ],
+    "reason": "采集频次变化",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/bowel_urine/stool_frequency"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "bowel_urine.stool_form",
+    "domain": "bowel_urine",
+    "prompt": "大便形态、颜色和排便过程有什么想说明的变化？",
+    "target_field": "inquiry.bowel_urine.stool_form",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "digestive"
+    ],
+    "reason": "保留原始表现，不直接归因",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/bowel_urine/stool_form"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "bowel_urine.stool_context",
+    "domain": "bowel_urine",
+    "prompt": "这些变化持续多久，是否与饮食或用药同时发生？",
+    "target_field": "inquiry.bowel_urine.stool_context",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "digestive"
+    ],
+    "reason": "记录时间关系，不推断因果",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/bowel_urine/stool_context"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "bowel_urine.urine_frequency",
+    "domain": "bowel_urine",
+    "prompt": "近期排尿次数、夜间排尿与平时相比怎样？",
+    "target_field": "inquiry.bowel_urine.urine_frequency",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "digestive"
+    ],
+    "reason": "采集排尿规律",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/bowel_urine/urine_frequency"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "bowel_urine.urine_character",
+    "domain": "bowel_urine",
+    "prompt": "排尿过程、尿量或外观有何变化？",
+    "target_field": "inquiry.bowel_urine.urine_character",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "digestive"
+    ],
+    "reason": "记录尿相关表现及未知项",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/bowel_urine/urine_character"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "emotion.mood",
+    "domain": "emotion",
+    "prompt": "近期情绪和压力与平时相比怎样？",
+    "target_field": "inquiry.emotion.mood",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "记录自述情绪背景",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/emotion/mood"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "emotion.relationship",
+    "domain": "emotion",
+    "prompt": "情绪变化与主要困扰在时间上有什么关系？",
+    "target_field": "inquiry.emotion.relationship",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "避免从同时发生直接推断原因",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/emotion/relationship"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "emotion.support",
+    "domain": "emotion",
+    "prompt": "这些困扰对生活造成了什么影响，希望得到什么帮助？",
+    "target_field": "inquiry.emotion.support",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "了解影响和支持需求",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/emotion/support"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sleep.main",
+    "domain": "sleep",
+    "prompt": "睡眠问题主要表现为难入睡、容易醒、早醒，还是其他情况？",
+    "target_field": "inquiry.sleep.main",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "先区分睡眠主诉的具体表现",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sleep/main"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 20,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sleep.latency",
+    "domain": "sleep",
+    "prompt": "从准备入睡到睡着，大约需要多久？不清楚也可说明。",
+    "target_field": "inquiry.sleep.latency",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "记录入睡过程",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sleep/latency"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "sleep.main"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sleep.awakening",
+    "domain": "sleep",
+    "prompt": "夜间醒来的次数、时间及再次入睡情况怎样？",
+    "target_field": "inquiry.sleep.awakening",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "采集睡眠维持表现",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sleep/awakening"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "sleep.main"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sleep.schedule",
+    "domain": "sleep",
+    "prompt": "通常几点上床、起床？作息是否规律？",
+    "target_field": "inquiry.sleep.schedule",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "记录睡眠时间窗口",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sleep/schedule"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "sleep.main"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sleep.duration",
+    "domain": "sleep",
+    "prompt": "这样的情况每周大约发生几次，已持续多久？",
+    "target_field": "inquiry.sleep.duration",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "补充频次与病程，不自行套用诊断阈值",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sleep/duration"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "sleep.main"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sleep.daytime",
+    "domain": "sleep",
+    "prompt": "白天的精神、困倦或活动受到什么影响？",
+    "target_field": "inquiry.sleep.daytime",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "采集日间影响",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sleep/daytime"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "sleep.main"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sleep.breathing",
+    "domain": "sleep",
+    "prompt": "睡眠时是否有人观察到异常呼吸或其他情况？",
+    "target_field": "inquiry.sleep.breathing",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "记录他人观察及来源，不视作检查结论",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sleep/breathing"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "sleep.main"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sleep.substances",
+    "domain": "sleep",
+    "prompt": "近期咖啡、茶、酒及助眠相关干预的使用情况怎样？",
+    "target_field": "inquiry.sleep.substances",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "记录可能相关的时间背景",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sleep/substances"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "sleep.main"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "sleep.environment",
+    "domain": "sleep",
+    "prompt": "睡眠环境、轮班或其他作息条件最近有何变化？",
+    "target_field": "inquiry.sleep.environment",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep"
+    ],
+    "reason": "采集环境与节律信息",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/sleep/environment"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "sleep.main"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "reproductive.applicable",
+    "domain": "reproductive",
+    "prompt": "是否有与本次困扰相关、希望说明的月经、生育或性健康情况？可以跳过。",
+    "target_field": "inquiry.reproductive.applicable",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general"
+    ],
+    "reason": "仅在相关且愿意提供时继续",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/reproductive/applicable"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "reproductive.menstrual",
+    "domain": "reproductive",
+    "prompt": "如适用，月经周期及近期变化有什么需要说明？",
+    "target_field": "inquiry.reproductive.menstrual",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general"
+    ],
+    "reason": "记录周期背景而非诊断",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/reproductive/menstrual"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "reproductive.applicable"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "reproductive.pregnancy",
+    "domain": "reproductive",
+    "prompt": "如适用，是否存在已知或可能妊娠、产后或哺乳的情况？",
+    "target_field": "inquiry.reproductive.pregnancy",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general"
+    ],
+    "reason": "标记需要专门路径的人群，不在成人通用草案内推断",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/reproductive/pregnancy"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "reproductive.applicable"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "reproductive.urinary_reproductive",
+    "domain": "reproductive",
+    "prompt": "如适用，泌尿生殖方面有何与本次困扰相关的变化？",
+    "target_field": "inquiry.reproductive.urinary_reproductive",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general"
+    ],
+    "reason": "保留相关信息，避免不必要采集",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/reproductive/urinary_reproductive"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 30,
+    "prerequisites": [
+      "reproductive.applicable"
+    ],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "quality.face_time",
+    "domain": "quality",
+    "prompt": "面诊材料是在何时、什么采集条件下取得的？",
+    "target_field": "inquiry.quality.face_time",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "建立采集时间和条件",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/quality/face_time"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 40,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "quality.tongue_time",
+    "domain": "quality",
+    "prompt": "舌诊材料是否为本次采集，采集前是否有影响外观的情况？",
+    "target_field": "inquiry.quality.tongue_time",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "记录可能影响外观的条件，不自动校正图像",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/quality/tongue_time"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 40,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "quality.pulse_time",
+    "domain": "quality",
+    "prompt": "脉诊结果的采集时间、设备和采集条件是什么？",
+    "target_field": "inquiry.quality.pulse_time",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "保留设备与测量上下文",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/quality/pulse_time"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 40,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "quality.contradiction",
+    "domain": "quality",
+    "prompt": "当前描述与之前记录不一致，您希望以哪一次、哪个时间点为准？",
+    "target_field": "inquiry.quality.contradiction",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "明确更正，不替患者选择事实",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/quality/contradiction"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 40,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "quality.confirm",
+    "domain": "quality",
+    "prompt": "以上整理是否准确？哪些需要更正、保留未知或撤回？",
+    "target_field": "inquiry.quality.confirm",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "允许确认与更正",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/quality/confirm"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 40,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  },
+  {
+    "question_id": "quality.missing",
+    "domain": "quality",
+    "prompt": "有些信息暂时没有取得，您希望补充、稍后提供还是跳过？",
+    "target_field": "inquiry.quality.missing",
+    "answer_type": "text",
+    "options": [],
+    "profiles": [
+      "general",
+      "sleep",
+      "digestive",
+      "pain"
+    ],
+    "reason": "保留未测、未知与拒答的区别",
+    "source_refs": [
+      {
+        "source_id": "editorial",
+        "locator": "questions/quality/missing"
+      },
+      {
+        "source_id": "samr-four-examinations",
+        "locator": "官方解读：问诊内容与常见症；原创问题，不是标准原句"
+      }
+    ],
+    "priority": 40,
+    "prerequisites": [],
+    "review_status": "engineering_draft",
+    "clinical_use": "disabled"
+  }
+]

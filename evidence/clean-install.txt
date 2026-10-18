@@ -3,8 +3,8 @@ Using CPython 3.12.13
 Creating virtual environment at: .venv
    Building tcm-agent-course @ file:///private<temporary-build-directory>
       Built tcm-agent-course @ file:///private<temporary-build-directory>
-Prepared 1 package in 181ms
-Installed 180 packages in 307ms
+Prepared 1 package in 157ms
+Installed 180 packages in 293ms
  + aiofiles==25.1.0
  + aiohappyeyeballs==2.7.1
  + aiohttp==3.14.5
@@ -164,7 +164,7 @@ Installed 180 packages in 307ms
  + sse-starlette==3.5.0
  + starlette==1.8.0
  + syncer==2.0.3
- + tcm-agent-course==1.3.0 (from file:///private<temporary-build-directory>)
+ + tcm-agent-course==1.4.0 (from file:///private<temporary-build-directory>)
  + tenacity==9.2.1
  + tinycss2==1.5.1
  + tomli==2.5.0
@@ -193,8 +193,8 @@ Schema upgraded to head.
 
 uv run tcm run --text 什么是四诊？
 {
-  "turn_id": "50c8bc82-d040-456e-bb12-c4f973a9f165",
-  "session_id": "cfa382a4-9d58-4abd-aafb-a85a0245b47e",
+  "turn_id": "335f978a-0a86-4b19-8dd1-d42b95866250",
+  "session_id": "6c557f9c-5203-4a27-8eef-e51990aa61eb",
   "version": 1,
   "action": "knowledge",
   "answer": "四诊指望、闻、问、切，是中医收集信息的传统方法。本课程助手只能整理用户提供的资料，不能通过文字或照片替代医师的完整诊察。",
@@ -220,12 +220,12 @@ uv run tcm run --text 什么是四诊？
 
 
 uv run pytest -q
-................................................................s.....s. [ 80%]
-..................                                                       [100%]
+........................................................................ [ 67%]
+........s.....s...................                                       [100%]
 =========================== short test summary info ============================
 SKIPPED [1] tests/test_live.py:15: Real provider explicitly opt-in
 SKIPPED [1] tests/test_postgres.py:15: PostgreSQL explicitly opt-in
-88 passed, 2 skipped in 2.19s
+104 passed, 2 skipped in 2.18s
 
 
 uv run pytest exercises/acceptance.py -q
@@ -281,3 +281,19 @@ right answer within budget: True
 
 uv run python scripts/check_course.py
 30 learning nodes, 80 complete interview answers, 16 figures, teaching structure, source excerpts, syntax and local anchors verified
+
+
+uv run python scripts/clinical_knowledge.py audit
+{
+  "sources": 6,
+  "questions": 63,
+  "terms": 845,
+  "associations": 769,
+  "candidate_cards": 294,
+  "literature_cards": 3,
+  "single_record_cards": 267,
+  "cards_without_retained_observations": 40,
+  "raw_case_exported": false,
+  "clinical_inference_enabled": false,
+  "scope": "Collection, provenance and schema validation only; not clinical validation"
+}

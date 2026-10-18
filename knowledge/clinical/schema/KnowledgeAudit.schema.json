@@ -1,0 +1,66 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "sources": {
+      "title": "Sources",
+      "type": "integer"
+    },
+    "questions": {
+      "title": "Questions",
+      "type": "integer"
+    },
+    "terms": {
+      "title": "Terms",
+      "type": "integer"
+    },
+    "associations": {
+      "title": "Associations",
+      "type": "integer"
+    },
+    "candidate_cards": {
+      "title": "Candidate Cards",
+      "type": "integer"
+    },
+    "literature_cards": {
+      "title": "Literature Cards",
+      "type": "integer"
+    },
+    "single_record_cards": {
+      "title": "Single Record Cards",
+      "type": "integer"
+    },
+    "cards_without_retained_observations": {
+      "title": "Cards Without Retained Observations",
+      "type": "integer"
+    },
+    "raw_case_exported": {
+      "const": false,
+      "default": false,
+      "title": "Raw Case Exported",
+      "type": "boolean"
+    },
+    "clinical_inference_enabled": {
+      "const": false,
+      "default": false,
+      "title": "Clinical Inference Enabled",
+      "type": "boolean"
+    },
+    "scope": {
+      "default": "Collection, provenance and schema validation only; not clinical validation",
+      "title": "Scope",
+      "type": "string"
+    }
+  },
+  "required": [
+    "sources",
+    "questions",
+    "terms",
+    "associations",
+    "candidate_cards",
+    "literature_cards",
+    "single_record_cards",
+    "cards_without_retained_observations"
+  ],
+  "title": "KnowledgeAudit",
+  "type": "object"
+}

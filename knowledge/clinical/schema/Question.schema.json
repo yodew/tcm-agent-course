@@ -1,0 +1,118 @@
+{
+  "$defs": {
+    "Citation": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "locator": {
+          "title": "Locator",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "locator"
+      ],
+      "title": "Citation",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "question_id": {
+      "title": "Question Id",
+      "type": "string"
+    },
+    "domain": {
+      "title": "Domain",
+      "type": "string"
+    },
+    "prompt": {
+      "title": "Prompt",
+      "type": "string"
+    },
+    "target_field": {
+      "title": "Target Field",
+      "type": "string"
+    },
+    "answer_type": {
+      "enum": [
+        "text",
+        "choice",
+        "number",
+        "date",
+        "measurement"
+      ],
+      "title": "Answer Type",
+      "type": "string"
+    },
+    "options": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Options",
+      "type": "array"
+    },
+    "profiles": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Profiles",
+      "type": "array"
+    },
+    "reason": {
+      "title": "Reason",
+      "type": "string"
+    },
+    "source_refs": {
+      "items": {
+        "$ref": "#/$defs/Citation"
+      },
+      "minItems": 1,
+      "title": "Source Refs",
+      "type": "array"
+    },
+    "priority": {
+      "maximum": 100,
+      "minimum": 0,
+      "title": "Priority",
+      "type": "integer"
+    },
+    "prerequisites": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Prerequisites",
+      "type": "array"
+    },
+    "review_status": {
+      "const": "engineering_draft",
+      "default": "engineering_draft",
+      "title": "Review Status",
+      "type": "string"
+    },
+    "clinical_use": {
+      "const": "disabled",
+      "default": "disabled",
+      "title": "Clinical Use",
+      "type": "string"
+    }
+  },
+  "required": [
+    "question_id",
+    "domain",
+    "prompt",
+    "target_field",
+    "answer_type",
+    "profiles",
+    "reason",
+    "source_refs",
+    "priority"
+  ],
+  "title": "Question",
+  "type": "object"
+}

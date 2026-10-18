@@ -1,0 +1,76 @@
+{
+  "$defs": {
+    "Citation": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "locator": {
+          "title": "Locator",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "locator"
+      ],
+      "title": "Citation",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "term_id": {
+      "title": "Term Id",
+      "type": "string"
+    },
+    "label": {
+      "maxLength": 64,
+      "minLength": 1,
+      "title": "Label",
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "finding",
+        "syndrome",
+        "disease",
+        "location_factor",
+        "nature_factor"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "aliases": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Aliases",
+      "type": "array"
+    },
+    "citations": {
+      "items": {
+        "$ref": "#/$defs/Citation"
+      },
+      "minItems": 1,
+      "title": "Citations",
+      "type": "array"
+    },
+    "review_status": {
+      "const": "research_only",
+      "default": "research_only",
+      "title": "Review Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "term_id",
+    "label",
+    "kind",
+    "citations"
+  ],
+  "title": "Term",
+  "type": "object"
+}

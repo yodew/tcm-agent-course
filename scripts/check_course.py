@@ -119,6 +119,10 @@ def main() -> None:
         ROOT / "course/OPERATIONS_LAB.md",
         ROOT / "course/DEFENSE.md",
         ROOT / "exercises/README.md",
+        ROOT / "knowledge/clinical/README.md",
+        ROOT / "knowledge/clinical/ATTRIBUTION.md",
+        ROOT / "knowledge/clinical/INTEGRATION.md",
+        ROOT / "evidence/clinical-knowledge-validation.md",
     ):
         check_document(path)
     figures = TypeAdapter(list[FigureName]).validate_json(

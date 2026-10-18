@@ -1,0 +1,6154 @@
+[
+  {
+    "observation_id": "finding-014d2b460a13a721",
+    "syndrome_id": "syndrome-262744c2d4ff750d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-014d2b460a13a721",
+    "syndrome_id": "syndrome-3c4f47c44fb89e1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-014d2b460a13a721",
+    "syndrome_id": "syndrome-61372e58609dfb94",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-014d2b460a13a721",
+    "syndrome_id": "syndrome-87148541c3d8a4dc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-014d2b460a13a721",
+    "syndrome_id": "syndrome-ce0d119eafa54415",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-014d2b460a13a721",
+    "syndrome_id": "syndrome-cf6dea7ef46e0cc7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-014d2b460a13a721",
+    "syndrome_id": "syndrome-f692a38f89bb3467",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0239f6712f2a5741",
+    "syndrome_id": "syndrome-17206d04ce7c1b55",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0239f6712f2a5741",
+    "syndrome_id": "syndrome-18de7ed936885563",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0239f6712f2a5741",
+    "syndrome_id": "syndrome-865d2bedabe63458",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0239f6712f2a5741",
+    "syndrome_id": "syndrome-bffafe30fee4ad86",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-032740d6e5e35d02",
+    "syndrome_id": "syndrome-1de331995ce69dca",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-032740d6e5e35d02",
+    "syndrome_id": "syndrome-306a8527237d6f72",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-032740d6e5e35d02",
+    "syndrome_id": "syndrome-7e73dc3b4c236a6a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-032740d6e5e35d02",
+    "syndrome_id": "syndrome-8b31bfb8cbe04354",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-032740d6e5e35d02",
+    "syndrome_id": "syndrome-91e92e83228977c4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-032740d6e5e35d02",
+    "syndrome_id": "syndrome-9bec532a1d74b288",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-05b03379078575e0",
+    "syndrome_id": "syndrome-a50bdcee3842684b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-05b03379078575e0",
+    "syndrome_id": "syndrome-c051c5462e26be32",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-05b03379078575e0",
+    "syndrome_id": "syndrome-d6bba8356b98e709",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-05b03379078575e0",
+    "syndrome_id": "syndrome-eccaec4d39017059",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-093b95093384bc0e",
+    "syndrome_id": "syndrome-00868977cae79773",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-093b95093384bc0e",
+    "syndrome_id": "syndrome-1c627068df0dcb95",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-093b95093384bc0e",
+    "syndrome_id": "syndrome-3614961d404cffbb",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-093b95093384bc0e",
+    "syndrome_id": "syndrome-3da1f039d2d7b9ba",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-093b95093384bc0e",
+    "syndrome_id": "syndrome-acdcfd88d95fa31c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0a144ba65589edfc",
+    "syndrome_id": "syndrome-0db7a48cafb46b1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0a144ba65589edfc",
+    "syndrome_id": "syndrome-2b95d5ebbddafe7e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0a144ba65589edfc",
+    "syndrome_id": "syndrome-3afa1cd94732d8c8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0a144ba65589edfc",
+    "syndrome_id": "syndrome-8bd68071b08fd534",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0a144ba65589edfc",
+    "syndrome_id": "syndrome-be3f58483d030f24",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0a144ba65589edfc",
+    "syndrome_id": "syndrome-f107f430fc9b542a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0be87ac2d048af4e",
+    "syndrome_id": "syndrome-b3b707c2cf06c90a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0be87ac2d048af4e",
+    "syndrome_id": "syndrome-b6a164f9fe6e310e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0be87ac2d048af4e",
+    "syndrome_id": "syndrome-d6bba8356b98e709",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0be87ac2d048af4e",
+    "syndrome_id": "syndrome-eccaec4d39017059",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0c70bb966c626329",
+    "syndrome_id": "syndrome-3c4f47c44fb89e1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0c70bb966c626329",
+    "syndrome_id": "syndrome-48a06a757ee5d352",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0c70bb966c626329",
+    "syndrome_id": "syndrome-65003568abae18b4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0c70bb966c626329",
+    "syndrome_id": "syndrome-87148541c3d8a4dc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0c70bb966c626329",
+    "syndrome_id": "syndrome-e5c73f69e2fa0af0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0d0b28cdd56d8382",
+    "syndrome_id": "syndrome-0db7a48cafb46b1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0d0b28cdd56d8382",
+    "syndrome_id": "syndrome-3c4f47c44fb89e1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0d0b28cdd56d8382",
+    "syndrome_id": "syndrome-48a06a757ee5d352",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0d0b28cdd56d8382",
+    "syndrome_id": "syndrome-65003568abae18b4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0d0b28cdd56d8382",
+    "syndrome_id": "syndrome-87148541c3d8a4dc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0d0b28cdd56d8382",
+    "syndrome_id": "syndrome-be3f58483d030f24",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0d0b28cdd56d8382",
+    "syndrome_id": "syndrome-e5c73f69e2fa0af0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e52f4b827ecc553",
+    "syndrome_id": "syndrome-13bd1b4d87df0e24",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e52f4b827ecc553",
+    "syndrome_id": "syndrome-4fdf0e5df92b0592",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e52f4b827ecc553",
+    "syndrome_id": "syndrome-65ce5089d0d9507f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e52f4b827ecc553",
+    "syndrome_id": "syndrome-f7d968ae3c7f0dc2",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e876352db66939b",
+    "syndrome_id": "syndrome-0df67b13a22706c9",
+    "record_count": 2,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e876352db66939b",
+    "syndrome_id": "syndrome-48a06a757ee5d352",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e876352db66939b",
+    "syndrome_id": "syndrome-65003568abae18b4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e876352db66939b",
+    "syndrome_id": "syndrome-667b62dd7358a755",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e876352db66939b",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e876352db66939b",
+    "syndrome_id": "syndrome-cb999c5b818dbbb5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e876352db66939b",
+    "syndrome_id": "syndrome-de97159508df537c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e876352db66939b",
+    "syndrome_id": "syndrome-e5c73f69e2fa0af0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0e876352db66939b",
+    "syndrome_id": "syndrome-ec0a3d396d9801e6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0ea84e1892e27192",
+    "syndrome_id": "syndrome-1de331995ce69dca",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0ea84e1892e27192",
+    "syndrome_id": "syndrome-6f85c5eef9d25208",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0ea84e1892e27192",
+    "syndrome_id": "syndrome-8b31bfb8cbe04354",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0ea84e1892e27192",
+    "syndrome_id": "syndrome-ed4819d36e0cad2c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0f5521d640ae3aad",
+    "syndrome_id": "syndrome-0e007c76f3ddec3c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0f5521d640ae3aad",
+    "syndrome_id": "syndrome-1a57ccfd3d9e9e38",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0f5521d640ae3aad",
+    "syndrome_id": "syndrome-e3ac192152a8ae8f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-0f5521d640ae3aad",
+    "syndrome_id": "syndrome-f546f68493b26338",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-115bbdd5562c017b",
+    "syndrome_id": "syndrome-0556910ba5020b10",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-115bbdd5562c017b",
+    "syndrome_id": "syndrome-1f5871bbd101d711",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-115bbdd5562c017b",
+    "syndrome_id": "syndrome-2e2eb94ec275a597",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-115bbdd5562c017b",
+    "syndrome_id": "syndrome-432ecc41efaa460c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-115bbdd5562c017b",
+    "syndrome_id": "syndrome-58657a301bd3c6c6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-115bbdd5562c017b",
+    "syndrome_id": "syndrome-8bb906915d56e8a8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-115bbdd5562c017b",
+    "syndrome_id": "syndrome-a603272e4386185e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-115bbdd5562c017b",
+    "syndrome_id": "syndrome-ebbcd4c411a187da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-115bbdd5562c017b",
+    "syndrome_id": "syndrome-ecc3f8d90b312be0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-1252497cb08c2768",
+    "syndrome_id": "syndrome-aa4c284f15cc2e97",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-1252497cb08c2768",
+    "syndrome_id": "syndrome-ba077a7b71271e76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-1252497cb08c2768",
+    "syndrome_id": "syndrome-e382a9409abc550b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-133c512c0613da48",
+    "syndrome_id": "syndrome-1de331995ce69dca",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-133c512c0613da48",
+    "syndrome_id": "syndrome-b6243a17008a003d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-133c512c0613da48",
+    "syndrome_id": "syndrome-bf357b2a3432508d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-133c512c0613da48",
+    "syndrome_id": "syndrome-f1d1940ef4e239d6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-14a058e373b57243",
+    "syndrome_id": "syndrome-7d3f8ec0c2f85647",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-14a058e373b57243",
+    "syndrome_id": "syndrome-8eff29d50294427d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-14a058e373b57243",
+    "syndrome_id": "syndrome-c051c5462e26be32",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-16518ea02aba26f6",
+    "syndrome_id": "syndrome-262744c2d4ff750d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-16518ea02aba26f6",
+    "syndrome_id": "syndrome-338001ec4396e257",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-16518ea02aba26f6",
+    "syndrome_id": "syndrome-a281d73f0c2cd4a2",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-16518ea02aba26f6",
+    "syndrome_id": "syndrome-a4a787a7c2f63b6a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-16518ea02aba26f6",
+    "syndrome_id": "syndrome-ce0d119eafa54415",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-16518ea02aba26f6",
+    "syndrome_id": "syndrome-cf6dea7ef46e0cc7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-1f17feaf5445ff6b",
+    "syndrome_id": "syndrome-5f3e86d17d0c41a0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-1f17feaf5445ff6b",
+    "syndrome_id": "syndrome-a50bdcee3842684b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-1f17feaf5445ff6b",
+    "syndrome_id": "syndrome-c051c5462e26be32",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-20229c0d3d173468",
+    "syndrome_id": "syndrome-0abdfae982789853",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-20229c0d3d173468",
+    "syndrome_id": "syndrome-2912b66752ccbd8f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-20229c0d3d173468",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2043c7e8cd0d16bc",
+    "syndrome_id": "syndrome-0e007c76f3ddec3c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2043c7e8cd0d16bc",
+    "syndrome_id": "syndrome-1a57ccfd3d9e9e38",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2043c7e8cd0d16bc",
+    "syndrome_id": "syndrome-84b520caf7e954a8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2043c7e8cd0d16bc",
+    "syndrome_id": "syndrome-9463c4e94ccb56c0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2043c7e8cd0d16bc",
+    "syndrome_id": "syndrome-cecbce92da493786",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2043c7e8cd0d16bc",
+    "syndrome_id": "syndrome-d3a084a33acd8694",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2043c7e8cd0d16bc",
+    "syndrome_id": "syndrome-d6bba8356b98e709",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2043c7e8cd0d16bc",
+    "syndrome_id": "syndrome-eccaec4d39017059",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-267db60e3208b667",
+    "syndrome_id": "syndrome-4567e82cbf5377c5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-267db60e3208b667",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-267db60e3208b667",
+    "syndrome_id": "syndrome-d3a084a33acd8694",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-277150804f0ecfee",
+    "syndrome_id": "syndrome-11b5741d2658f5c9",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-277150804f0ecfee",
+    "syndrome_id": "syndrome-31f5be316e50f46f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-277150804f0ecfee",
+    "syndrome_id": "syndrome-62fe43ebfbdd12c6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-277150804f0ecfee",
+    "syndrome_id": "syndrome-8ed172c8e934f6d5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2858958f987c8d89",
+    "syndrome_id": "syndrome-3afa1cd94732d8c8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2858958f987c8d89",
+    "syndrome_id": "syndrome-4567e82cbf5377c5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2858958f987c8d89",
+    "syndrome_id": "syndrome-5e3f701e3fb417d4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2858958f987c8d89",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2858958f987c8d89",
+    "syndrome_id": "syndrome-7b6ac3a965987306",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2858958f987c8d89",
+    "syndrome_id": "syndrome-7fcd83f8b7c88b4d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2858958f987c8d89",
+    "syndrome_id": "syndrome-f107f430fc9b542a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2c064f656e33ad8c",
+    "syndrome_id": "syndrome-050c5c24f9256913",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2c064f656e33ad8c",
+    "syndrome_id": "syndrome-ba1e595a9d9dd971",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-2c064f656e33ad8c",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-30207f4c3f7c845b",
+    "syndrome_id": "syndrome-0db7a48cafb46b1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-30207f4c3f7c845b",
+    "syndrome_id": "syndrome-306a8527237d6f72",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-30207f4c3f7c845b",
+    "syndrome_id": "syndrome-3afa1cd94732d8c8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-30207f4c3f7c845b",
+    "syndrome_id": "syndrome-3c4f47c44fb89e1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-30207f4c3f7c845b",
+    "syndrome_id": "syndrome-5d86399886b74ee4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-30207f4c3f7c845b",
+    "syndrome_id": "syndrome-6fab886fdbffe97d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-30207f4c3f7c845b",
+    "syndrome_id": "syndrome-7d3f8ec0c2f85647",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-30207f4c3f7c845b",
+    "syndrome_id": "syndrome-87148541c3d8a4dc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-30207f4c3f7c845b",
+    "syndrome_id": "syndrome-8eff29d50294427d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-30207f4c3f7c845b",
+    "syndrome_id": "syndrome-f7999b9d1663ec90",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3189d633233fa8b9",
+    "syndrome_id": "syndrome-3009c9eaf7b9cf57",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3189d633233fa8b9",
+    "syndrome_id": "syndrome-ba1e595a9d9dd971",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3304cea5d7e64360",
+    "syndrome_id": "syndrome-131a03830a9a4ad2",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3304cea5d7e64360",
+    "syndrome_id": "syndrome-63fda5db44964a39",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3304cea5d7e64360",
+    "syndrome_id": "syndrome-86d88583a5fb2aef",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3304cea5d7e64360",
+    "syndrome_id": "syndrome-dbc91e78dd84e5e6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3304cea5d7e64360",
+    "syndrome_id": "syndrome-e18b4ad4a6ed2374",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3304cea5d7e64360",
+    "syndrome_id": "syndrome-f9c1227cd6e456ec",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-34ff534a3342be99",
+    "syndrome_id": "syndrome-050c5c24f9256913",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-34ff534a3342be99",
+    "syndrome_id": "syndrome-7032362fe4c48be0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-34ff534a3342be99",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3582e25e8e4b7ba3",
+    "syndrome_id": "syndrome-1947df6c071b5afe",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3582e25e8e4b7ba3",
+    "syndrome_id": "syndrome-91e92e83228977c4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-37aaefc9cb407522",
+    "syndrome_id": "syndrome-5e3f701e3fb417d4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-37aaefc9cb407522",
+    "syndrome_id": "syndrome-7032362fe4c48be0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-37aaefc9cb407522",
+    "syndrome_id": "syndrome-7b6ac3a965987306",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-37aaefc9cb407522",
+    "syndrome_id": "syndrome-8aab1a77889bd874",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-37aaefc9cb407522",
+    "syndrome_id": "syndrome-9544cc24be3df84f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-37aaefc9cb407522",
+    "syndrome_id": "syndrome-cecbce92da493786",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-39fdc3f9262a41f3",
+    "syndrome_id": "syndrome-7e1d40deddbd518c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-39fdc3f9262a41f3",
+    "syndrome_id": "syndrome-c5dce654c58f733e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-39fdc3f9262a41f3",
+    "syndrome_id": "syndrome-da4a64edf2f5be9f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-39fdc3f9262a41f3",
+    "syndrome_id": "syndrome-e9ee221888272120",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3d1e2928efe8a887",
+    "syndrome_id": "syndrome-0556910ba5020b10",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3d1e2928efe8a887",
+    "syndrome_id": "syndrome-1f5871bbd101d711",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3d1e2928efe8a887",
+    "syndrome_id": "syndrome-36772338c367fb4c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3d1e2928efe8a887",
+    "syndrome_id": "syndrome-9e94fffe12960408",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3e4acad97c73b610",
+    "syndrome_id": "syndrome-23aa606552edc988",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3e4acad97c73b610",
+    "syndrome_id": "syndrome-3b118391bcaaaa98",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3e5e228d8ca962e0",
+    "syndrome_id": "syndrome-4567e82cbf5377c5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3e5e228d8ca962e0",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3e5e228d8ca962e0",
+    "syndrome_id": "syndrome-84b520caf7e954a8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3e5e228d8ca962e0",
+    "syndrome_id": "syndrome-9463c4e94ccb56c0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3e652ce9d1fad9ef",
+    "syndrome_id": "syndrome-2ca5c7845834dd4f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3e652ce9d1fad9ef",
+    "syndrome_id": "syndrome-4567e82cbf5377c5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3e652ce9d1fad9ef",
+    "syndrome_id": "syndrome-57edbbcf0bf13293",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3e652ce9d1fad9ef",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3e652ce9d1fad9ef",
+    "syndrome_id": "syndrome-87148541c3d8a4dc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3f1f3468a5875dd2",
+    "syndrome_id": "syndrome-1af96c69a4f2e8e9",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3f1f3468a5875dd2",
+    "syndrome_id": "syndrome-531559f3136d8bac",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3f1f3468a5875dd2",
+    "syndrome_id": "syndrome-971e25901be7c968",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3f1f3468a5875dd2",
+    "syndrome_id": "syndrome-db1e397cb70e0d9b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-3f1f3468a5875dd2",
+    "syndrome_id": "syndrome-e14e127d0df7b31b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-41ce35a6b8b941eb",
+    "syndrome_id": "syndrome-18eb5364c962cf1e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-41ce35a6b8b941eb",
+    "syndrome_id": "syndrome-31f9ecd3a46320b6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-41ce35a6b8b941eb",
+    "syndrome_id": "syndrome-3c4f47c44fb89e1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-41ce35a6b8b941eb",
+    "syndrome_id": "syndrome-4419de62cd55a04a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-41ce35a6b8b941eb",
+    "syndrome_id": "syndrome-87148541c3d8a4dc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-41ce35a6b8b941eb",
+    "syndrome_id": "syndrome-a46709cbdf0c7947",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-41ce35a6b8b941eb",
+    "syndrome_id": "syndrome-ba7250eb1c62ecfe",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-41ce35a6b8b941eb",
+    "syndrome_id": "syndrome-cecbce92da493786",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-41ce35a6b8b941eb",
+    "syndrome_id": "syndrome-e9ff1474a753fd14",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-429c352d517771e9",
+    "syndrome_id": "syndrome-0df67b13a22706c9",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-429c352d517771e9",
+    "syndrome_id": "syndrome-1de331995ce69dca",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-429c352d517771e9",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-429c352d517771e9",
+    "syndrome_id": "syndrome-f1d1940ef4e239d6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-433058c3d1aca468",
+    "syndrome_id": "syndrome-022194ffdebd21ac",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-433058c3d1aca468",
+    "syndrome_id": "syndrome-270d45fdd4c841c6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-433058c3d1aca468",
+    "syndrome_id": "syndrome-84b520caf7e954a8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-433058c3d1aca468",
+    "syndrome_id": "syndrome-9463c4e94ccb56c0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-43badb174b62938d",
+    "syndrome_id": "syndrome-00868977cae79773",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-43badb174b62938d",
+    "syndrome_id": "syndrome-09faf06f8bb7cb1a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-43badb174b62938d",
+    "syndrome_id": "syndrome-18eb5364c962cf1e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-43badb174b62938d",
+    "syndrome_id": "syndrome-31f9ecd3a46320b6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-43badb174b62938d",
+    "syndrome_id": "syndrome-3b118391bcaaaa98",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-43badb174b62938d",
+    "syndrome_id": "syndrome-acdcfd88d95fa31c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-43badb174b62938d",
+    "syndrome_id": "syndrome-ba7250eb1c62ecfe",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-43badb174b62938d",
+    "syndrome_id": "syndrome-c051c5462e26be32",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-43badb174b62938d",
+    "syndrome_id": "syndrome-da4a64edf2f5be9f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-459126be9c374d3b",
+    "syndrome_id": "syndrome-38a42dd98f4a9558",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-459126be9c374d3b",
+    "syndrome_id": "syndrome-7c4f22ce0258b789",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-459126be9c374d3b",
+    "syndrome_id": "syndrome-c2cbb22c4f00abb7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-459126be9c374d3b",
+    "syndrome_id": "syndrome-d3b4664f782efe67",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-473e6ea934253e12",
+    "syndrome_id": "syndrome-232c14220a92f1e6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-473e6ea934253e12",
+    "syndrome_id": "syndrome-32c09bc2080f4f20",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-473e6ea934253e12",
+    "syndrome_id": "syndrome-4547f831421875c1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-473e6ea934253e12",
+    "syndrome_id": "syndrome-64a4a2ac58b1f648",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-473e6ea934253e12",
+    "syndrome_id": "syndrome-e2f8537ca77fc769",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-49ba8a46860c46fb",
+    "syndrome_id": "syndrome-3009c9eaf7b9cf57",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-49ba8a46860c46fb",
+    "syndrome_id": "syndrome-731a534719e50854",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-49ba8a46860c46fb",
+    "syndrome_id": "syndrome-9ffbcfb8fe43d08f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-49ba8a46860c46fb",
+    "syndrome_id": "syndrome-a47fcc8e4029c695",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-49ba8a46860c46fb",
+    "syndrome_id": "syndrome-f4462d233c604fa8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4c024d2ede0178ba",
+    "syndrome_id": "syndrome-3009c9eaf7b9cf57",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4c024d2ede0178ba",
+    "syndrome_id": "syndrome-a59e2a77296c6798",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4c024d2ede0178ba",
+    "syndrome_id": "syndrome-dbc91e78dd84e5e6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4c024d2ede0178ba",
+    "syndrome_id": "syndrome-e18b4ad4a6ed2374",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4c024d2ede0178ba",
+    "syndrome_id": "syndrome-e2f8537ca77fc769",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4e4ffcb82d51c028",
+    "syndrome_id": "syndrome-050c5c24f9256913",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4e4ffcb82d51c028",
+    "syndrome_id": "syndrome-d841fcfad75380e0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4e4ffcb82d51c028",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4f9c21eae4700290",
+    "syndrome_id": "syndrome-3009c9eaf7b9cf57",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4f9c21eae4700290",
+    "syndrome_id": "syndrome-5f3e86d17d0c41a0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4fe4796897d3adba",
+    "syndrome_id": "syndrome-0556910ba5020b10",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4fe4796897d3adba",
+    "syndrome_id": "syndrome-1f5871bbd101d711",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4fe4796897d3adba",
+    "syndrome_id": "syndrome-b6243a17008a003d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-4fe4796897d3adba",
+    "syndrome_id": "syndrome-bf357b2a3432508d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-50511c338f76732a",
+    "syndrome_id": "syndrome-187d462c7328083d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-50511c338f76732a",
+    "syndrome_id": "syndrome-2e96786c7214dbe1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-50511c338f76732a",
+    "syndrome_id": "syndrome-3c4f47c44fb89e1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-50511c338f76732a",
+    "syndrome_id": "syndrome-6e9821a0737c166e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-50511c338f76732a",
+    "syndrome_id": "syndrome-a2e3707d28aa488e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-50511c338f76732a",
+    "syndrome_id": "syndrome-c82f23af44648091",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-50511c338f76732a",
+    "syndrome_id": "syndrome-e7b06b7e18745728",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-546e09debbd92f43",
+    "syndrome_id": "syndrome-0abdfae982789853",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-546e09debbd92f43",
+    "syndrome_id": "syndrome-3afa1cd94732d8c8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-546e09debbd92f43",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-546e09debbd92f43",
+    "syndrome_id": "syndrome-96b74691e7bd87c8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-546e09debbd92f43",
+    "syndrome_id": "syndrome-d2132d8f1f6177b8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-546e09debbd92f43",
+    "syndrome_id": "syndrome-d510aa0170a0151f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-546e09debbd92f43",
+    "syndrome_id": "syndrome-f107f430fc9b542a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-55a36e0dccefa3ae",
+    "syndrome_id": "syndrome-0df67b13a22706c9",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-55a36e0dccefa3ae",
+    "syndrome_id": "syndrome-18eb5364c962cf1e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-55a36e0dccefa3ae",
+    "syndrome_id": "syndrome-31f9ecd3a46320b6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-55a36e0dccefa3ae",
+    "syndrome_id": "syndrome-6fab886fdbffe97d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-55a36e0dccefa3ae",
+    "syndrome_id": "syndrome-ba7250eb1c62ecfe",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-55a36e0dccefa3ae",
+    "syndrome_id": "syndrome-c5dce654c58f733e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-55a36e0dccefa3ae",
+    "syndrome_id": "syndrome-da4a64edf2f5be9f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-55a36e0dccefa3ae",
+    "syndrome_id": "syndrome-de97159508df537c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-55a36e0dccefa3ae",
+    "syndrome_id": "syndrome-e9ee221888272120",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5c0deb5e6a23cbdf",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5c0deb5e6a23cbdf",
+    "syndrome_id": "syndrome-d05f5d5e8b8d7886",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5c0deb5e6a23cbdf",
+    "syndrome_id": "syndrome-f6b2773adb25288e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5c18c2668088fb66",
+    "syndrome_id": "syndrome-0df67b13a22706c9",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5c18c2668088fb66",
+    "syndrome_id": "syndrome-715fd3b5c6bba68e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5c18c2668088fb66",
+    "syndrome_id": "syndrome-d2132d8f1f6177b8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5c18c2668088fb66",
+    "syndrome_id": "syndrome-d391d7dbfd52712f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5c18c2668088fb66",
+    "syndrome_id": "syndrome-de97159508df537c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5ce4831b887afdc2",
+    "syndrome_id": "syndrome-4d049284b1e25c5b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5ce4831b887afdc2",
+    "syndrome_id": "syndrome-dbc91e78dd84e5e6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5ce4831b887afdc2",
+    "syndrome_id": "syndrome-e18b4ad4a6ed2374",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5f567890a5065daf",
+    "syndrome_id": "syndrome-0e4eb5b6bdf0b9fe",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5f567890a5065daf",
+    "syndrome_id": "syndrome-1c328b5116f09e5b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5f567890a5065daf",
+    "syndrome_id": "syndrome-50cd7d29e79b3a43",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5f567890a5065daf",
+    "syndrome_id": "syndrome-cdc0ed319c8a859a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5f567890a5065daf",
+    "syndrome_id": "syndrome-e438151bdb894144",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5ff5e514c8f88203",
+    "syndrome_id": "syndrome-00868977cae79773",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5ff5e514c8f88203",
+    "syndrome_id": "syndrome-0d277d54fd47ab88",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5ff5e514c8f88203",
+    "syndrome_id": "syndrome-3fe60023ed96a686",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-5ff5e514c8f88203",
+    "syndrome_id": "syndrome-acdcfd88d95fa31c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-609d39ef9285f3e8",
+    "syndrome_id": "syndrome-3b118391bcaaaa98",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-609d39ef9285f3e8",
+    "syndrome_id": "syndrome-7b6ac3a965987306",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-609d39ef9285f3e8",
+    "syndrome_id": "syndrome-a59e2a77296c6798",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-609d39ef9285f3e8",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-62113eff87b3a701",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-62113eff87b3a701",
+    "syndrome_id": "syndrome-5e3f701e3fb417d4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-62113eff87b3a701",
+    "syndrome_id": "syndrome-7b6ac3a965987306",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-62113eff87b3a701",
+    "syndrome_id": "syndrome-c051c5462e26be32",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-625550e3638e19f0",
+    "syndrome_id": "syndrome-1c627068df0dcb95",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-625550e3638e19f0",
+    "syndrome_id": "syndrome-2912b66752ccbd8f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-625550e3638e19f0",
+    "syndrome_id": "syndrome-45695482da966036",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-625550e3638e19f0",
+    "syndrome_id": "syndrome-715fd3b5c6bba68e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-625550e3638e19f0",
+    "syndrome_id": "syndrome-8c0530ee7e2dafe4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-625550e3638e19f0",
+    "syndrome_id": "syndrome-d391d7dbfd52712f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-625550e3638e19f0",
+    "syndrome_id": "syndrome-e5fae1de57d6d600",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-625550e3638e19f0",
+    "syndrome_id": "syndrome-f1a4b3d18d6bcf3e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-625550e3638e19f0",
+    "syndrome_id": "syndrome-f6b2773adb25288e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-626131d0f56f8c39",
+    "syndrome_id": "syndrome-0dcce2ab8f550d04",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-626131d0f56f8c39",
+    "syndrome_id": "syndrome-2e96786c7214dbe1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-626131d0f56f8c39",
+    "syndrome_id": "syndrome-3b118391bcaaaa98",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-626131d0f56f8c39",
+    "syndrome_id": "syndrome-7b6ac3a965987306",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-626131d0f56f8c39",
+    "syndrome_id": "syndrome-8ac6286747d7a546",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-626131d0f56f8c39",
+    "syndrome_id": "syndrome-90c607084c1445ac",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-626131d0f56f8c39",
+    "syndrome_id": "syndrome-c3260d11c11e4b18",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-626131d0f56f8c39",
+    "syndrome_id": "syndrome-e87c9a33096c967e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-629a09e514b50f5c",
+    "syndrome_id": "syndrome-00868977cae79773",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-629a09e514b50f5c",
+    "syndrome_id": "syndrome-00ef718250cae29b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-629a09e514b50f5c",
+    "syndrome_id": "syndrome-1de331995ce69dca",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-629a09e514b50f5c",
+    "syndrome_id": "syndrome-544c4ea087280f62",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-629a09e514b50f5c",
+    "syndrome_id": "syndrome-acdcfd88d95fa31c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-629a09e514b50f5c",
+    "syndrome_id": "syndrome-f1d1940ef4e239d6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-0db7a48cafb46b1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-10ae8cf4183cb8e5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-1947df6c071b5afe",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-1b0bbc78a7673de2",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-1c328b5116f09e5b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-30a97772b67c5d26",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-38a42dd98f4a9558",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-6bd52b2b034ae7ef",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-7a62100ef81d7cfa",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-7baeb40c9bea03e5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-7d3f8ec0c2f85647",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-821f742e21447626",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-8eff29d50294427d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-a46709cbdf0c7947",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-be3f58483d030f24",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-cdc0ed319c8a859a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-d3b4664f782efe67",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-dbc91e78dd84e5e6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-e18b4ad4a6ed2374",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-649f7db3c80eda74",
+    "syndrome_id": "syndrome-ecbe6cb711c44dc0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-65d7d479ba19d49a",
+    "syndrome_id": "syndrome-09faf06f8bb7cb1a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-65d7d479ba19d49a",
+    "syndrome_id": "syndrome-715fd3b5c6bba68e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-65d7d479ba19d49a",
+    "syndrome_id": "syndrome-d391d7dbfd52712f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-65d7d479ba19d49a",
+    "syndrome_id": "syndrome-d6bba8356b98e709",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-65d7d479ba19d49a",
+    "syndrome_id": "syndrome-da4a64edf2f5be9f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-65d7d479ba19d49a",
+    "syndrome_id": "syndrome-eccaec4d39017059",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-65f819624655c9e9",
+    "syndrome_id": "syndrome-022194ffdebd21ac",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-65f819624655c9e9",
+    "syndrome_id": "syndrome-270d45fdd4c841c6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-65f819624655c9e9",
+    "syndrome_id": "syndrome-e2f8537ca77fc769",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-66971ee4f4234da5",
+    "syndrome_id": "syndrome-3c4f47c44fb89e1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-66971ee4f4234da5",
+    "syndrome_id": "syndrome-87148541c3d8a4dc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-66971ee4f4234da5",
+    "syndrome_id": "syndrome-e3ac192152a8ae8f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-66971ee4f4234da5",
+    "syndrome_id": "syndrome-f546f68493b26338",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-69725d9066325846",
+    "syndrome_id": "syndrome-13bd1b4d87df0e24",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-69725d9066325846",
+    "syndrome_id": "syndrome-48a06a757ee5d352",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-69725d9066325846",
+    "syndrome_id": "syndrome-4fdf0e5df92b0592",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-69725d9066325846",
+    "syndrome_id": "syndrome-65003568abae18b4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-69725d9066325846",
+    "syndrome_id": "syndrome-8bb906915d56e8a8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-69725d9066325846",
+    "syndrome_id": "syndrome-a325720a6d5086b3",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-69725d9066325846",
+    "syndrome_id": "syndrome-e5c73f69e2fa0af0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-69725d9066325846",
+    "syndrome_id": "syndrome-ecc3f8d90b312be0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-69725d9066325846",
+    "syndrome_id": "syndrome-f7d968ae3c7f0dc2",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6a4fd4f31fd5f51e",
+    "syndrome_id": "syndrome-00ef718250cae29b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6a4fd4f31fd5f51e",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6a4fd4f31fd5f51e",
+    "syndrome_id": "syndrome-544c4ea087280f62",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6a4fd4f31fd5f51e",
+    "syndrome_id": "syndrome-d05f5d5e8b8d7886",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6a75808d7f6bdc03",
+    "syndrome_id": "syndrome-2d8e74a00f30cd33",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6a75808d7f6bdc03",
+    "syndrome_id": "syndrome-2e96786c7214dbe1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6a75808d7f6bdc03",
+    "syndrome_id": "syndrome-41ac40c00ac54e42",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6a75808d7f6bdc03",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6a75808d7f6bdc03",
+    "syndrome_id": "syndrome-b3b707c2cf06c90a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6a75808d7f6bdc03",
+    "syndrome_id": "syndrome-b6a164f9fe6e310e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6b396350b32ea966",
+    "syndrome_id": "syndrome-2e96786c7214dbe1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6b396350b32ea966",
+    "syndrome_id": "syndrome-667b62dd7358a755",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6b396350b32ea966",
+    "syndrome_id": "syndrome-c82f23af44648091",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6b396350b32ea966",
+    "syndrome_id": "syndrome-cb999c5b818dbbb5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6b396350b32ea966",
+    "syndrome_id": "syndrome-ec0a3d396d9801e6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6c3a9ea3b410ab90",
+    "syndrome_id": "syndrome-2b95d5ebbddafe7e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6c3a9ea3b410ab90",
+    "syndrome_id": "syndrome-8bd68071b08fd534",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6c3a9ea3b410ab90",
+    "syndrome_id": "syndrome-e438151bdb894144",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6d117fe8e81b6b58",
+    "syndrome_id": "syndrome-510b4fff1d1687d9",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6d117fe8e81b6b58",
+    "syndrome_id": "syndrome-5e3f701e3fb417d4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6d117fe8e81b6b58",
+    "syndrome_id": "syndrome-5f2d1941ece35213",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6d117fe8e81b6b58",
+    "syndrome_id": "syndrome-6e9821a0737c166e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6d117fe8e81b6b58",
+    "syndrome_id": "syndrome-7b6ac3a965987306",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6d117fe8e81b6b58",
+    "syndrome_id": "syndrome-9e94fffe12960408",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6d117fe8e81b6b58",
+    "syndrome_id": "syndrome-aa4c284f15cc2e97",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6d117fe8e81b6b58",
+    "syndrome_id": "syndrome-f21390d6c4a06e47",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6deb2701007b1661",
+    "syndrome_id": "syndrome-7baeb40c9bea03e5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6deb2701007b1661",
+    "syndrome_id": "syndrome-d510aa0170a0151f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-00868977cae79773",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-00ef718250cae29b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-0abdfae982789853",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-0d277d54fd47ab88",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-1de331995ce69dca",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-36f6aff0bc47606a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-3fe60023ed96a686",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-544c4ea087280f62",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-acdcfd88d95fa31c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-af49f0b9b2e9a08e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-6ffa9029037cfe4b",
+    "syndrome_id": "syndrome-f1d1940ef4e239d6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-71639d534daa113b",
+    "syndrome_id": "syndrome-0db7a48cafb46b1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-71639d534daa113b",
+    "syndrome_id": "syndrome-38c8a9e13a43cebe",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-71639d534daa113b",
+    "syndrome_id": "syndrome-785eab5bf3a3a405",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-71639d534daa113b",
+    "syndrome_id": "syndrome-be3f58483d030f24",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-73419d0f519d0fa3",
+    "syndrome_id": "syndrome-0e007c76f3ddec3c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-73419d0f519d0fa3",
+    "syndrome_id": "syndrome-1a57ccfd3d9e9e38",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-73419d0f519d0fa3",
+    "syndrome_id": "syndrome-531559f3136d8bac",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-73419d0f519d0fa3",
+    "syndrome_id": "syndrome-565d54a3d60ea180",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-73419d0f519d0fa3",
+    "syndrome_id": "syndrome-6b6076c778ad6c99",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-73419d0f519d0fa3",
+    "syndrome_id": "syndrome-8f9befe568cd724d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-73419d0f519d0fa3",
+    "syndrome_id": "syndrome-c2d2c6b1b9b16e62",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-73419d0f519d0fa3",
+    "syndrome_id": "syndrome-db1e397cb70e0d9b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-73419d0f519d0fa3",
+    "syndrome_id": "syndrome-e438151bdb894144",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-73419d0f519d0fa3",
+    "syndrome_id": "syndrome-ed768da0f913fadc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-73419d0f519d0fa3",
+    "syndrome_id": "syndrome-f6b2773adb25288e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-734782ada6ac3c02",
+    "syndrome_id": "syndrome-4d049284b1e25c5b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-734782ada6ac3c02",
+    "syndrome_id": "syndrome-8aab1a77889bd874",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-734782ada6ac3c02",
+    "syndrome_id": "syndrome-9544cc24be3df84f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-734782ada6ac3c02",
+    "syndrome_id": "syndrome-cecbce92da493786",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-76e99270162c0398",
+    "syndrome_id": "syndrome-7d3f8ec0c2f85647",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-76e99270162c0398",
+    "syndrome_id": "syndrome-8eff29d50294427d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-76e99270162c0398",
+    "syndrome_id": "syndrome-aede43dc2e342e7e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-79932681875aec5e",
+    "syndrome_id": "syndrome-3c4f47c44fb89e1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-79932681875aec5e",
+    "syndrome_id": "syndrome-45695482da966036",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-79932681875aec5e",
+    "syndrome_id": "syndrome-6e9821a0737c166e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-79932681875aec5e",
+    "syndrome_id": "syndrome-a2bb66093724dd5f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-79932681875aec5e",
+    "syndrome_id": "syndrome-b361927a63ef2315",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-79932681875aec5e",
+    "syndrome_id": "syndrome-e5fae1de57d6d600",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7b78844986e2b041",
+    "syndrome_id": "syndrome-0df67b13a22706c9",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7b78844986e2b041",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7b78844986e2b041",
+    "syndrome_id": "syndrome-8d59a3b5213092e0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7b78844986e2b041",
+    "syndrome_id": "syndrome-d6bba8356b98e709",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7b78844986e2b041",
+    "syndrome_id": "syndrome-e3c81e21cb170326",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7b78844986e2b041",
+    "syndrome_id": "syndrome-eccaec4d39017059",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7e6c67020bbe67f4",
+    "syndrome_id": "syndrome-0db7a48cafb46b1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7e6c67020bbe67f4",
+    "syndrome_id": "syndrome-3c4f47c44fb89e1c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7e6c67020bbe67f4",
+    "syndrome_id": "syndrome-87148541c3d8a4dc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7e6c67020bbe67f4",
+    "syndrome_id": "syndrome-b39e5d0bd1b1ea13",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7e6c67020bbe67f4",
+    "syndrome_id": "syndrome-d3adfd0dcd7da5ed",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-7e6c67020bbe67f4",
+    "syndrome_id": "syndrome-f7999b9d1663ec90",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-82d711fabac8791e",
+    "syndrome_id": "syndrome-3651567b7fb53cd9",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-82d711fabac8791e",
+    "syndrome_id": "syndrome-3afa1cd94732d8c8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-82d711fabac8791e",
+    "syndrome_id": "syndrome-565d54a3d60ea180",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-82d711fabac8791e",
+    "syndrome_id": "syndrome-b08946989c46cf33",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-82d711fabac8791e",
+    "syndrome_id": "syndrome-ed768da0f913fadc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-82d711fabac8791e",
+    "syndrome_id": "syndrome-f107f430fc9b542a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-83d4ca788a008b4b",
+    "syndrome_id": "syndrome-00ef718250cae29b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-83d4ca788a008b4b",
+    "syndrome_id": "syndrome-3afa1cd94732d8c8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-83d4ca788a008b4b",
+    "syndrome_id": "syndrome-544c4ea087280f62",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-83d4ca788a008b4b",
+    "syndrome_id": "syndrome-59c34bc7be5f2d1b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-83d4ca788a008b4b",
+    "syndrome_id": "syndrome-6bd52b2b034ae7ef",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-83d4ca788a008b4b",
+    "syndrome_id": "syndrome-715fd3b5c6bba68e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-83d4ca788a008b4b",
+    "syndrome_id": "syndrome-7a62100ef81d7cfa",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-83d4ca788a008b4b",
+    "syndrome_id": "syndrome-ba1e595a9d9dd971",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-83d4ca788a008b4b",
+    "syndrome_id": "syndrome-d391d7dbfd52712f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-83d4ca788a008b4b",
+    "syndrome_id": "syndrome-ecbe6cb711c44dc0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-87adec53bba53618",
+    "syndrome_id": "syndrome-3afa1cd94732d8c8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-87adec53bba53618",
+    "syndrome_id": "syndrome-9ffbcfb8fe43d08f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-87adec53bba53618",
+    "syndrome_id": "syndrome-a47fcc8e4029c695",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-87adec53bba53618",
+    "syndrome_id": "syndrome-f107f430fc9b542a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-8a4bb4e3f00b9164",
+    "syndrome_id": "syndrome-3b118391bcaaaa98",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-8a4bb4e3f00b9164",
+    "syndrome_id": "syndrome-49dfaaa744aee2bf",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-8a4bb4e3f00b9164",
+    "syndrome_id": "syndrome-7b6ac3a965987306",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-8a4bb4e3f00b9164",
+    "syndrome_id": "syndrome-7bc960fd4e17a3a1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9257e3de29071093",
+    "syndrome_id": "syndrome-7c7e473a0b83c5ff",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9257e3de29071093",
+    "syndrome_id": "syndrome-a9dca73c98eb63d1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9257e3de29071093",
+    "syndrome_id": "syndrome-c49f1ed19e92473f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9257e3de29071093",
+    "syndrome_id": "syndrome-d6bba8356b98e709",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9257e3de29071093",
+    "syndrome_id": "syndrome-eccaec4d39017059",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9257e3de29071093",
+    "syndrome_id": "syndrome-f21390d6c4a06e47",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-95efb17dca2c4445",
+    "syndrome_id": "syndrome-4d049284b1e25c5b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-95efb17dca2c4445",
+    "syndrome_id": "syndrome-7fcd83f8b7c88b4d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-95efb17dca2c4445",
+    "syndrome_id": "syndrome-8d59a3b5213092e0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-95efb17dca2c4445",
+    "syndrome_id": "syndrome-b3b707c2cf06c90a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-95efb17dca2c4445",
+    "syndrome_id": "syndrome-b6a164f9fe6e310e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-95efb17dca2c4445",
+    "syndrome_id": "syndrome-d3a084a33acd8694",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-95efb17dca2c4445",
+    "syndrome_id": "syndrome-e3c81e21cb170326",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-96eb5c4759b4fd9d",
+    "syndrome_id": "syndrome-26cc89d24610ac5f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-96eb5c4759b4fd9d",
+    "syndrome_id": "syndrome-2d8e74a00f30cd33",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-96eb5c4759b4fd9d",
+    "syndrome_id": "syndrome-2e96786c7214dbe1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-96eb5c4759b4fd9d",
+    "syndrome_id": "syndrome-41ac40c00ac54e42",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-96eb5c4759b4fd9d",
+    "syndrome_id": "syndrome-6fab886fdbffe97d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-96eb5c4759b4fd9d",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-96eb5c4759b4fd9d",
+    "syndrome_id": "syndrome-9847e06f9b5c3d1e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-96eb5c4759b4fd9d",
+    "syndrome_id": "syndrome-e3ac192152a8ae8f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-96eb5c4759b4fd9d",
+    "syndrome_id": "syndrome-f546f68493b26338",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-0abdfae982789853",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-1de331995ce69dca",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-7c7e473a0b83c5ff",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-8b31bfb8cbe04354",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-a59e2a77296c6798",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-b6ff30064e616595",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-c5dce654c58f733e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-d012f854986c6c22",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-d6bba8356b98e709",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-da4a64edf2f5be9f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-e9ee221888272120",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9702dff04bfdada3",
+    "syndrome_id": "syndrome-eccaec4d39017059",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-972e9dd7383a47d7",
+    "syndrome_id": "syndrome-262744c2d4ff750d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-972e9dd7383a47d7",
+    "syndrome_id": "syndrome-ce0d119eafa54415",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-972e9dd7383a47d7",
+    "syndrome_id": "syndrome-cf6dea7ef46e0cc7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-972e9dd7383a47d7",
+    "syndrome_id": "syndrome-e6cc369f3067ae0d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9a52cc2bda582e92",
+    "syndrome_id": "syndrome-0dbe73e07750e745",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9a52cc2bda582e92",
+    "syndrome_id": "syndrome-a5e849767e0f62f4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9a52cc2bda582e92",
+    "syndrome_id": "syndrome-d391d7dbfd52712f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9a52cc2bda582e92",
+    "syndrome_id": "syndrome-e3eac84efd7d2126",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9c8225bb2bfe8b00",
+    "syndrome_id": "syndrome-49dfaaa744aee2bf",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9c8225bb2bfe8b00",
+    "syndrome_id": "syndrome-7bc960fd4e17a3a1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9c8225bb2bfe8b00",
+    "syndrome_id": "syndrome-b6ff30064e616595",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9c8225bb2bfe8b00",
+    "syndrome_id": "syndrome-d012f854986c6c22",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9ee3962b1fd478b8",
+    "syndrome_id": "syndrome-3b118391bcaaaa98",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-9ee3962b1fd478b8",
+    "syndrome_id": "syndrome-65ce5089d0d9507f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a2613947f1bc84ee",
+    "syndrome_id": "syndrome-262744c2d4ff750d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a2613947f1bc84ee",
+    "syndrome_id": "syndrome-338001ec4396e257",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a2613947f1bc84ee",
+    "syndrome_id": "syndrome-a4a787a7c2f63b6a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a2613947f1bc84ee",
+    "syndrome_id": "syndrome-ce0d119eafa54415",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a2613947f1bc84ee",
+    "syndrome_id": "syndrome-cf6dea7ef46e0cc7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a3b9be6016f3ff84",
+    "syndrome_id": "syndrome-5e3f701e3fb417d4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a3b9be6016f3ff84",
+    "syndrome_id": "syndrome-7b6ac3a965987306",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a3b9be6016f3ff84",
+    "syndrome_id": "syndrome-f7566e2e7bcd20a1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a4df5fe98b8057a3",
+    "syndrome_id": "syndrome-06246addbdad3ec5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a4df5fe98b8057a3",
+    "syndrome_id": "syndrome-5fd8559d76132df0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a4df5fe98b8057a3",
+    "syndrome_id": "syndrome-a50bdcee3842684b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-a4df5fe98b8057a3",
+    "syndrome_id": "syndrome-c051c5462e26be32",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-aae75b897822435b",
+    "syndrome_id": "syndrome-18eb5364c962cf1e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-aae75b897822435b",
+    "syndrome_id": "syndrome-31f9ecd3a46320b6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-aae75b897822435b",
+    "syndrome_id": "syndrome-3afa1cd94732d8c8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-aae75b897822435b",
+    "syndrome_id": "syndrome-a59e2a77296c6798",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-aae75b897822435b",
+    "syndrome_id": "syndrome-ba7250eb1c62ecfe",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-aae75b897822435b",
+    "syndrome_id": "syndrome-c5dce654c58f733e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-aae75b897822435b",
+    "syndrome_id": "syndrome-da4a64edf2f5be9f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-aae75b897822435b",
+    "syndrome_id": "syndrome-e9ee221888272120",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-aae75b897822435b",
+    "syndrome_id": "syndrome-f107f430fc9b542a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-aae75b897822435b",
+    "syndrome_id": "syndrome-f21390d6c4a06e47",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b0069c4200739ed3",
+    "syndrome_id": "syndrome-06246addbdad3ec5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b0069c4200739ed3",
+    "syndrome_id": "syndrome-2b95d5ebbddafe7e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b0069c4200739ed3",
+    "syndrome_id": "syndrome-5fd8559d76132df0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b0069c4200739ed3",
+    "syndrome_id": "syndrome-8bd68071b08fd534",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b04a48fd5aceae28",
+    "syndrome_id": "syndrome-3b118391bcaaaa98",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b04a48fd5aceae28",
+    "syndrome_id": "syndrome-8c0530ee7e2dafe4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b04a48fd5aceae28",
+    "syndrome_id": "syndrome-f1a4b3d18d6bcf3e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b04a48fd5aceae28",
+    "syndrome_id": "syndrome-f21390d6c4a06e47",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b10f94552b297c4d",
+    "syndrome_id": "syndrome-0a565c6d2d7d4581",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b10f94552b297c4d",
+    "syndrome_id": "syndrome-bbb8cc1a6bb82df3",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-050c5c24f9256913",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-10ae8cf4183cb8e5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-3651567b7fb53cd9",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-550d18851c721c42",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-731a534719e50854",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-7baeb40c9bea03e5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-91bbcb56fa7b3084",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-b08946989c46cf33",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-dbc91e78dd84e5e6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-e18b4ad4a6ed2374",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-e2f8537ca77fc769",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b2eaadc11592d9f3",
+    "syndrome_id": "syndrome-f4462d233c604fa8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7c1d4e1b9b67ca8",
+    "syndrome_id": "syndrome-0dbe73e07750e745",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7c1d4e1b9b67ca8",
+    "syndrome_id": "syndrome-1947df6c071b5afe",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7c1d4e1b9b67ca8",
+    "syndrome_id": "syndrome-2e96786c7214dbe1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7c1d4e1b9b67ca8",
+    "syndrome_id": "syndrome-38a42dd98f4a9558",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7c1d4e1b9b67ca8",
+    "syndrome_id": "syndrome-5ab852d8500d52e7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7c1d4e1b9b67ca8",
+    "syndrome_id": "syndrome-d3b4664f782efe67",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7c1d4e1b9b67ca8",
+    "syndrome_id": "syndrome-e3eac84efd7d2126",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7e1923ba7fa0c41",
+    "syndrome_id": "syndrome-3ee756ecce25c5d8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7e1923ba7fa0c41",
+    "syndrome_id": "syndrome-5c78c4955f2e4cbf",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7e1923ba7fa0c41",
+    "syndrome_id": "syndrome-96b74691e7bd87c8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7f3d9090c76b9d1",
+    "syndrome_id": "syndrome-0abdfae982789853",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7f3d9090c76b9d1",
+    "syndrome_id": "syndrome-36f6aff0bc47606a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7f3d9090c76b9d1",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7f3d9090c76b9d1",
+    "syndrome_id": "syndrome-af49f0b9b2e9a08e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-b7f3d9090c76b9d1",
+    "syndrome_id": "syndrome-f6b2773adb25288e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ba82f7957efe38fc",
+    "syndrome_id": "syndrome-8729a720ec47af1b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ba82f7957efe38fc",
+    "syndrome_id": "syndrome-9544cc24be3df84f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ba82f7957efe38fc",
+    "syndrome_id": "syndrome-e3ac192152a8ae8f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ba82f7957efe38fc",
+    "syndrome_id": "syndrome-f546f68493b26338",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-bae72857acd50ba0",
+    "syndrome_id": "syndrome-187d462c7328083d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-bae72857acd50ba0",
+    "syndrome_id": "syndrome-57fd436db6d4ac17",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-bae72857acd50ba0",
+    "syndrome_id": "syndrome-9d1dca1d2ae27c83",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-bc03e925204e2ff8",
+    "syndrome_id": "syndrome-40fa1fe27fc5de50",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-bc03e925204e2ff8",
+    "syndrome_id": "syndrome-a50bdcee3842684b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-bc03e925204e2ff8",
+    "syndrome_id": "syndrome-c051c5462e26be32",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-bc03e925204e2ff8",
+    "syndrome_id": "syndrome-d5b74134559615c7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-bc03e925204e2ff8",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-bc03e925204e2ff8",
+    "syndrome_id": "syndrome-ebbcd4c411a187da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-bc03e925204e2ff8",
+    "syndrome_id": "syndrome-f6b2773adb25288e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c06041e9c18d17a2",
+    "syndrome_id": "syndrome-06246addbdad3ec5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c06041e9c18d17a2",
+    "syndrome_id": "syndrome-510b4fff1d1687d9",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c06041e9c18d17a2",
+    "syndrome_id": "syndrome-5f2d1941ece35213",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c06041e9c18d17a2",
+    "syndrome_id": "syndrome-5fd8559d76132df0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c06041e9c18d17a2",
+    "syndrome_id": "syndrome-6e9821a0737c166e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c0d45535d14e5331",
+    "syndrome_id": "syndrome-550d18851c721c42",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c0d45535d14e5331",
+    "syndrome_id": "syndrome-91bbcb56fa7b3084",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c0d45535d14e5331",
+    "syndrome_id": "syndrome-a46709cbdf0c7947",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c1cfc06b830a0c86",
+    "syndrome_id": "syndrome-7c4f22ce0258b789",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c1cfc06b830a0c86",
+    "syndrome_id": "syndrome-7ea8bac25a7020db",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c1cfc06b830a0c86",
+    "syndrome_id": "syndrome-a45c8b847de8caa2",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c1cfc06b830a0c86",
+    "syndrome_id": "syndrome-c2cbb22c4f00abb7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c3d981c5d6f299a1",
+    "syndrome_id": "syndrome-1c328b5116f09e5b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c3d981c5d6f299a1",
+    "syndrome_id": "syndrome-48a06a757ee5d352",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c3d981c5d6f299a1",
+    "syndrome_id": "syndrome-65003568abae18b4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c3d981c5d6f299a1",
+    "syndrome_id": "syndrome-cdc0ed319c8a859a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c3d981c5d6f299a1",
+    "syndrome_id": "syndrome-e5c73f69e2fa0af0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c4af0ed5f9c59c0e",
+    "syndrome_id": "syndrome-5ab852d8500d52e7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c4af0ed5f9c59c0e",
+    "syndrome_id": "syndrome-8c0530ee7e2dafe4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c4af0ed5f9c59c0e",
+    "syndrome_id": "syndrome-f1a4b3d18d6bcf3e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c7eda79979aafd3b",
+    "syndrome_id": "syndrome-00868977cae79773",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c7eda79979aafd3b",
+    "syndrome_id": "syndrome-2ca5c7845834dd4f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c7eda79979aafd3b",
+    "syndrome_id": "syndrome-57edbbcf0bf13293",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c7eda79979aafd3b",
+    "syndrome_id": "syndrome-87148541c3d8a4dc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c7eda79979aafd3b",
+    "syndrome_id": "syndrome-acdcfd88d95fa31c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c8662485320be403",
+    "syndrome_id": "syndrome-c5dce654c58f733e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c8662485320be403",
+    "syndrome_id": "syndrome-da4a64edf2f5be9f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c8662485320be403",
+    "syndrome_id": "syndrome-e3ac192152a8ae8f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c8662485320be403",
+    "syndrome_id": "syndrome-e9ee221888272120",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-c8662485320be403",
+    "syndrome_id": "syndrome-f546f68493b26338",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cb8f03f8b2ceaf02",
+    "syndrome_id": "syndrome-2d8e74a00f30cd33",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cb8f03f8b2ceaf02",
+    "syndrome_id": "syndrome-2e96786c7214dbe1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cb8f03f8b2ceaf02",
+    "syndrome_id": "syndrome-41ac40c00ac54e42",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cb8f03f8b2ceaf02",
+    "syndrome_id": "syndrome-5ccb32f4e49d04e0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cb8f03f8b2ceaf02",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cb8f03f8b2ceaf02",
+    "syndrome_id": "syndrome-f1a4b3d18d6bcf3e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cbf96fe1614f9f9a",
+    "syndrome_id": "syndrome-38a42dd98f4a9558",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cbf96fe1614f9f9a",
+    "syndrome_id": "syndrome-45695482da966036",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cbf96fe1614f9f9a",
+    "syndrome_id": "syndrome-821f742e21447626",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cbf96fe1614f9f9a",
+    "syndrome_id": "syndrome-8aab1a77889bd874",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cbf96fe1614f9f9a",
+    "syndrome_id": "syndrome-9544cc24be3df84f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cbf96fe1614f9f9a",
+    "syndrome_id": "syndrome-cecbce92da493786",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cbf96fe1614f9f9a",
+    "syndrome_id": "syndrome-d3b4664f782efe67",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cbf96fe1614f9f9a",
+    "syndrome_id": "syndrome-e5fae1de57d6d600",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cc2ae52a7944f2bf",
+    "syndrome_id": "syndrome-187d462c7328083d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cc2ae52a7944f2bf",
+    "syndrome_id": "syndrome-61372e58609dfb94",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cc2ae52a7944f2bf",
+    "syndrome_id": "syndrome-e3ac192152a8ae8f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cc2ae52a7944f2bf",
+    "syndrome_id": "syndrome-f546f68493b26338",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cc2ae52a7944f2bf",
+    "syndrome_id": "syndrome-f692a38f89bb3467",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cc53fc0cdf01ddeb",
+    "syndrome_id": "syndrome-49dfaaa744aee2bf",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cc53fc0cdf01ddeb",
+    "syndrome_id": "syndrome-6fab886fdbffe97d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-cc53fc0cdf01ddeb",
+    "syndrome_id": "syndrome-7bc960fd4e17a3a1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ce49c2e3fd81fffb",
+    "syndrome_id": "syndrome-565d54a3d60ea180",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ce49c2e3fd81fffb",
+    "syndrome_id": "syndrome-86d88583a5fb2aef",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ce49c2e3fd81fffb",
+    "syndrome_id": "syndrome-ed768da0f913fadc",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ce49c2e3fd81fffb",
+    "syndrome_id": "syndrome-f9c1227cd6e456ec",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d0fa72f7566fc76b",
+    "syndrome_id": "syndrome-1c627068df0dcb95",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d0fa72f7566fc76b",
+    "syndrome_id": "syndrome-ba1e595a9d9dd971",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d2656b46ace87dc2",
+    "syndrome_id": "syndrome-262744c2d4ff750d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d2656b46ace87dc2",
+    "syndrome_id": "syndrome-40fa1fe27fc5de50",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d2656b46ace87dc2",
+    "syndrome_id": "syndrome-ce0d119eafa54415",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d2656b46ace87dc2",
+    "syndrome_id": "syndrome-cf6dea7ef46e0cc7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d2656b46ace87dc2",
+    "syndrome_id": "syndrome-d5b74134559615c7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d2656b46ace87dc2",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d3149fc1267bd721",
+    "syndrome_id": "syndrome-36772338c367fb4c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d3149fc1267bd721",
+    "syndrome_id": "syndrome-e87c9a33096c967e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d41bedcbf515bfe1",
+    "syndrome_id": "syndrome-7c7e473a0b83c5ff",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d41bedcbf515bfe1",
+    "syndrome_id": "syndrome-7e1d40deddbd518c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d42a5c94312d8524",
+    "syndrome_id": "syndrome-1de331995ce69dca",
+    "record_count": 2,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d42a5c94312d8524",
+    "syndrome_id": "syndrome-8b31bfb8cbe04354",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d42a5c94312d8524",
+    "syndrome_id": "syndrome-b6243a17008a003d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d42a5c94312d8524",
+    "syndrome_id": "syndrome-bf357b2a3432508d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d42a5c94312d8524",
+    "syndrome_id": "syndrome-f1d1940ef4e239d6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d476691435e423e3",
+    "syndrome_id": "syndrome-7d3f8ec0c2f85647",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d476691435e423e3",
+    "syndrome_id": "syndrome-8eff29d50294427d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d476691435e423e3",
+    "syndrome_id": "syndrome-b6243a17008a003d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d476691435e423e3",
+    "syndrome_id": "syndrome-bf357b2a3432508d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d877624a44d56e55",
+    "syndrome_id": "syndrome-38a42dd98f4a9558",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d877624a44d56e55",
+    "syndrome_id": "syndrome-6fab886fdbffe97d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d877624a44d56e55",
+    "syndrome_id": "syndrome-b6243a17008a003d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d877624a44d56e55",
+    "syndrome_id": "syndrome-bf357b2a3432508d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-d877624a44d56e55",
+    "syndrome_id": "syndrome-d3b4664f782efe67",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-dc8ed4af534fcf07",
+    "syndrome_id": "syndrome-4567e82cbf5377c5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-dc8ed4af534fcf07",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-dc8ed4af534fcf07",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-dc8ed4af534fcf07",
+    "syndrome_id": "syndrome-86d88583a5fb2aef",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-dc8ed4af534fcf07",
+    "syndrome_id": "syndrome-bd8ccbdc55c61359",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-dc8ed4af534fcf07",
+    "syndrome_id": "syndrome-d05f5d5e8b8d7886",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-dc8ed4af534fcf07",
+    "syndrome_id": "syndrome-f9c1227cd6e456ec",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-dcb31ed50613ab09",
+    "syndrome_id": "syndrome-74848e8c497a86bf",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-dcb31ed50613ab09",
+    "syndrome_id": "syndrome-e6cc369f3067ae0d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-de228293c821581b",
+    "syndrome_id": "syndrome-00868977cae79773",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-de228293c821581b",
+    "syndrome_id": "syndrome-5a53b458228c54b8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-de228293c821581b",
+    "syndrome_id": "syndrome-9ffbcfb8fe43d08f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-de228293c821581b",
+    "syndrome_id": "syndrome-a47fcc8e4029c695",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-de228293c821581b",
+    "syndrome_id": "syndrome-acdcfd88d95fa31c",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-def3bd97206666fc",
+    "syndrome_id": "syndrome-2d8e74a00f30cd33",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-def3bd97206666fc",
+    "syndrome_id": "syndrome-2e96786c7214dbe1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-def3bd97206666fc",
+    "syndrome_id": "syndrome-41ac40c00ac54e42",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-def3bd97206666fc",
+    "syndrome_id": "syndrome-4567e82cbf5377c5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-def3bd97206666fc",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 2,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-def3bd97206666fc",
+    "syndrome_id": "syndrome-86d88583a5fb2aef",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-def3bd97206666fc",
+    "syndrome_id": "syndrome-f9c1227cd6e456ec",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e0b5f5d7be5f7177",
+    "syndrome_id": "syndrome-2912b66752ccbd8f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e0b5f5d7be5f7177",
+    "syndrome_id": "syndrome-2a3ad46c1425d274",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e4d96a5008501696",
+    "syndrome_id": "syndrome-050c5c24f9256913",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e4d96a5008501696",
+    "syndrome_id": "syndrome-18de7ed936885563",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e4d96a5008501696",
+    "syndrome_id": "syndrome-845efae6b96ba7f8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e4d96a5008501696",
+    "syndrome_id": "syndrome-865d2bedabe63458",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e4d96a5008501696",
+    "syndrome_id": "syndrome-91e92e83228977c4",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e4d96a5008501696",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-0abdfae982789853",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-0dcce2ab8f550d04",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-1947df6c071b5afe",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-1de331995ce69dca",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-40fa1fe27fc5de50",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-4567e82cbf5377c5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-6f3ade025d70564d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-7032362fe4c48be0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-84b520caf7e954a8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-8b31bfb8cbe04354",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-90c607084c1445ac",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-9463c4e94ccb56c0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-96b74691e7bd87c8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-d5b74134559615c7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-e3ac192152a8ae8f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e51a5b5a35e604ca",
+    "syndrome_id": "syndrome-f546f68493b26338",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e5c9c5a98e84882e",
+    "syndrome_id": "syndrome-338001ec4396e257",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e5c9c5a98e84882e",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e5c9c5a98e84882e",
+    "syndrome_id": "syndrome-a4a787a7c2f63b6a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e5c9c5a98e84882e",
+    "syndrome_id": "syndrome-d05f5d5e8b8d7886",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e8a1339e64026756",
+    "syndrome_id": "syndrome-1c627068df0dcb95",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e8a1339e64026756",
+    "syndrome_id": "syndrome-7d3f8ec0c2f85647",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e8a1339e64026756",
+    "syndrome_id": "syndrome-8eff29d50294427d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e8e4da696dbf7b7b",
+    "syndrome_id": "syndrome-10ae8cf4183cb8e5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e8e4da696dbf7b7b",
+    "syndrome_id": "syndrome-4920c007b53df699",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e8e4da696dbf7b7b",
+    "syndrome_id": "syndrome-6fab886fdbffe97d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-e8e4da696dbf7b7b",
+    "syndrome_id": "syndrome-e3e3dd1e6a094323",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ebd56bea58acb52c",
+    "syndrome_id": "syndrome-86d88583a5fb2aef",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ebd56bea58acb52c",
+    "syndrome_id": "syndrome-8d59a3b5213092e0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ebd56bea58acb52c",
+    "syndrome_id": "syndrome-e3c81e21cb170326",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ebd56bea58acb52c",
+    "syndrome_id": "syndrome-f9c1227cd6e456ec",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ec02512c605302ca",
+    "syndrome_id": "syndrome-262744c2d4ff750d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ec02512c605302ca",
+    "syndrome_id": "syndrome-40fa1fe27fc5de50",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ec02512c605302ca",
+    "syndrome_id": "syndrome-609de38986c62a73",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ec02512c605302ca",
+    "syndrome_id": "syndrome-b8a01136393630f1",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ec02512c605302ca",
+    "syndrome_id": "syndrome-ce0d119eafa54415",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ec02512c605302ca",
+    "syndrome_id": "syndrome-cf6dea7ef46e0cc7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ec02512c605302ca",
+    "syndrome_id": "syndrome-d5b74134559615c7",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ec02512c605302ca",
+    "syndrome_id": "syndrome-d9580481bddcb8da",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ecac780422e05474",
+    "syndrome_id": "syndrome-0dcce2ab8f550d04",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ecac780422e05474",
+    "syndrome_id": "syndrome-26cc89d24610ac5f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ecac780422e05474",
+    "syndrome_id": "syndrome-90c607084c1445ac",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ecac780422e05474",
+    "syndrome_id": "syndrome-9847e06f9b5c3d1e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ecd011522fffb5fa",
+    "syndrome_id": "syndrome-6fab886fdbffe97d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ecd011522fffb5fa",
+    "syndrome_id": "syndrome-aa4c284f15cc2e97",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ecf2c5347708a07c",
+    "syndrome_id": "syndrome-53dc1ab80990c244",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ecf2c5347708a07c",
+    "syndrome_id": "syndrome-c051c5462e26be32",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ecf2c5347708a07c",
+    "syndrome_id": "syndrome-f6b2773adb25288e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ef5a8bb2e52625a1",
+    "syndrome_id": "syndrome-0df67b13a22706c9",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ef5a8bb2e52625a1",
+    "syndrome_id": "syndrome-7123977f1c6d3f15",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ef5a8bb2e52625a1",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-ef5a8bb2e52625a1",
+    "syndrome_id": "syndrome-c767f5f5e24c259d",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-efbeafd3b91fb4eb",
+    "syndrome_id": "syndrome-18de7ed936885563",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-efbeafd3b91fb4eb",
+    "syndrome_id": "syndrome-232c14220a92f1e6",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-efbeafd3b91fb4eb",
+    "syndrome_id": "syndrome-3009c9eaf7b9cf57",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-efbeafd3b91fb4eb",
+    "syndrome_id": "syndrome-865d2bedabe63458",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-efbeafd3b91fb4eb",
+    "syndrome_id": "syndrome-ca6abe57fc6eb202",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-f565254d73f45d9b",
+    "syndrome_id": "syndrome-17206d04ce7c1b55",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-f565254d73f45d9b",
+    "syndrome_id": "syndrome-7c7e473a0b83c5ff",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-f565254d73f45d9b",
+    "syndrome_id": "syndrome-bffafe30fee4ad86",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-f565254d73f45d9b",
+    "syndrome_id": "syndrome-e438151bdb894144",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-f6eda0fee839f444",
+    "syndrome_id": "syndrome-38c8a9e13a43cebe",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-f6eda0fee839f444",
+    "syndrome_id": "syndrome-715fd3b5c6bba68e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-f6eda0fee839f444",
+    "syndrome_id": "syndrome-785eab5bf3a3a405",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-f6eda0fee839f444",
+    "syndrome_id": "syndrome-d391d7dbfd52712f",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fa00c19b93064172",
+    "syndrome_id": "syndrome-a46709cbdf0c7947",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fa00c19b93064172",
+    "syndrome_id": "syndrome-cecbce92da493786",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fa00c19b93064172",
+    "syndrome_id": "syndrome-e9ff1474a753fd14",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fcdca87adabfcee2",
+    "syndrome_id": "syndrome-06246addbdad3ec5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fcdca87adabfcee2",
+    "syndrome_id": "syndrome-4d049284b1e25c5b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fcdca87adabfcee2",
+    "syndrome_id": "syndrome-5fd8559d76132df0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fcf1e3fe2884f1b5",
+    "syndrome_id": "syndrome-00ef718250cae29b",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fcf1e3fe2884f1b5",
+    "syndrome_id": "syndrome-4567e82cbf5377c5",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fcf1e3fe2884f1b5",
+    "syndrome_id": "syndrome-544c4ea087280f62",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fcf1e3fe2884f1b5",
+    "syndrome_id": "syndrome-75a78eb05cc92c76",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fcf1e3fe2884f1b5",
+    "syndrome_id": "syndrome-84b520caf7e954a8",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fcf1e3fe2884f1b5",
+    "syndrome_id": "syndrome-9463c4e94ccb56c0",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fcf1e3fe2884f1b5",
+    "syndrome_id": "syndrome-b3b707c2cf06c90a",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  },
+  {
+    "observation_id": "finding-fcf1e3fe2884f1b5",
+    "syndrome_id": "syndrome-b6a164f9fe6e310e",
+    "record_count": 1,
+    "source_id": "tcmeval-sdt-train",
+    "evidence_kind": "dataset_cooccurrence",
+    "clinical_use": "disabled"
+  }
+]

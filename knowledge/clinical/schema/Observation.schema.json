@@ -1,0 +1,120 @@
+{
+  "additionalProperties": false,
+  "description": "Neutral contract for tomorrow's samples, not an implemented provider mapping.",
+  "properties": {
+    "observation_id": {
+      "title": "Observation Id",
+      "type": "string"
+    },
+    "modality": {
+      "enum": [
+        "inquiry",
+        "face",
+        "tongue",
+        "pulse",
+        "other"
+      ],
+      "title": "Modality",
+      "type": "string"
+    },
+    "feature": {
+      "title": "Feature",
+      "type": "string"
+    },
+    "value": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Value"
+    },
+    "state": {
+      "enum": [
+        "present",
+        "absent",
+        "unknown",
+        "not_measured",
+        "declined"
+      ],
+      "title": "State",
+      "type": "string"
+    },
+    "observed_at": {
+      "format": "date-time",
+      "title": "Observed At",
+      "type": "string"
+    },
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "evidence_group": {
+      "minLength": 1,
+      "title": "Evidence Group",
+      "type": "string"
+    },
+    "unit": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Unit"
+    },
+    "confidence": {
+      "anyOf": [
+        {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Confidence"
+    },
+    "quality": {
+      "default": "unknown",
+      "enum": [
+        "unknown",
+        "acceptable",
+        "recollect"
+      ],
+      "title": "Quality",
+      "type": "string"
+    },
+    "confirmed": {
+      "default": false,
+      "title": "Confirmed",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "observation_id",
+    "modality",
+    "feature",
+    "value",
+    "state",
+    "observed_at",
+    "source_id",
+    "evidence_group"
+  ],
+  "title": "Observation",
+  "type": "object"
+}

@@ -1,0 +1,65 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "card_id": {
+      "title": "Card Id",
+      "type": "string"
+    },
+    "syndrome_id": {
+      "title": "Syndrome Id",
+      "type": "string"
+    },
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "source_record_count": {
+      "minimum": 1,
+      "title": "Source Record Count",
+      "type": "integer"
+    },
+    "associated_observation_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Associated Observation Ids",
+      "type": "array"
+    },
+    "diagnostic_criteria": {
+      "default": null,
+      "title": "Diagnostic Criteria",
+      "type": "null"
+    },
+    "exclusion_criteria": {
+      "default": null,
+      "title": "Exclusion Criteria",
+      "type": "null"
+    },
+    "differential_rules": {
+      "default": null,
+      "title": "Differential Rules",
+      "type": "null"
+    },
+    "criteria_status": {
+      "const": "not_available_from_case_labels",
+      "default": "not_available_from_case_labels",
+      "title": "Criteria Status",
+      "type": "string"
+    },
+    "clinical_use": {
+      "const": "disabled",
+      "default": "disabled",
+      "title": "Clinical Use",
+      "type": "string"
+    }
+  },
+  "required": [
+    "card_id",
+    "syndrome_id",
+    "source_id",
+    "source_record_count",
+    "associated_observation_ids"
+  ],
+  "title": "CandidateCard",
+  "type": "object"
+}
